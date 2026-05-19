@@ -73,6 +73,30 @@
       min-width: 110px;
       text-align: right;
     }
+    .status-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin: 4px 0 12px;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.4;
+    }
+    .status-pill {
+      display: inline-flex;
+      align-items: center;
+      padding: 5px 9px;
+      border-radius: 999px;
+      background: #eef2f8;
+      color: var(--muted);
+      font-weight: 750;
+      white-space: nowrap;
+    }
+    .status-pill.known {
+      background: #e7f7ef;
+      color: #16714a;
+    }
     .card-wrap {
       perspective: 1200px;
       margin: 12px 0;
@@ -107,6 +131,10 @@
       color: var(--accent);
       font-size: 13px;
       font-weight: 700;
+    }
+    .tag.known {
+      background: #e7f7ef;
+      color: #16714a;
     }
     .expr {
       font-size: 28px;
@@ -193,11 +221,21 @@
 
     <div class="toolbar">
       <select id="themeSelect" aria-label="Theme filter"></select>
+      <select id="statusSelect" aria-label="Review status filter">
+        <option value="review">待复习</option>
+        <option value="known">已熟悉</option>
+        <option value="all">全部</option>
+      </select>
       <button id="prevBtn" type="button">上一张</button>
       <button id="flipBtn" class="primary" type="button">翻面</button>
       <button id="nextBtn" type="button">下一张</button>
       <button id="shuffleBtn" type="button">随机</button>
       <div id="progress" class="progress"></div>
+    </div>
+
+    <div class="status-row">
+      <span id="statusSummary">Loading...</span>
+      <button id="knownBtn" type="button">标记为已熟悉</button>
     </div>
 
     <section class="card-wrap" aria-live="polite">
@@ -244,9 +282,11 @@
     let filtered = [];
     let index = Number(localStorage.getItem("active_vocab_index") || 0);
     let flipped = false;
+    let known = new Set(JSON.parse(localStorage.getItem("active_vocab_known") || "[]"));
 
     const els = {
       themeSelect: document.getElementById("themeSelect"),
+      statusSelect: document.getElementById("statusSelect"),
       card: document.getElementById("card"),
       frontTag: document.getElementById("frontTag"),
       frontExpr: document.getElementById("frontExpr"),
@@ -258,8 +298,22 @@
       useCase: document.getElementById("useCase"),
       progress: document.getElementById("progress"),
       notes: document.getElementById("notes"),
-      updated: document.getElementById("updated")
+      updated: document.getElementById("updated"),
+      knownBtn: document.getElementById("knownBtn"),
+      statusSummary: document.getElementById("statusSummary")
     };
+
+    function cardId(card) {
+      return `${card.date}::${card.theme}::${card.expression}`;
+    }
+
+    function isKnown(card) {
+      return known.has(cardId(card));
+    }
+
+    function saveKnown() {
+      localStorage.setItem("active_vocab_known", JSON.stringify(Array.from(known)));
+    }
 
     async function loadCards() {
       const response = await fetch(`vocab.json?v=${Date.now()}`, { cache: "no-store" });
@@ -269,7 +323,7 @@
       filtered = cards.slice();
       els.updated.textContent = `Updated: ${data.updated || "unknown"} · ${cards.length} cards`;
       setupThemes();
-      render();
+      applyFilter();
     }
 
     function themes() {
@@ -288,7 +342,12 @@
 
     function applyFilter() {
       const theme = els.themeSelect.value;
-      filtered = theme === "All themes" ? cards.slice() : cards.filter(c => c.theme === theme);
+      const status = els.statusSelect.value;
+      filtered = cards.filter(c => {
+        const themeOk = theme === "All themes" || c.theme === theme;
+        const knownOk = status === "all" || (status === "known" ? isKnown(c) : !isKnown(c));
+        return themeOk && knownOk;
+      });
       index = 0;
       flipped = false;
       render();
@@ -297,11 +356,22 @@
     function render() {
       if (!filtered.length) {
         els.progress.textContent = "0 / 0";
+        els.frontTag.textContent = "No cards";
+        els.frontExpr.textContent = "没有符合筛选条件的卡片";
+        els.frontZh.textContent = "换一个筛选，或把已熟悉词移回复习。";
+        els.backTag.textContent = "No cards";
+        els.backExpr.textContent = "";
+        els.collocations.innerHTML = "";
+        els.example.textContent = "";
+        els.useCase.textContent = "";
+        els.knownBtn.disabled = true;
+        updateSummary();
         return;
       }
       if (index < 0) index = filtered.length - 1;
       if (index >= filtered.length) index = 0;
       const c = filtered[index];
+      const knownNow = isKnown(c);
       els.card.classList.toggle("flipped", flipped);
       els.frontTag.textContent = `${c.date} · ${c.theme}`;
       els.frontExpr.textContent = c.expression;
@@ -317,7 +387,18 @@
       els.example.textContent = c.example;
       els.useCase.textContent = c.useCase;
       els.progress.textContent = `${index + 1} / ${filtered.length}`;
+      els.knownBtn.disabled = false;
+      els.knownBtn.textContent = knownNow ? "移回复习" : "标记为已熟悉";
+      els.frontTag.classList.toggle("known", knownNow);
+      els.backTag.classList.toggle("known", knownNow);
       localStorage.setItem("active_vocab_index", String(index));
+      updateSummary();
+    }
+
+    function updateSummary() {
+      const knownCount = cards.filter(c => isKnown(c)).length;
+      const reviewCount = cards.length - knownCount;
+      els.statusSummary.textContent = `待复习 ${reviewCount} · 已熟悉 ${knownCount} · 总计 ${cards.length}`;
     }
 
     function next(delta) {
@@ -337,12 +418,34 @@
       render();
     }
 
+    function toggleKnown() {
+      if (!filtered.length) return;
+      const c = filtered[index];
+      const id = cardId(c);
+      if (known.has(id)) known.delete(id);
+      else known.add(id);
+      saveKnown();
+      const currentStatus = els.statusSelect.value;
+      if (currentStatus !== "all") {
+        filtered = filtered.filter(card => currentStatus === "known" ? isKnown(card) : !isKnown(card));
+        if (index >= filtered.length) index = Math.max(0, filtered.length - 1);
+      }
+      flipped = false;
+      render();
+    }
+
     document.getElementById("prevBtn").addEventListener("click", () => next(-1));
     document.getElementById("nextBtn").addEventListener("click", () => next(1));
     document.getElementById("flipBtn").addEventListener("click", flip);
     document.getElementById("shuffleBtn").addEventListener("click", shuffle);
+    document.getElementById("knownBtn").addEventListener("click", toggleKnown);
     els.card.addEventListener("click", flip);
     els.themeSelect.addEventListener("change", applyFilter);
+    els.statusSelect.value = localStorage.getItem("active_vocab_status_filter") || "review";
+    els.statusSelect.addEventListener("change", () => {
+      localStorage.setItem("active_vocab_status_filter", els.statusSelect.value);
+      applyFilter();
+    });
     els.notes.value = localStorage.getItem("active_vocab_notes") || "";
     els.notes.addEventListener("input", () => localStorage.setItem("active_vocab_notes", els.notes.value));
     window.addEventListener("keydown", event => {
