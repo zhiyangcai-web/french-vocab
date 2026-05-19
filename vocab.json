@@ -1,126 +1,247 @@
 {
-  "updated": "2026-05-19",
-  "cards": [
-    {
-      "date": "2026-04-27",
-      "theme": "Services publics et dématérialisation",
-      "expression": "faire des démarches administratives",
-      "zh": "办理行政手续",
-      "collocations": [
-        "faire ses démarches administratives en ligne",
-        "aider quelqu'un à faire ses démarches administratives"
-      ],
-      "example": "J'en ai assez de faire des démarches administratives en ligne.",
-      "useCase": "公共服务、行政、数字化、移民手续。"
-    },
-    {
-      "date": "2026-04-27",
-      "theme": "Services publics et dématérialisation",
-      "expression": "la prise de rendez-vous en ligne",
-      "zh": "线上预约",
-      "collocations": [
-        "la prise de rendez-vous en ligne est difficile",
-        "la prise de rendez-vous en ligne est impossible"
-      ],
-      "example": "La prise de rendez-vous en ligne est devenue un véritable casse-tête.",
-      "useCase": "医疗、行政窗口、学校/政府服务预约。"
-    },
-    {
-      "date": "2026-04-27",
-      "theme": "Services publics et dématérialisation",
-      "expression": "une plateforme constamment saturée",
-      "zh": "总是爆满/无法正常使用的平台",
-      "collocations": [
-        "dénoncer une plateforme constamment saturée",
-        "une plateforme constamment saturée empêche les usagers de..."
-      ],
-      "example": "L'ANEF est une plateforme constamment saturée.",
-      "useCase": "数字平台、行政系统、在线服务失败。"
-    },
-    {
-      "date": "2026-04-27",
-      "theme": "Services publics et dématérialisation",
-      "expression": "un véritable casse-tête",
-      "zh": "非常头疼的问题",
-      "collocations": [
-        "devenir un véritable casse-tête",
-        "représenter un véritable casse-tête pour quelqu'un"
-      ],
-      "example": "Pour certains usagers, les démarches en ligne deviennent un véritable casse-tête.",
-      "useCase": "表达某件事很麻烦、很难处理。"
-    },
-    {
-      "date": "2026-04-27",
-      "theme": "Services publics et dématérialisation",
-      "expression": "une rupture de soins",
-      "zh": "医疗/治疗中断",
-      "collocations": [
-        "provoquer une rupture de soins",
-        "entraîner une rupture de soins",
-        "éviter une rupture de soins"
-      ],
-      "example": "Une rupture de soins peut avoir des conséquences graves.",
-      "useCase": "医疗系统、预约困难、弱势人群。"
-    },
-    {
-      "date": "2026-04-27",
-      "theme": "Services publics et dématérialisation",
-      "expression": "être placé malgré soi en situation irrégulière",
-      "zh": "非自愿地陷入无合法身份状态",
-      "collocations": [
-        "être placé malgré soi en situation irrégulière à cause de...",
-        "des personnes placées malgré elles en situation irrégulière"
-      ],
-      "example": "Des personnes sont placées malgré elles en situation irrégulière à cause des blocages administratifs.",
-      "useCase": "居留证、行政延误、移民手续。"
-    },
-    {
-      "date": "2026-04-27",
-      "theme": "Services publics et dématérialisation",
-      "expression": "se retrouver malgré soi en situation irrégulière",
-      "zh": "非自愿地变成身份不规则/无合法身份",
-      "collocations": [
-        "je me retrouve malgré moi en situation irrégulière",
-        "se retrouver en difficulté à cause d'une procédure bloquée"
-      ],
-      "example": "Je me retrouve malgré moi en situation irrégulière, alors que j'attends une prolongation de mon titre de séjour.",
-      "useCase": "第一人称表达时更自然。"
-    },
-    {
-      "date": "2026-04-27",
-      "theme": "Services publics et dématérialisation",
-      "expression": "renouveler un titre de séjour",
-      "zh": "更新/续办居留证",
-      "collocations": [
-        "renouveler son titre de séjour",
-        "avoir du mal à renouveler son titre de séjour"
-      ],
-      "example": "Il est parfois difficile de renouveler son titre de séjour sur une plateforme saturée.",
-      "useCase": "移民行政手续。"
-    },
-    {
-      "date": "2026-04-27",
-      "theme": "Services publics et dématérialisation",
-      "expression": "être à l'aise avec le numérique",
-      "zh": "熟悉/擅长使用数字工具",
-      "collocations": [
-        "ne pas être à l'aise avec le numérique",
-        "être peu à l'aise avec les outils numériques"
-      ],
-      "example": "Les personnes âgées ne sont pas toujours à l'aise avec le numérique.",
-      "useCase": "数字鸿沟、老年人、弱势群体。"
-    },
-    {
-      "date": "2026-04-27",
-      "theme": "Services publics et dématérialisation",
-      "expression": "être exclu des services publics",
-      "zh": "被公共服务排除在外",
-      "collocations": [
-        "risquer d'être exclu des services publics",
-        "exclure certains usagers des services publics"
-      ],
-      "example": "Certaines personnes risquent d'être exclues des services publics.",
-      "useCase": "公共服务、社会不平等、数字化批评。"
-    }
-  ]
+    "updated":  "2026-05-19",
+    "cards":  [
+                  {
+                      "date":  "2026-04-27",
+                      "theme":  "Services publics et dématérialisation",
+                      "expression":  "faire des démarches administratives",
+                      "zh":  "办理行政手续",
+                      "collocations":  [
+                                           "faire ses démarches administratives en ligne",
+                                           "aider quelqu\u0027un à faire ses démarches administratives"
+                                       ],
+                      "example":  "J\u0027en ai assez de faire des démarches administratives en ligne.",
+                      "useCase":  "公共服务、行政、数字化、移民手续。"
+                  },
+                  {
+                      "date":  "2026-04-27",
+                      "theme":  "Services publics et dématérialisation",
+                      "expression":  "la prise de rendez-vous en ligne",
+                      "zh":  "线上预约",
+                      "collocations":  [
+                                           "la prise de rendez-vous en ligne est difficile",
+                                           "la prise de rendez-vous en ligne est impossible"
+                                       ],
+                      "example":  "La prise de rendez-vous en ligne est devenue un véritable casse-tête.",
+                      "useCase":  "医疗、行政窗口、学校/政府服务预约。"
+                  },
+                  {
+                      "date":  "2026-04-27",
+                      "theme":  "Services publics et dématérialisation",
+                      "expression":  "une plateforme constamment saturée",
+                      "zh":  "总是爆满/无法正常使用的平台",
+                      "collocations":  [
+                                           "dénoncer une plateforme constamment saturée",
+                                           "une plateforme constamment saturée empêche les usagers de..."
+                                       ],
+                      "example":  "L\u0027ANEF est une plateforme constamment saturée.",
+                      "useCase":  "数字平台、行政系统、在线服务失败。"
+                  },
+                  {
+                      "date":  "2026-04-27",
+                      "theme":  "Services publics et dématérialisation",
+                      "expression":  "un véritable casse-tête",
+                      "zh":  "非常头疼的问题",
+                      "collocations":  [
+                                           "devenir un véritable casse-tête",
+                                           "représenter un véritable casse-tête pour quelqu\u0027un"
+                                       ],
+                      "example":  "Pour certains usagers, les démarches en ligne deviennent un véritable casse-tête.",
+                      "useCase":  "表达某件事很麻烦、很难处理。"
+                  },
+                  {
+                      "date":  "2026-04-27",
+                      "theme":  "Services publics et dématérialisation",
+                      "expression":  "une rupture de soins",
+                      "zh":  "医疗/治疗中断",
+                      "collocations":  [
+                                           "provoquer une rupture de soins",
+                                           "entraîner une rupture de soins",
+                                           "éviter une rupture de soins"
+                                       ],
+                      "example":  "Une rupture de soins peut avoir des conséquences graves.",
+                      "useCase":  "医疗系统、预约困难、弱势人群。"
+                  },
+                  {
+                      "date":  "2026-04-27",
+                      "theme":  "Services publics et dématérialisation",
+                      "expression":  "être placé malgré soi en situation irrégulière",
+                      "zh":  "非自愿地陷入无合法身份状态",
+                      "collocations":  [
+                                           "être placé malgré soi en situation irrégulière à cause de...",
+                                           "des personnes placées malgré elles en situation irrégulière"
+                                       ],
+                      "example":  "Des personnes sont placées malgré elles en situation irrégulière à cause des blocages administratifs.",
+                      "useCase":  "居留证、行政延误、移民手续。"
+                  },
+                  {
+                      "date":  "2026-04-27",
+                      "theme":  "Services publics et dématérialisation",
+                      "expression":  "se retrouver malgré soi en situation irrégulière",
+                      "zh":  "非自愿地变成身份不规则/无合法身份",
+                      "collocations":  [
+                                           "je me retrouve malgré moi en situation irrégulière",
+                                           "se retrouver en difficulté à cause d\u0027une procédure bloquée"
+                                       ],
+                      "example":  "Je me retrouve malgré moi en situation irrégulière, alors que j\u0027attends une prolongation de mon titre de séjour.",
+                      "useCase":  "第一人称表达时更自然。"
+                  },
+                  {
+                      "date":  "2026-04-27",
+                      "theme":  "Services publics et dématérialisation",
+                      "expression":  "renouveler un titre de séjour",
+                      "zh":  "更新/续办居留证",
+                      "collocations":  [
+                                           "renouveler son titre de séjour",
+                                           "avoir du mal à renouveler son titre de séjour"
+                                       ],
+                      "example":  "Il est parfois difficile de renouveler son titre de séjour sur une plateforme saturée.",
+                      "useCase":  "移民行政手续。"
+                  },
+                  {
+                      "date":  "2026-04-27",
+                      "theme":  "Services publics et dématérialisation",
+                      "expression":  "être à l\u0027aise avec le numérique",
+                      "zh":  "熟悉/擅长使用数字工具",
+                      "collocations":  [
+                                           "ne pas être à l\u0027aise avec le numérique",
+                                           "être peu à l\u0027aise avec les outils numériques"
+                                       ],
+                      "example":  "Les personnes âgées ne sont pas toujours à l\u0027aise avec le numérique.",
+                      "useCase":  "数字鸿沟、老年人、弱势群体。"
+                  },
+                  {
+                      "date":  "2026-04-27",
+                      "theme":  "Services publics et dématérialisation",
+                      "expression":  "être exclu des services publics",
+                      "zh":  "被公共服务排除在外",
+                      "collocations":  [
+                                           "risquer d\u0027être exclu des services publics",
+                                           "exclure certains usagers des services publics"
+                                       ],
+                      "example":  "Certaines personnes risquent d\u0027être exclues des services publics.",
+                      "useCase":  "公共服务、社会不平等、数字化批评。"
+                  },
+                  {
+                      "collocations":  [
+                                           "suivre une partie de ses cours en ligne",
+                                           "suivre un cours à distance"
+                                       ],
+                      "example":  "De plus en plus d\u0027étudiants suivent une partie de leurs cours en ligne.",
+                      "expression":  "suivre un cours en ligne",
+                      "date":  "2026-05-19",
+                      "useCase":  "教育、大学、数字化学习。",
+                      "zh":  "上网课",
+                      "theme":  "Éducation et apprentissage numérique"
+                  },
+                  {
+                      "collocations":  [
+                                           "acquérir des compétences utiles",
+                                           "acquérir des compétences professionnelles",
+                                           "acquérir des compétences numériques"
+                                       ],
+                      "example":  "Les cours en ligne permettent d\u0027acquérir de nouvelles compétences à son rythme.",
+                      "expression":  "acquérir de nouvelles compétences",
+                      "date":  "2026-05-19",
+                      "useCase":  "学习、就业、职业发展。",
+                      "zh":  "获得新技能",
+                      "theme":  "Éducation et apprentissage numérique"
+                  },
+                  {
+                      "collocations":  [
+                                           "favoriser l\u0027autonomie des étudiants",
+                                           "favoriser l\u0027autonomie des apprenants"
+                                       ],
+                      "example":  "L\u0027apprentissage en ligne peut favoriser l\u0027autonomie des étudiants.",
+                      "expression":  "favoriser l\u0027autonomie des étudiants",
+                      "date":  "2026-05-19",
+                      "useCase":  "线上教育的优点。",
+                      "zh":  "促进学生自主性",
+                      "theme":  "Éducation et apprentissage numérique"
+                  },
+                  {
+                      "collocations":  [
+                                           "risquer de creuser les inégalités scolaires",
+                                           "éviter de creuser les inégalités scolaires"
+                                       ],
+                      "example":  "Le numérique risque de creuser les inégalités scolaires si tous les élèves n\u0027ont pas accès aux mêmes outils.",
+                      "expression":  "creuser les inégalités scolaires",
+                      "date":  "2026-05-19",
+                      "useCase":  "数字鸿沟、教育公平。",
+                      "zh":  "加深教育不平等",
+                      "theme":  "Éducation et apprentissage numérique"
+                  },
+                  {
+                      "collocations":  [
+                                           "certains étudiants manquent d\u0027encadrement",
+                                           "manquer d\u0027encadrement à distance"
+                                       ],
+                      "example":  "Certains étudiants manquent d\u0027encadrement lorsqu\u0027ils suivent des cours à distance.",
+                      "expression":  "manquer d\u0027encadrement",
+                      "date":  "2026-05-19",
+                      "useCase":  "线上学习的风险。",
+                      "zh":  "缺乏指导/监督",
+                      "theme":  "Éducation et apprentissage numérique"
+                  },
+                  {
+                      "collocations":  [
+                                           "avoir du mal à rester motivé sur le long terme",
+                                           "aider les étudiants à rester motivés"
+                                       ],
+                      "example":  "Il peut être difficile de rester motivé sur le long terme sans contact direct avec les enseignants.",
+                      "expression":  "rester motivé sur le long terme",
+                      "date":  "2026-05-19",
+                      "useCase":  "学习动力、远程教育。",
+                      "zh":  "长期保持动力",
+                      "theme":  "Éducation et apprentissage numérique"
+                  },
+                  {
+                      "collocations":  [
+                                           "avoir accès à des ressources pédagogiques de qualité",
+                                           "faciliter l\u0027accès aux ressources pédagogiques"
+                                       ],
+                      "example":  "Internet permet d\u0027avoir accès à des ressources pédagogiques très variées.",
+                      "expression":  "avoir accès à des ressources pédagogiques",
+                      "date":  "2026-05-19",
+                      "useCase":  "线上学习的优点。",
+                      "zh":  "能够获得教学资源",
+                      "theme":  "Éducation et apprentissage numérique"
+                  },
+                  {
+                      "collocations":  [
+                                           "adapter son rythme d\u0027apprentissage à ses besoins",
+                                           "apprendre à son propre rythme"
+                                       ],
+                      "example":  "Les plateformes en ligne permettent parfois d\u0027adapter son rythme d\u0027apprentissage à ses besoins.",
+                      "expression":  "adapter son rythme d\u0027apprentissage à ses besoins",
+                      "date":  "2026-05-19",
+                      "useCase":  "个性化学习。",
+                      "zh":  "根据自己的需要调整学习节奏",
+                      "theme":  "Éducation et apprentissage numérique"
+                  },
+                  {
+                      "collocations":  [
+                                           "mettre en place un accompagnement personnalisé pour les étudiants",
+                                           "bénéficier d\u0027un accompagnement personnalisé"
+                                       ],
+                      "example":  "Les universités devraient mettre en place un accompagnement personnalisé pour éviter le décrochage.",
+                      "expression":  "mettre en place un accompagnement personnalisé",
+                      "date":  "2026-05-19",
+                      "useCase":  "教育政策、解决方案。",
+                      "zh":  "建立个性化辅导/支持",
+                      "theme":  "Éducation et apprentissage numérique"
+                  },
+                  {
+                      "collocations":  [
+                                           "évaluer régulièrement les progrès des apprenants",
+                                           "mesurer les progrès des étudiants"
+                                       ],
+                      "example":  "Il est important d\u0027évaluer régulièrement les progrès des apprenants.",
+                      "expression":  "évaluer les progrès des apprenants",
+                      "date":  "2026-05-19",
+                      "useCase":  "教学质量、学习效果。",
+                      "zh":  "评估学习者的进步",
+                      "theme":  "Éducation et apprentissage numérique"
+                  }
+              ]
 }
