@@ -13,6 +13,7 @@ https://zhiyangcai-web.github.io/french-vocab/
 - `active_vocabulary_table.md`: compact table source.
 - `active_vocabulary_cards.docx/.pdf`: card-style exports.
 - `active_vocabulary_table.docx/.pdf`: table exports.
+- `cards.md/.docx/.pdf`, `table.md/.docx/.pdf`, `log.md`: GitHub Pages-friendly public aliases for the same study exports.
 - `scripts/export_active_vocabulary.mjs`: export and validation helper.
 
 ## Commands

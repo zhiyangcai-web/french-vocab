@@ -1,0 +1,581 @@
+# Active Vocabulary Cards
+
+用途：这是主要复习版。相比表格，这个格式更适合学习、朗读、造句和写作复用。
+
+## 2026-04-27 - Services publics et dématérialisation
+
+### 1. faire des démarches administratives
+
+中文：办理行政手续
+
+常见搭配：
+
+- faire ses démarches administratives en ligne
+- aider quelqu'un à faire ses démarches administratives
+
+例句：
+
+```text
+J'en ai assez de faire des démarches administratives en ligne.
+```
+
+使用场景：公共服务、行政、数字化、移民手续。
+
+### 2. la prise de rendez-vous en ligne
+
+中文：线上预约
+
+常见搭配：
+
+- la prise de rendez-vous en ligne est difficile
+- la prise de rendez-vous en ligne est impossible
+
+例句：
+
+```text
+La prise de rendez-vous en ligne est devenue un véritable casse-tête.
+```
+
+使用场景：医疗、行政窗口、学校/政府服务预约。
+
+### 3. une plateforme constamment saturée
+
+中文：总是爆满/无法正常使用的平台
+
+常见搭配：
+
+- dénoncer une plateforme constamment saturée
+- une plateforme constamment saturée empêche les usagers de...
+
+例句：
+
+```text
+L'ANEF est une plateforme constamment saturée.
+```
+
+使用场景：数字平台、行政系统、在线服务失败。
+
+### 4. un véritable casse-tête
+
+中文：非常头疼的问题
+
+常见搭配：
+
+- devenir un véritable casse-tête
+- représenter un véritable casse-tête pour quelqu'un
+
+例句：
+
+```text
+Pour certains usagers, les démarches en ligne deviennent un véritable casse-tête.
+```
+
+使用场景：表达某件事很麻烦、很难处理。
+
+### 5. une rupture de soins
+
+中文：医疗/治疗中断
+
+常见搭配：
+
+- provoquer une rupture de soins
+- entraîner une rupture de soins
+- éviter une rupture de soins
+
+例句：
+
+```text
+Une rupture de soins peut avoir des conséquences graves.
+```
+
+使用场景：医疗系统、预约困难、弱势人群。
+
+### 6. être placé malgré soi en situation irrégulière
+
+中文：非自愿地陷入无合法身份状态
+
+常见搭配：
+
+- être placé malgré soi en situation irrégulière à cause de...
+- des personnes placées malgré elles en situation irrégulière
+
+例句：
+
+```text
+Des personnes sont placées malgré elles en situation irrégulière à cause des blocages administratifs.
+```
+
+使用场景：居留证、行政延误、移民手续。
+
+### 7. se retrouver malgré soi en situation irrégulière
+
+中文：非自愿地变成身份不规则/无合法身份
+
+常见搭配：
+
+- je me retrouve malgré moi en situation irrégulière
+- se retrouver en difficulté à cause d'une procédure bloquée
+
+例句：
+
+```text
+Je me retrouve malgré moi en situation irrégulière, alors que j'attends une prolongation de mon titre de séjour.
+```
+
+使用场景：第一人称表达时更自然。
+
+### 8. renouveler un titre de séjour
+
+中文：更新/续办居留证
+
+常见搭配：
+
+- renouveler son titre de séjour
+- avoir du mal à renouveler son titre de séjour
+
+例句：
+
+```text
+Il est parfois difficile de renouveler son titre de séjour sur une plateforme saturée.
+```
+
+使用场景：移民行政手续。
+
+### 9. être à l'aise avec le numérique
+
+中文：熟悉/擅长使用数字工具
+
+常见搭配：
+
+- ne pas être à l'aise avec le numérique
+- être peu à l'aise avec les outils numériques
+
+例句：
+
+```text
+Les personnes âgées ne sont pas toujours à l'aise avec le numérique.
+```
+
+使用场景：数字鸿沟、老年人、弱势群体。
+
+### 10. être exclu des services publics
+
+中文：被公共服务排除在外
+
+常见搭配：
+
+- risquer d'être exclu des services publics
+- exclure certains usagers des services publics
+
+例句：
+
+```text
+Certaines personnes risquent d'être exclues des services publics.
+```
+
+使用场景：公共服务、社会不平等、数字化批评。
+
+## Correction Notes
+
+### parce que + phrase
+
+```text
+Il est mort parce qu'il n'a pas reçu de soins.
+```
+
+### à cause de + nom
+
+```text
+Il est mort à cause d'une rupture de soins.
+```
+
+### Expressing frustration
+
+`Je suis fatigué de...` 可以理解，但表达厌烦时更自然：
+
+```text
+J'en ai assez de...
+J'en ai marre de...  (plus oral)
+Cette procédure m'a découragé.
+```
+
+## Review Task
+
+用下面 5 个表达写 80-100 词：
+
+```text
+démarches administratives
+prise de rendez-vous en ligne
+plateforme saturée
+véritable casse-tête
+rupture de soins
+```
+
+## 2026-05-19 - Éducation et apprentissage numérique
+
+### 1. suivre un cours en ligne
+
+中文：上网课
+
+常见搭配：
+
+- suivre une partie de ses cours en ligne
+- suivre un cours à distance
+
+例句：
+
+```text
+De plus en plus d'étudiants suivent une partie de leurs cours en ligne.
+```
+
+使用场景：教育、大学、数字化学习。
+
+### 2. acquérir de nouvelles compétences
+
+中文：获得新技能
+
+常见搭配：
+
+- acquérir des compétences utiles
+- acquérir des compétences professionnelles
+- acquérir des compétences numériques
+
+例句：
+
+```text
+Les cours en ligne permettent d'acquérir de nouvelles compétences à son rythme.
+```
+
+使用场景：学习、就业、职业发展。
+
+### 3. favoriser l'autonomie des étudiants
+
+中文：促进学生自主性
+
+常见搭配：
+
+- favoriser l'autonomie des étudiants
+- favoriser l'autonomie des apprenants
+
+例句：
+
+```text
+L'apprentissage en ligne peut favoriser l'autonomie des étudiants.
+```
+
+使用场景：线上教育的优点。
+
+### 4. creuser les inégalités scolaires
+
+中文：加深教育不平等
+
+常见搭配：
+
+- risquer de creuser les inégalités scolaires
+- éviter de creuser les inégalités scolaires
+
+例句：
+
+```text
+Le numérique risque de creuser les inégalités scolaires si tous les élèves n'ont pas accès aux mêmes outils.
+```
+
+使用场景：数字鸿沟、教育公平。
+
+### 5. manquer d'encadrement
+
+中文：缺乏指导/监督
+
+常见搭配：
+
+- certains étudiants manquent d'encadrement
+- manquer d'encadrement à distance
+
+例句：
+
+```text
+Certains étudiants manquent d'encadrement lorsqu'ils suivent des cours à distance.
+```
+
+使用场景：线上学习的风险。
+
+### 6. rester motivé sur le long terme
+
+中文：长期保持动力
+
+常见搭配：
+
+- avoir du mal à rester motivé sur le long terme
+- aider les étudiants à rester motivés
+
+例句：
+
+```text
+Il peut être difficile de rester motivé sur le long terme sans contact direct avec les enseignants.
+```
+
+使用场景：学习动力、远程教育。
+
+### 7. avoir accès à des ressources pédagogiques
+
+中文：能够获得教学资源
+
+常见搭配：
+
+- avoir accès à des ressources pédagogiques de qualité
+- faciliter l'accès aux ressources pédagogiques
+
+例句：
+
+```text
+Internet permet d'avoir accès à des ressources pédagogiques très variées.
+```
+
+使用场景：线上学习的优点。
+
+### 8. adapter son rythme d'apprentissage à ses besoins
+
+中文：根据自己的需要调整学习节奏
+
+常见搭配：
+
+- adapter son rythme d'apprentissage à ses besoins
+- apprendre à son propre rythme
+
+例句：
+
+```text
+Les plateformes en ligne permettent parfois d'adapter son rythme d'apprentissage à ses besoins.
+```
+
+使用场景：个性化学习。
+
+### 9. mettre en place un accompagnement personnalisé
+
+中文：建立个性化辅导/支持
+
+常见搭配：
+
+- mettre en place un accompagnement personnalisé pour les étudiants
+- bénéficier d'un accompagnement personnalisé
+
+例句：
+
+```text
+Les universités devraient mettre en place un accompagnement personnalisé pour éviter le décrochage.
+```
+
+使用场景：教育政策、解决方案。
+
+### 10. évaluer les progrès des apprenants
+
+中文：评估学习者的进步
+
+常见搭配：
+
+- évaluer régulièrement les progrès des apprenants
+- mesurer les progrès des étudiants
+
+例句：
+
+```text
+Il est important d'évaluer régulièrement les progrès des apprenants.
+```
+
+使用场景：教学质量、学习效果。
+
+## Review Task - 2026-05-19
+
+用下面 5 个表达写 80-100 词：
+
+```text
+suivre un cours en ligne
+favoriser l'autonomie des étudiants
+manquer d'encadrement
+rester motivé sur le long terme
+mettre en place un accompagnement personnalisé
+```
+
+## 2026-05-19 - Travail et organisation professionnelle
+
+### 1. concilier vie professionnelle et vie personnelle
+
+中文：平衡工作与个人生活
+
+常见搭配：
+
+- concilier vie professionnelle et vie personnelle
+- avoir du mal à concilier travail et vie privée
+
+例句：
+
+```text
+Le télétravail peut aider certains salariés à concilier vie professionnelle et vie personnelle.
+```
+
+使用场景：远程办公、工作生活平衡。
+
+### 2. améliorer les conditions de travail
+
+中文：改善工作条件
+
+常见搭配：
+
+- améliorer les conditions de travail des salariés
+- contribuer à améliorer les conditions de travail
+
+例句：
+
+```text
+Les entreprises devraient améliorer les conditions de travail des salariés.
+```
+
+使用场景：企业管理、员工福利。
+
+### 3. être confronté à une forte pression
+
+中文：面临很大压力
+
+常见搭配：
+
+- être confronté à une forte pression au travail
+- être confronté à des exigences élevées
+
+例句：
+
+```text
+De nombreux employés sont confrontés à une forte pression au travail.
+```
+
+使用场景：职业压力、心理健康。
+
+### 4. prévenir l'épuisement professionnel
+
+中文：预防职业倦怠
+
+常见搭配：
+
+- prévenir l'épuisement professionnel des salariés
+- lutter contre l'épuisement professionnel
+
+例句：
+
+```text
+Il est nécessaire de prévenir l'épuisement professionnel.
+```
+
+使用场景：健康、工作节奏、管理。
+
+### 5. renforcer la cohésion d'équipe
+
+中文：加强团队凝聚力
+
+常见搭配：
+
+- renforcer la cohésion d'équipe
+- nuire à la cohésion d'équipe
+
+例句：
+
+```text
+Les réunions en présentiel peuvent renforcer la cohésion d'équipe.
+```
+
+使用场景：远程办公的限制、团队管理。
+
+### 6. gagner en efficacité
+
+中文：提高效率
+
+常见搭配：
+
+- gagner en efficacité grâce à une meilleure organisation
+- permettre de gagner en efficacité
+
+例句：
+
+```text
+Une organisation plus claire permet de gagner en efficacité.
+```
+
+使用场景：生产力、工作组织。
+
+### 7. bénéficier d'horaires flexibles
+
+中文：享有灵活工作时间
+
+常见搭配：
+
+- bénéficier d'horaires flexibles
+- proposer des horaires flexibles aux salariés
+
+例句：
+
+```text
+Les salariés souhaitent souvent bénéficier d'horaires flexibles.
+```
+
+使用场景：远程办公、员工自主性。
+
+### 8. remettre en question l'organisation du travail
+
+中文：重新审视工作组织方式
+
+常见搭配：
+
+- remettre en question l'organisation du travail
+- remettre en question les méthodes traditionnelles
+
+例句：
+
+```text
+La semaine de quatre jours remet en question l'organisation du travail.
+```
+
+使用场景：四天工作制、改革、社会变化。
+
+### 9. réduire le temps de trajet
+
+中文：减少通勤时间
+
+常见搭配：
+
+- réduire le temps de trajet quotidien
+- réduire les déplacements inutiles
+
+例句：
+
+```text
+Le télétravail permet de réduire le temps de trajet quotidien.
+```
+
+使用场景：远程办公、城市交通、生活质量。
+
+### 10. mettre en place le droit à la déconnexion
+
+中文：建立离线权/下班不被打扰权
+
+常见搭配：
+
+- mettre en place le droit à la déconnexion
+- respecter le droit à la déconnexion
+
+例句：
+
+```text
+Il faudrait mettre en place le droit à la déconnexion pour protéger les salariés.
+```
+
+使用场景：数字化办公、职业压力、劳动权益。
+
+## Review Task - 2026-05-19 Travail
+
+用下面 5 个表达写 80-100 词：
+
+```text
+concilier vie professionnelle et vie personnelle
+être confronté à une forte pression
+prévenir l'épuisement professionnel
+gagner en efficacité
+mettre en place le droit à la déconnexion
+```
