@@ -242,6 +242,126 @@
                       "useCase":  "教学质量、学习效果。",
                       "zh":  "评估学习者的进步",
                       "theme":  "Éducation et apprentissage numérique"
+                  },
+                  {
+                      "collocations":  [
+                                           "concilier vie professionnelle et vie personnelle",
+                                           "avoir du mal à concilier travail et vie privée"
+                                       ],
+                      "example":  "Le télétravail peut aider certains salariés à concilier vie professionnelle et vie personnelle.",
+                      "expression":  "concilier vie professionnelle et vie personnelle",
+                      "date":  "2026-05-19",
+                      "useCase":  "远程办公、工作生活平衡。",
+                      "zh":  "平衡工作与个人生活",
+                      "theme":  "Travail et organisation professionnelle"
+                  },
+                  {
+                      "collocations":  [
+                                           "améliorer les conditions de travail des salariés",
+                                           "contribuer à améliorer les conditions de travail"
+                                       ],
+                      "example":  "Les entreprises devraient améliorer les conditions de travail des salariés.",
+                      "expression":  "améliorer les conditions de travail",
+                      "date":  "2026-05-19",
+                      "useCase":  "企业管理、员工福利。",
+                      "zh":  "改善工作条件",
+                      "theme":  "Travail et organisation professionnelle"
+                  },
+                  {
+                      "collocations":  [
+                                           "être confronté à une forte pression au travail",
+                                           "être confronté à des exigences élevées"
+                                       ],
+                      "example":  "De nombreux employés sont confrontés à une forte pression au travail.",
+                      "expression":  "être confronté à une forte pression",
+                      "date":  "2026-05-19",
+                      "useCase":  "职业压力、心理健康。",
+                      "zh":  "面临很大压力",
+                      "theme":  "Travail et organisation professionnelle"
+                  },
+                  {
+                      "collocations":  [
+                                           "prévenir l\u0027épuisement professionnel des salariés",
+                                           "lutter contre l\u0027épuisement professionnel"
+                                       ],
+                      "example":  "Il est nécessaire de prévenir l\u0027épuisement professionnel.",
+                      "expression":  "prévenir l\u0027épuisement professionnel",
+                      "date":  "2026-05-19",
+                      "useCase":  "健康、工作节奏、管理。",
+                      "zh":  "预防职业倦怠",
+                      "theme":  "Travail et organisation professionnelle"
+                  },
+                  {
+                      "collocations":  [
+                                           "renforcer la cohésion d\u0027équipe",
+                                           "nuire à la cohésion d\u0027équipe"
+                                       ],
+                      "example":  "Les réunions en présentiel peuvent renforcer la cohésion d\u0027équipe.",
+                      "expression":  "renforcer la cohésion d\u0027équipe",
+                      "date":  "2026-05-19",
+                      "useCase":  "远程办公的限制、团队管理。",
+                      "zh":  "加强团队凝聚力",
+                      "theme":  "Travail et organisation professionnelle"
+                  },
+                  {
+                      "collocations":  [
+                                           "gagner en efficacité grâce à une meilleure organisation",
+                                           "permettre de gagner en efficacité"
+                                       ],
+                      "example":  "Une organisation plus claire permet de gagner en efficacité.",
+                      "expression":  "gagner en efficacité",
+                      "date":  "2026-05-19",
+                      "useCase":  "生产力、工作组织。",
+                      "zh":  "提高效率",
+                      "theme":  "Travail et organisation professionnelle"
+                  },
+                  {
+                      "collocations":  [
+                                           "bénéficier d\u0027horaires flexibles",
+                                           "proposer des horaires flexibles aux salariés"
+                                       ],
+                      "example":  "Les salariés souhaitent souvent bénéficier d\u0027horaires flexibles.",
+                      "expression":  "bénéficier d\u0027horaires flexibles",
+                      "date":  "2026-05-19",
+                      "useCase":  "远程办公、员工自主性。",
+                      "zh":  "享有灵活工作时间",
+                      "theme":  "Travail et organisation professionnelle"
+                  },
+                  {
+                      "collocations":  [
+                                           "remettre en question l\u0027organisation du travail",
+                                           "remettre en question les méthodes traditionnelles"
+                                       ],
+                      "example":  "La semaine de quatre jours remet en question l\u0027organisation du travail.",
+                      "expression":  "remettre en question l\u0027organisation du travail",
+                      "date":  "2026-05-19",
+                      "useCase":  "四天工作制、改革、社会变化。",
+                      "zh":  "重新审视工作组织方式",
+                      "theme":  "Travail et organisation professionnelle"
+                  },
+                  {
+                      "collocations":  [
+                                           "réduire le temps de trajet quotidien",
+                                           "réduire les déplacements inutiles"
+                                       ],
+                      "example":  "Le télétravail permet de réduire le temps de trajet quotidien.",
+                      "expression":  "réduire le temps de trajet",
+                      "date":  "2026-05-19",
+                      "useCase":  "远程办公、城市交通、生活质量。",
+                      "zh":  "减少通勤时间",
+                      "theme":  "Travail et organisation professionnelle"
+                  },
+                  {
+                      "collocations":  [
+                                           "mettre en place le droit à la déconnexion",
+                                           "respecter le droit à la déconnexion"
+                                       ],
+                      "example":  "Il faudrait mettre en place le droit à la déconnexion pour protéger les salariés.",
+                      "expression":  "mettre en place le droit à la déconnexion",
+                      "date":  "2026-05-19",
+                      "useCase":  "数字化办公、职业压力、劳动权益。",
+                      "zh":  "建立离线权/下班不被打扰权",
+                      "theme":  "Travail et organisation professionnelle"
                   }
               ]
 }
