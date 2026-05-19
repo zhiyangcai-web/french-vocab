@@ -1,27 +1,37 @@
-# Mobile Flashcards Hosting
+# French Vocabulary Flashcards
 
-这个文件夹用于生成一个固定手机链接。
+This repository hosts the mobile DELF B2 active-vocabulary flashcards:
+
+https://zhiyangcai-web.github.io/french-vocab/
 
 ## Files
 
-- `index.html`：手机翻卡片界面。
-- `vocab.json`：词汇数据。以后每天主要更新这个文件。
+- `index.html`: mobile flashcard app.
+- `vocab.json`: source data used by the web app.
+- `daily_active_vocabulary_log.md`: daily learning log.
+- `active_vocabulary_cards.md`: card-style study source.
+- `active_vocabulary_table.md`: compact table source.
+- `active_vocabulary_cards.docx/.pdf`: card-style exports.
+- `active_vocabulary_table.docx/.pdf`: table exports.
+- `scripts/export_active_vocabulary.mjs`: export and validation helper.
 
-## Recommended Hosting
+## Commands
 
-最佳方案：GitHub Pages / Netlify / Cloudflare Pages 任一静态托管。
-
-发布后，手机只需要打开一次固定链接，例如：
-
-```text
-https://your-name.github.io/french-vocab/
+```bash
+npm run export
+npm run validate
 ```
 
-以后这里更新 `vocab.json` 并重新发布，手机刷新页面就会看到新卡片。
+`npm run export` regenerates the Markdown study files from `vocab.json`.
+`npm run validate` checks JSON shape, required files, PDF headers, and common mojibake markers.
 
-## Important
+## Update Workflow
 
-如果直接把 `index.html` 文件发到手机，它只是一个文件副本，不会自动同步更新。
+1. Add new DELF B2 active expressions to `vocab.json`.
+2. Run `npm run export`.
+3. Update Word/PDF exports when the study source changes.
+4. Run `npm run validate`.
+5. Commit and push to `main`.
+6. Verify the GitHub Pages link.
 
-要实现“手机链接不变、内容自动更新”，必须使用托管 URL。
-
+Keep existing `date`, `theme`, and `expression` values stable for old cards because the mobile app uses them to preserve local review status.

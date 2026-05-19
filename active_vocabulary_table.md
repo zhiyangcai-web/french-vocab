@@ -1,0 +1,36 @@
+# Active Vocabulary Table
+
+这是每日主动词汇的动态表。只记录需要进入写作/口语主动使用的表达。
+
+| Date | Theme | Expression | 中文 | Collocation | Example | Status |
+|---|---|---|---|---|---|---|
+| 2026-04-27 | Services publics et dématérialisation | faire des démarches administratives | 办理行政手续 | faire ses démarches administratives en ligne | J'en ai assez de faire des démarches administratives en ligne. | active |
+| 2026-04-27 | Services publics et dématérialisation | la prise de rendez-vous en ligne | 线上预约 | la prise de rendez-vous en ligne est difficile / impossible | La prise de rendez-vous en ligne est devenue un véritable casse-tête. | active |
+| 2026-04-27 | Services publics et dématérialisation | une plateforme constamment saturée | 总是爆满/无法使用的平台 | dénoncer une plateforme constamment saturée | L'ANEF est une plateforme constamment saturée. | active |
+| 2026-04-27 | Services publics et dématérialisation | un véritable casse-tête | 非常头疼的问题 | devenir un véritable casse-tête | Pour certains usagers, les démarches en ligne deviennent un véritable casse-tête. | active |
+| 2026-04-27 | Services publics et dématérialisation | une rupture de soins | 医疗/治疗中断 | provoquer / entraîner une rupture de soins | Une rupture de soins peut avoir des conséquences graves. | active |
+| 2026-04-27 | Services publics et dématérialisation | être placé malgré soi en situation irrégulière | 非自愿地陷入无合法身份状态 | être placé malgré soi en situation irrégulière à cause de... | Des personnes sont placées malgré elles en situation irrégulière à cause des blocages administratifs. | active |
+| 2026-04-27 | Services publics et dématérialisation | se retrouver malgré soi en situation irrégulière | 非自愿地变成身份不规则/无合法身份 | je me retrouve malgré moi... | Je me retrouve malgré moi en situation irrégulière, alors que j'attends une prolongation de mon titre de séjour. | active |
+| 2026-04-27 | Services publics et dématérialisation | renouveler un titre de séjour | 更新/续办居留证 | renouveler son titre de séjour | Il est parfois difficile de renouveler son titre de séjour sur une plateforme saturée. | active |
+| 2026-04-27 | Services publics et dématérialisation | être à l'aise avec le numérique | 熟悉/擅长使用数字工具 | ne pas être à l'aise avec le numérique | Les personnes âgées ne sont pas toujours à l'aise avec le numérique. | active |
+| 2026-04-27 | Services publics et dématérialisation | être exclu des services publics | 被公共服务排除在外 | risquer d'être exclu des services publics | Certaines personnes risquent d'être exclues des services publics. | active |
+| 2026-05-19 | Éducation et apprentissage numérique | suivre un cours en ligne | 上网课 | suivre une partie de ses cours en ligne | De plus en plus d'étudiants suivent une partie de leurs cours en ligne. | active |
+| 2026-05-19 | Éducation et apprentissage numérique | acquérir de nouvelles compétences | 获得新技能 | acquérir des compétences utiles / professionnelles / numériques | Les cours en ligne permettent d'acquérir de nouvelles compétences à son rythme. | active |
+| 2026-05-19 | Éducation et apprentissage numérique | favoriser l'autonomie des étudiants | 促进学生自主性 | favoriser l'autonomie des étudiants / des apprenants | L'apprentissage en ligne peut favoriser l'autonomie des étudiants. | active |
+| 2026-05-19 | Éducation et apprentissage numérique | creuser les inégalités scolaires | 加深教育不平等 | risquer de creuser les inégalités scolaires | Le numérique risque de creuser les inégalités scolaires si tous les élèves n'ont pas accès aux mêmes outils. | active |
+| 2026-05-19 | Éducation et apprentissage numérique | manquer d'encadrement | 缺乏指导/监督 | certains étudiants manquent d'encadrement | Certains étudiants manquent d'encadrement lorsqu'ils suivent des cours à distance. | active |
+| 2026-05-19 | Éducation et apprentissage numérique | rester motivé sur le long terme | 长期保持动力 | avoir du mal à rester motivé sur le long terme | Il peut être difficile de rester motivé sur le long terme sans contact direct avec les enseignants. | active |
+| 2026-05-19 | Éducation et apprentissage numérique | avoir accès à des ressources pédagogiques | 能够获得教学资源 | avoir accès à des ressources pédagogiques de qualité | Internet permet d'avoir accès à des ressources pédagogiques très variées. | active |
+| 2026-05-19 | Éducation et apprentissage numérique | adapter son rythme d'apprentissage à ses besoins | 根据自己的需要调整学习节奏 | adapter son rythme d'apprentissage à ses besoins | Les plateformes en ligne permettent parfois d'adapter son rythme d'apprentissage à ses besoins. | active |
+| 2026-05-19 | Éducation et apprentissage numérique | mettre en place un accompagnement personnalisé | 建立个性化辅导/支持 | mettre en place un accompagnement personnalisé pour les étudiants | Les universités devraient mettre en place un accompagnement personnalisé pour éviter le décrochage. | active |
+| 2026-05-19 | Éducation et apprentissage numérique | évaluer les progrès des apprenants | 评估学习者的进步 | évaluer régulièrement les progrès des apprenants | Il est important d'évaluer régulièrement les progrès des apprenants. | active |
+| 2026-05-19 | Travail et organisation professionnelle | concilier vie professionnelle et vie personnelle | 平衡工作与个人生活 | concilier vie professionnelle et vie personnelle | Le télétravail peut aider certains salariés à concilier vie professionnelle et vie personnelle. | active |
+| 2026-05-19 | Travail et organisation professionnelle | améliorer les conditions de travail | 改善工作条件 | améliorer les conditions de travail des salariés | Les entreprises devraient améliorer les conditions de travail des salariés. | active |
+| 2026-05-19 | Travail et organisation professionnelle | être confronté à une forte pression | 面临很大压力 | être confronté à une forte pression au travail | De nombreux employés sont confrontés à une forte pression au travail. | active |
+| 2026-05-19 | Travail et organisation professionnelle | prévenir l'épuisement professionnel | 预防职业倦怠 | prévenir l'épuisement professionnel des salariés | Il est nécessaire de prévenir l'épuisement professionnel. | active |
+| 2026-05-19 | Travail et organisation professionnelle | renforcer la cohésion d'équipe | 加强团队凝聚力 | renforcer la cohésion d'équipe | Les réunions en présentiel peuvent renforcer la cohésion d'équipe. | active |
+| 2026-05-19 | Travail et organisation professionnelle | gagner en efficacité | 提高效率 | gagner en efficacité grâce à une meilleure organisation | Une organisation plus claire permet de gagner en efficacité. | active |
+| 2026-05-19 | Travail et organisation professionnelle | bénéficier d'horaires flexibles | 享有灵活工作时间 | bénéficier d'horaires flexibles | Les salariés souhaitent souvent bénéficier d'horaires flexibles. | active |
+| 2026-05-19 | Travail et organisation professionnelle | remettre en question l'organisation du travail | 重新审视工作组织方式 | remettre en question l'organisation du travail | La semaine de quatre jours remet en question l'organisation du travail. | active |
+| 2026-05-19 | Travail et organisation professionnelle | réduire le temps de trajet | 减少通勤时间 | réduire le temps de trajet quotidien | Le télétravail permet de réduire le temps de trajet quotidien. | active |
+| 2026-05-19 | Travail et organisation professionnelle | mettre en place le droit à la déconnexion | 建立离线权/下班不被打扰权 | mettre en place le droit à la déconnexion | Il faudrait mettre en place le droit à la déconnexion pour protéger les salariés. | active |
