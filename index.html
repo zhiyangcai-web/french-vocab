@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Cache-Control" content="no-store">
+  <title>Active French Vocabulary</title>
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --panel: #ffffff;
+      --ink: #172033;
+      --muted: #5d6678;
+      --line: #d9deea;
+      --accent: #1f6feb;
+      --accent-soft: #e8f1ff;
+      --shadow: 0 18px 45px rgba(30, 42, 70, .14);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: "Aptos", "Segoe UI", "Microsoft YaHei", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+    }
+    .app {
+      width: min(860px, 100%);
+      margin: 0 auto;
+      padding: 22px 16px 30px;
+    }
+    h1 {
+      margin: 0;
+      font-size: 24px;
+      line-height: 1.2;
+      letter-spacing: 0;
+    }
+    .sub {
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.5;
+      margin-top: 8px;
+    }
+    .toolbar {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      align-items: center;
+      margin: 14px 0 16px;
+    }
+    button, select {
+      min-height: 42px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      color: var(--ink);
+      font-size: 15px;
+      padding: 8px 12px;
+    }
+    button {
+      cursor: pointer;
+      font-weight: 650;
+    }
+    button.primary {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+    }
+    .progress {
+      color: var(--muted);
+      font-size: 14px;
+      margin-left: auto;
+      min-width: 110px;
+      text-align: right;
+    }
+    .card-wrap {
+      perspective: 1200px;
+      margin: 12px 0;
+    }
+    .card {
+      position: relative;
+      min-height: 470px;
+      transform-style: preserve-3d;
+      transition: transform .28s ease;
+    }
+    .card.flipped { transform: rotateY(180deg); }
+    .face {
+      position: absolute;
+      inset: 0;
+      backface-visibility: hidden;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      box-shadow: var(--shadow);
+      padding: 22px;
+      display: grid;
+      align-content: start;
+      gap: 14px;
+    }
+    .back { transform: rotateY(180deg); }
+    .tag {
+      display: inline-flex;
+      width: fit-content;
+      padding: 5px 9px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 700;
+    }
+    .expr {
+      font-size: 28px;
+      line-height: 1.25;
+      font-weight: 760;
+    }
+    .zh {
+      font-size: 21px;
+      line-height: 1.45;
+    }
+    .section-title {
+      font-size: 13px;
+      color: var(--muted);
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      margin-bottom: 4px;
+    }
+    .content {
+      font-size: 17px;
+      line-height: 1.55;
+    }
+    .example {
+      border-left: 4px solid var(--accent);
+      background: #f8fbff;
+      padding: 10px 12px;
+      border-radius: 8px;
+      font-size: 17px;
+      line-height: 1.55;
+    }
+    ul {
+      margin: 6px 0 0;
+      padding-left: 20px;
+    }
+    li { margin: 6px 0; }
+    .hint {
+      margin-top: auto;
+      color: var(--muted);
+      font-size: 14px;
+      border-top: 1px solid var(--line);
+      padding-top: 12px;
+    }
+    .review {
+      margin-top: 16px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 16px;
+    }
+    .review h2 {
+      margin: 0 0 10px;
+      font-size: 18px;
+    }
+    textarea {
+      width: 100%;
+      min-height: 110px;
+      resize: vertical;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 10px;
+      font: inherit;
+      line-height: 1.5;
+    }
+    @media (max-width: 560px) {
+      .app { padding: 16px 12px 24px; }
+      h1 { font-size: 22px; }
+      .toolbar { gap: 7px; }
+      button, select { flex: 1 1 auto; font-size: 14px; }
+      .progress { flex-basis: 100%; text-align: left; margin-left: 0; }
+      .card { min-height: 540px; }
+      .face { padding: 18px; }
+      .expr { font-size: 24px; }
+      .zh { font-size: 19px; }
+      .content, .example { font-size: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="app">
+    <header>
+      <h1>Active French Vocabulary</h1>
+      <div id="updated" class="sub">Loading vocabulary...</div>
+    </header>
+
+    <div class="toolbar">
+      <select id="themeSelect" aria-label="Theme filter"></select>
+      <button id="prevBtn" type="button">上一张</button>
+      <button id="flipBtn" class="primary" type="button">翻面</button>
+      <button id="nextBtn" type="button">下一张</button>
+      <button id="shuffleBtn" type="button">随机</button>
+      <div id="progress" class="progress"></div>
+    </div>
+
+    <section class="card-wrap" aria-live="polite">
+      <article id="card" class="card">
+        <div class="face front">
+          <div id="frontTag" class="tag"></div>
+          <div id="frontExpr" class="expr"></div>
+          <div id="frontZh" class="zh"></div>
+          <div>
+            <div class="section-title">Try Before Flipping</div>
+            <div class="content">先口头造一句，再翻面看搭配和例句。</div>
+          </div>
+          <div class="hint">点卡片或“翻面”查看答案。</div>
+        </div>
+        <div class="face back">
+          <div id="backTag" class="tag"></div>
+          <div id="backExpr" class="expr"></div>
+          <div>
+            <div class="section-title">Collocations</div>
+            <ul id="collocations" class="content"></ul>
+          </div>
+          <div>
+            <div class="section-title">Example</div>
+            <div id="example" class="example"></div>
+          </div>
+          <div>
+            <div class="section-title">Use Case</div>
+            <div id="useCase" class="content"></div>
+          </div>
+          <div class="hint">复习标准：能不用看答案造出一句自己的句子。</div>
+        </div>
+      </article>
+    </section>
+
+    <section class="review">
+      <h2>今日复用</h2>
+      <div class="sub">用当前卡片表达写一句，或把 4 个表达合成 80-100 词短文。</div>
+      <textarea id="notes" placeholder="在这里临时写句子。内容只保存在当前浏览器。"></textarea>
+    </section>
+  </main>
+
+  <script>
+    let cards = [];
+    let filtered = [];
+    let index = Number(localStorage.getItem("active_vocab_index") || 0);
+    let flipped = false;
+
+    const els = {
+      themeSelect: document.getElementById("themeSelect"),
+      card: document.getElementById("card"),
+      frontTag: document.getElementById("frontTag"),
+      frontExpr: document.getElementById("frontExpr"),
+      frontZh: document.getElementById("frontZh"),
+      backTag: document.getElementById("backTag"),
+      backExpr: document.getElementById("backExpr"),
+      collocations: document.getElementById("collocations"),
+      example: document.getElementById("example"),
+      useCase: document.getElementById("useCase"),
+      progress: document.getElementById("progress"),
+      notes: document.getElementById("notes"),
+      updated: document.getElementById("updated")
+    };
+
+    async function loadCards() {
+      const response = await fetch(`vocab.json?v=${Date.now()}`, { cache: "no-store" });
+      if (!response.ok) throw new Error(`Could not load vocab.json: ${response.status}`);
+      const data = await response.json();
+      cards = data.cards || [];
+      filtered = cards.slice();
+      els.updated.textContent = `Updated: ${data.updated || "unknown"} · ${cards.length} cards`;
+      setupThemes();
+      render();
+    }
+
+    function themes() {
+      return ["All themes", ...Array.from(new Set(cards.map(c => c.theme)))];
+    }
+
+    function setupThemes() {
+      els.themeSelect.innerHTML = "";
+      for (const theme of themes()) {
+        const option = document.createElement("option");
+        option.value = theme;
+        option.textContent = theme;
+        els.themeSelect.appendChild(option);
+      }
+    }
+
+    function applyFilter() {
+      const theme = els.themeSelect.value;
+      filtered = theme === "All themes" ? cards.slice() : cards.filter(c => c.theme === theme);
+      index = 0;
+      flipped = false;
+      render();
+    }
+
+    function render() {
+      if (!filtered.length) {
+        els.progress.textContent = "0 / 0";
+        return;
+      }
+      if (index < 0) index = filtered.length - 1;
+      if (index >= filtered.length) index = 0;
+      const c = filtered[index];
+      els.card.classList.toggle("flipped", flipped);
+      els.frontTag.textContent = `${c.date} · ${c.theme}`;
+      els.frontExpr.textContent = c.expression;
+      els.frontZh.textContent = c.zh;
+      els.backTag.textContent = c.zh;
+      els.backExpr.textContent = c.expression;
+      els.collocations.innerHTML = "";
+      c.collocations.forEach(item => {
+        const li = document.createElement("li");
+        li.textContent = item;
+        els.collocations.appendChild(li);
+      });
+      els.example.textContent = c.example;
+      els.useCase.textContent = c.useCase;
+      els.progress.textContent = `${index + 1} / ${filtered.length}`;
+      localStorage.setItem("active_vocab_index", String(index));
+    }
+
+    function next(delta) {
+      index += delta;
+      flipped = false;
+      render();
+    }
+
+    function shuffle() {
+      index = Math.floor(Math.random() * filtered.length);
+      flipped = false;
+      render();
+    }
+
+    function flip() {
+      flipped = !flipped;
+      render();
+    }
+
+    document.getElementById("prevBtn").addEventListener("click", () => next(-1));
+    document.getElementById("nextBtn").addEventListener("click", () => next(1));
+    document.getElementById("flipBtn").addEventListener("click", flip);
+    document.getElementById("shuffleBtn").addEventListener("click", shuffle);
+    els.card.addEventListener("click", flip);
+    els.themeSelect.addEventListener("change", applyFilter);
+    els.notes.value = localStorage.getItem("active_vocab_notes") || "";
+    els.notes.addEventListener("input", () => localStorage.setItem("active_vocab_notes", els.notes.value));
+    window.addEventListener("keydown", event => {
+      if (event.key === "ArrowRight") next(1);
+      if (event.key === "ArrowLeft") next(-1);
+      if (event.key === " ") {
+        event.preventDefault();
+        flip();
+      }
+    });
+
+    loadCards().catch(error => {
+      els.updated.textContent = "Failed to load vocab.json. Use a local server or hosted URL.";
+      console.error(error);
+    });
+  </script>
+</body>
+</html>

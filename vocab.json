@@ -1,0 +1,126 @@
+{
+  "updated": "2026-05-19",
+  "cards": [
+    {
+      "date": "2026-04-27",
+      "theme": "Services publics et dématérialisation",
+      "expression": "faire des démarches administratives",
+      "zh": "办理行政手续",
+      "collocations": [
+        "faire ses démarches administratives en ligne",
+        "aider quelqu'un à faire ses démarches administratives"
+      ],
+      "example": "J'en ai assez de faire des démarches administratives en ligne.",
+      "useCase": "公共服务、行政、数字化、移民手续。"
+    },
+    {
+      "date": "2026-04-27",
+      "theme": "Services publics et dématérialisation",
+      "expression": "la prise de rendez-vous en ligne",
+      "zh": "线上预约",
+      "collocations": [
+        "la prise de rendez-vous en ligne est difficile",
+        "la prise de rendez-vous en ligne est impossible"
+      ],
+      "example": "La prise de rendez-vous en ligne est devenue un véritable casse-tête.",
+      "useCase": "医疗、行政窗口、学校/政府服务预约。"
+    },
+    {
+      "date": "2026-04-27",
+      "theme": "Services publics et dématérialisation",
+      "expression": "une plateforme constamment saturée",
+      "zh": "总是爆满/无法正常使用的平台",
+      "collocations": [
+        "dénoncer une plateforme constamment saturée",
+        "une plateforme constamment saturée empêche les usagers de..."
+      ],
+      "example": "L'ANEF est une plateforme constamment saturée.",
+      "useCase": "数字平台、行政系统、在线服务失败。"
+    },
+    {
+      "date": "2026-04-27",
+      "theme": "Services publics et dématérialisation",
+      "expression": "un véritable casse-tête",
+      "zh": "非常头疼的问题",
+      "collocations": [
+        "devenir un véritable casse-tête",
+        "représenter un véritable casse-tête pour quelqu'un"
+      ],
+      "example": "Pour certains usagers, les démarches en ligne deviennent un véritable casse-tête.",
+      "useCase": "表达某件事很麻烦、很难处理。"
+    },
+    {
+      "date": "2026-04-27",
+      "theme": "Services publics et dématérialisation",
+      "expression": "une rupture de soins",
+      "zh": "医疗/治疗中断",
+      "collocations": [
+        "provoquer une rupture de soins",
+        "entraîner une rupture de soins",
+        "éviter une rupture de soins"
+      ],
+      "example": "Une rupture de soins peut avoir des conséquences graves.",
+      "useCase": "医疗系统、预约困难、弱势人群。"
+    },
+    {
+      "date": "2026-04-27",
+      "theme": "Services publics et dématérialisation",
+      "expression": "être placé malgré soi en situation irrégulière",
+      "zh": "非自愿地陷入无合法身份状态",
+      "collocations": [
+        "être placé malgré soi en situation irrégulière à cause de...",
+        "des personnes placées malgré elles en situation irrégulière"
+      ],
+      "example": "Des personnes sont placées malgré elles en situation irrégulière à cause des blocages administratifs.",
+      "useCase": "居留证、行政延误、移民手续。"
+    },
+    {
+      "date": "2026-04-27",
+      "theme": "Services publics et dématérialisation",
+      "expression": "se retrouver malgré soi en situation irrégulière",
+      "zh": "非自愿地变成身份不规则/无合法身份",
+      "collocations": [
+        "je me retrouve malgré moi en situation irrégulière",
+        "se retrouver en difficulté à cause d'une procédure bloquée"
+      ],
+      "example": "Je me retrouve malgré moi en situation irrégulière, alors que j'attends une prolongation de mon titre de séjour.",
+      "useCase": "第一人称表达时更自然。"
+    },
+    {
+      "date": "2026-04-27",
+      "theme": "Services publics et dématérialisation",
+      "expression": "renouveler un titre de séjour",
+      "zh": "更新/续办居留证",
+      "collocations": [
+        "renouveler son titre de séjour",
+        "avoir du mal à renouveler son titre de séjour"
+      ],
+      "example": "Il est parfois difficile de renouveler son titre de séjour sur une plateforme saturée.",
+      "useCase": "移民行政手续。"
+    },
+    {
+      "date": "2026-04-27",
+      "theme": "Services publics et dématérialisation",
+      "expression": "être à l'aise avec le numérique",
+      "zh": "熟悉/擅长使用数字工具",
+      "collocations": [
+        "ne pas être à l'aise avec le numérique",
+        "être peu à l'aise avec les outils numériques"
+      ],
+      "example": "Les personnes âgées ne sont pas toujours à l'aise avec le numérique.",
+      "useCase": "数字鸿沟、老年人、弱势群体。"
+    },
+    {
+      "date": "2026-04-27",
+      "theme": "Services publics et dématérialisation",
+      "expression": "être exclu des services publics",
+      "zh": "被公共服务排除在外",
+      "collocations": [
+        "risquer d'être exclu des services publics",
+        "exclure certains usagers des services publics"
+      ],
+      "example": "Certaines personnes risquent d'être exclues des services publics.",
+      "useCase": "公共服务、社会不平等、数字化批评。"
+    }
+  ]
+}
