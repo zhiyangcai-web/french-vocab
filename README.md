@@ -4,6 +4,10 @@ This repository hosts the mobile DELF B2 active-vocabulary flashcards:
 
 https://zhiyangcai-web.github.io/french-vocab/
 
+Study export links:
+
+https://zhiyangcai-web.github.io/french-vocab/exports.html
+
 ## Files
 
 - `index.html`: mobile flashcard app.
