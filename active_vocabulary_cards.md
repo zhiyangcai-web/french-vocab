@@ -640,3 +640,239 @@ Il faudrait mettre en place le droit à la déconnexion pour protéger les salar
 
 使用场景：数字化办公、职业压力、劳动权益。
 
+## 2026-05-20 - Consommation et pouvoir d'achat
+
+### 1. faire face à une hausse du coût de la vie
+
+批次：2026-05-20
+
+标签：cout-de-la-vie, pouvoir-dachat, inflation
+
+中文：应对生活成本上涨
+
+常见搭配：
+
+- faire face à une forte hausse du coût de la vie
+- aider les ménages à faire face à la hausse du coût de la vie
+- avoir du mal à faire face à la hausse des prix
+
+例句：
+
+```text
+De nombreux ménages ont du mal à faire face à une hausse du coût de la vie.
+```
+
+使用场景：通货膨胀、购买力、社会不平等、家庭预算。
+
+## 2026-05-20 - Culture et vie sociale
+
+### 1. renforcer la cohésion sociale
+
+批次：2026-05-20
+
+标签：cohesion-sociale, solidarite, vivre-ensemble
+
+中文：加强社会凝聚力
+
+常见搭配：
+
+- renforcer la cohésion sociale dans les quartiers
+- contribuer à renforcer la cohésion sociale
+- des politiques qui renforcent la cohésion sociale
+
+例句：
+
+```text
+Les associations locales peuvent renforcer la cohésion sociale en créant des espaces de rencontre.
+```
+
+使用场景：社区生活、社会团结、公共政策、代际关系。
+
+### 2. préserver le lien social
+
+批次：2026-05-20
+
+标签：lien-social, isolement, solidarite
+
+中文：维护社会联系/人际纽带
+
+常见搭配：
+
+- préserver le lien social entre les générations
+- préserver le lien social dans les quartiers
+- des initiatives qui permettent de préserver le lien social
+
+例句：
+
+```text
+Les activités collectives permettent de préserver le lien social et de lutter contre l'isolement.
+```
+
+使用场景：社区生活、老年人、孤独问题、社会团结。
+
+## 2026-05-20 - Environnement et transition écologique
+
+### 1. réduire les émissions de gaz à effet de serre
+
+批次：2026-05-20
+
+标签：gaz-a-effet-de-serre, climat, transition-ecologique
+
+中文：减少温室气体排放
+
+常见搭配：
+
+- réduire les émissions de gaz à effet de serre dans les transports
+- des mesures pour réduire les émissions de gaz à effet de serre
+- s'engager à réduire les émissions de gaz à effet de serre
+
+例句：
+
+```text
+Pour lutter contre le réchauffement climatique, il faut réduire les émissions de gaz à effet de serre.
+```
+
+使用场景：气候变化、环保政策、交通、能源转型。
+
+### 2. adopter des gestes écoresponsables
+
+批次：2026-05-20
+
+标签：gestes-ecoresponsables, consommation-responsable, environnement
+
+中文：采取环保负责任的日常行为
+
+常见搭配：
+
+- adopter des gestes écoresponsables au quotidien
+- encourager les citoyens à adopter des gestes écoresponsables
+- des gestes écoresponsables simples
+
+例句：
+
+```text
+Chacun peut adopter des gestes écoresponsables, comme réduire sa consommation d'énergie.
+```
+
+使用场景：日常环保、消费习惯、个人责任、生态转型。
+
+## 2026-05-20 - Santé et accès aux soins
+
+### 1. avoir du mal à accéder aux soins
+
+批次：2026-05-20
+
+标签：acces-aux-soins, inegalites-territoriales, sante
+
+中文：难以获得医疗服务
+
+常见搭配：
+
+- avoir du mal à accéder aux soins dans les zones rurales
+- les patients qui ont du mal à accéder aux soins
+- réduire les difficultés d'accès aux soins
+
+例句：
+
+```text
+Dans certaines régions, de nombreux patients ont du mal à accéder aux soins faute de médecins.
+```
+
+使用场景：医疗荒漠、公共卫生、社会不平等、弱势群体。
+
+## 2026-05-20 - Médias et information
+
+### 1. lutter contre la désinformation
+
+批次：2026-05-20
+
+标签：desinformation, medias, esprit-critique
+
+中文：打击虚假信息
+
+常见搭配：
+
+- lutter contre la désinformation sur les réseaux sociaux
+- apprendre à lutter contre la désinformation
+- des outils pour lutter contre la désinformation
+
+例句：
+
+```text
+L'école devrait apprendre aux jeunes à lutter contre la désinformation en développant leur esprit critique.
+```
+
+使用场景：媒体素养、社交网络、民主、信息辨别。
+
+## 2026-05-20 - Travail et organisation professionnelle
+
+### 1. favoriser l'insertion professionnelle des jeunes
+
+批次：2026-05-20
+
+标签：insertion-professionnelle, jeunes, emploi
+
+中文：促进年轻人就业融入
+
+常见搭配：
+
+- favoriser l'insertion professionnelle des jeunes diplômés
+- des dispositifs pour favoriser l'insertion professionnelle des jeunes
+- aider les jeunes à s'insérer dans le monde du travail
+
+例句：
+
+```text
+Les stages et l'alternance peuvent favoriser l'insertion professionnelle des jeunes.
+```
+
+使用场景：青年就业、职业培训、教育与劳动市场。
+
+## 2026-05-20 - Logement et conditions de vie
+
+### 1. souffrir d'un manque de logements abordables
+
+批次：2026-05-20
+
+标签：logement-abordable, conditions-de-vie, precarite
+
+中文：面临可负担住房不足的问题
+
+常见搭配：
+
+- souffrir d'un manque de logements abordables dans les grandes villes
+- une ville qui souffre d'un manque de logements abordables
+- répondre au manque de logements abordables
+
+例句：
+
+```text
+Les grandes villes souffrent souvent d'un manque de logements abordables pour les étudiants et les jeunes actifs.
+```
+
+使用场景：住房危机、城市生活、学生和年轻工作者、生活条件。
+
+## 2026-05-20 - Numérique et société
+
+### 1. encadrer l'usage des écrans chez les adolescents
+
+批次：2026-05-20
+
+标签：ecrans, adolescents, usage-du-numerique
+
+中文：规范青少年的屏幕使用
+
+常见搭配：
+
+- encadrer l'usage des écrans chez les adolescents
+- mieux encadrer l'usage des écrans à la maison
+- sensibiliser les parents à l'usage des écrans
+
+例句：
+
+```text
+Il est nécessaire d'encadrer l'usage des écrans chez les adolescents sans diaboliser le numérique.
+```
+
+使用场景：数字生活、青少年教育、家庭规则、心理健康。
+

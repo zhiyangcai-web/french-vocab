@@ -225,3 +225,105 @@
    - 搭配：`mettre en place le droit à la déconnexion`
    - 例句：`Il faudrait mettre en place le droit à la déconnexion pour protéger les salariés.`
 
+## 2026-05-20 - Consommation et pouvoir d'achat
+
+### Active Expressions
+
+1. `faire face à une hausse du coût de la vie`
+   - 批次：2026-05-20
+   - 标签：cout-de-la-vie, pouvoir-dachat, inflation
+   - 中文：应对生活成本上涨
+   - 搭配：`faire face à une forte hausse du coût de la vie`
+   - 例句：`De nombreux ménages ont du mal à faire face à une hausse du coût de la vie.`
+
+## 2026-05-20 - Culture et vie sociale
+
+### Active Expressions
+
+1. `renforcer la cohésion sociale`
+   - 批次：2026-05-20
+   - 标签：cohesion-sociale, solidarite, vivre-ensemble
+   - 中文：加强社会凝聚力
+   - 搭配：`renforcer la cohésion sociale dans les quartiers`
+   - 例句：`Les associations locales peuvent renforcer la cohésion sociale en créant des espaces de rencontre.`
+
+2. `préserver le lien social`
+   - 批次：2026-05-20
+   - 标签：lien-social, isolement, solidarite
+   - 中文：维护社会联系/人际纽带
+   - 搭配：`préserver le lien social entre les générations`
+   - 例句：`Les activités collectives permettent de préserver le lien social et de lutter contre l'isolement.`
+
+## 2026-05-20 - Environnement et transition écologique
+
+### Active Expressions
+
+1. `réduire les émissions de gaz à effet de serre`
+   - 批次：2026-05-20
+   - 标签：gaz-a-effet-de-serre, climat, transition-ecologique
+   - 中文：减少温室气体排放
+   - 搭配：`réduire les émissions de gaz à effet de serre dans les transports`
+   - 例句：`Pour lutter contre le réchauffement climatique, il faut réduire les émissions de gaz à effet de serre.`
+
+2. `adopter des gestes écoresponsables`
+   - 批次：2026-05-20
+   - 标签：gestes-ecoresponsables, consommation-responsable, environnement
+   - 中文：采取环保负责任的日常行为
+   - 搭配：`adopter des gestes écoresponsables au quotidien`
+   - 例句：`Chacun peut adopter des gestes écoresponsables, comme réduire sa consommation d'énergie.`
+
+## 2026-05-20 - Santé et accès aux soins
+
+### Active Expressions
+
+1. `avoir du mal à accéder aux soins`
+   - 批次：2026-05-20
+   - 标签：acces-aux-soins, inegalites-territoriales, sante
+   - 中文：难以获得医疗服务
+   - 搭配：`avoir du mal à accéder aux soins dans les zones rurales`
+   - 例句：`Dans certaines régions, de nombreux patients ont du mal à accéder aux soins faute de médecins.`
+
+## 2026-05-20 - Médias et information
+
+### Active Expressions
+
+1. `lutter contre la désinformation`
+   - 批次：2026-05-20
+   - 标签：desinformation, medias, esprit-critique
+   - 中文：打击虚假信息
+   - 搭配：`lutter contre la désinformation sur les réseaux sociaux`
+   - 例句：`L'école devrait apprendre aux jeunes à lutter contre la désinformation en développant leur esprit critique.`
+
+## 2026-05-20 - Travail et organisation professionnelle
+
+### Active Expressions
+
+1. `favoriser l'insertion professionnelle des jeunes`
+   - 批次：2026-05-20
+   - 标签：insertion-professionnelle, jeunes, emploi
+   - 中文：促进年轻人就业融入
+   - 搭配：`favoriser l'insertion professionnelle des jeunes diplômés`
+   - 例句：`Les stages et l'alternance peuvent favoriser l'insertion professionnelle des jeunes.`
+
+## 2026-05-20 - Logement et conditions de vie
+
+### Active Expressions
+
+1. `souffrir d'un manque de logements abordables`
+   - 批次：2026-05-20
+   - 标签：logement-abordable, conditions-de-vie, precarite
+   - 中文：面临可负担住房不足的问题
+   - 搭配：`souffrir d'un manque de logements abordables dans les grandes villes`
+   - 例句：`Les grandes villes souffrent souvent d'un manque de logements abordables pour les étudiants et les jeunes actifs.`
+
+## 2026-05-20 - Numérique et société
+
+### Active Expressions
+
+1. `encadrer l'usage des écrans chez les adolescents`
+   - 批次：2026-05-20
+   - 标签：ecrans, adolescents, usage-du-numerique
+   - 中文：规范青少年的屏幕使用
+   - 搭配：`encadrer l'usage des écrans chez les adolescents`
+   - 例句：`Il est nécessaire d'encadrer l'usage des écrans chez les adolescents sans diaboliser le numérique.`
+

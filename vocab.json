@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-19",
+  "updated": "2026-05-20",
   "cards": [
     {
       "date": "2026-04-27",
@@ -542,6 +542,196 @@
       ],
       "example": "Il faudrait mettre en place le droit à la déconnexion pour protéger les salariés.",
       "useCase": "数字化办公、职业压力、劳动权益。"
+    },
+    {
+      "date": "2026-05-20",
+      "batch": "2026-05-20",
+      "theme": "Consommation et pouvoir d'achat",
+      "tags": [
+        "cout-de-la-vie",
+        "pouvoir-dachat",
+        "inflation"
+      ],
+      "expression": "faire face à une hausse du coût de la vie",
+      "zh": "应对生活成本上涨",
+      "collocations": [
+        "faire face à une forte hausse du coût de la vie",
+        "aider les ménages à faire face à la hausse du coût de la vie",
+        "avoir du mal à faire face à la hausse des prix"
+      ],
+      "example": "De nombreux ménages ont du mal à faire face à une hausse du coût de la vie.",
+      "useCase": "通货膨胀、购买力、社会不平等、家庭预算。"
+    },
+    {
+      "date": "2026-05-20",
+      "batch": "2026-05-20",
+      "theme": "Culture et vie sociale",
+      "tags": [
+        "cohesion-sociale",
+        "solidarite",
+        "vivre-ensemble"
+      ],
+      "expression": "renforcer la cohésion sociale",
+      "zh": "加强社会凝聚力",
+      "collocations": [
+        "renforcer la cohésion sociale dans les quartiers",
+        "contribuer à renforcer la cohésion sociale",
+        "des politiques qui renforcent la cohésion sociale"
+      ],
+      "example": "Les associations locales peuvent renforcer la cohésion sociale en créant des espaces de rencontre.",
+      "useCase": "社区生活、社会团结、公共政策、代际关系。"
+    },
+    {
+      "date": "2026-05-20",
+      "batch": "2026-05-20",
+      "theme": "Environnement et transition écologique",
+      "tags": [
+        "gaz-a-effet-de-serre",
+        "climat",
+        "transition-ecologique"
+      ],
+      "expression": "réduire les émissions de gaz à effet de serre",
+      "zh": "减少温室气体排放",
+      "collocations": [
+        "réduire les émissions de gaz à effet de serre dans les transports",
+        "des mesures pour réduire les émissions de gaz à effet de serre",
+        "s'engager à réduire les émissions de gaz à effet de serre"
+      ],
+      "example": "Pour lutter contre le réchauffement climatique, il faut réduire les émissions de gaz à effet de serre.",
+      "useCase": "气候变化、环保政策、交通、能源转型。"
+    },
+    {
+      "date": "2026-05-20",
+      "batch": "2026-05-20",
+      "theme": "Santé et accès aux soins",
+      "tags": [
+        "acces-aux-soins",
+        "inegalites-territoriales",
+        "sante"
+      ],
+      "expression": "avoir du mal à accéder aux soins",
+      "zh": "难以获得医疗服务",
+      "collocations": [
+        "avoir du mal à accéder aux soins dans les zones rurales",
+        "les patients qui ont du mal à accéder aux soins",
+        "réduire les difficultés d'accès aux soins"
+      ],
+      "example": "Dans certaines régions, de nombreux patients ont du mal à accéder aux soins faute de médecins.",
+      "useCase": "医疗荒漠、公共卫生、社会不平等、弱势群体。"
+    },
+    {
+      "date": "2026-05-20",
+      "batch": "2026-05-20",
+      "theme": "Médias et information",
+      "tags": [
+        "desinformation",
+        "medias",
+        "esprit-critique"
+      ],
+      "expression": "lutter contre la désinformation",
+      "zh": "打击虚假信息",
+      "collocations": [
+        "lutter contre la désinformation sur les réseaux sociaux",
+        "apprendre à lutter contre la désinformation",
+        "des outils pour lutter contre la désinformation"
+      ],
+      "example": "L'école devrait apprendre aux jeunes à lutter contre la désinformation en développant leur esprit critique.",
+      "useCase": "媒体素养、社交网络、民主、信息辨别。"
+    },
+    {
+      "date": "2026-05-20",
+      "batch": "2026-05-20",
+      "theme": "Travail et organisation professionnelle",
+      "tags": [
+        "insertion-professionnelle",
+        "jeunes",
+        "emploi"
+      ],
+      "expression": "favoriser l'insertion professionnelle des jeunes",
+      "zh": "促进年轻人就业融入",
+      "collocations": [
+        "favoriser l'insertion professionnelle des jeunes diplômés",
+        "des dispositifs pour favoriser l'insertion professionnelle des jeunes",
+        "aider les jeunes à s'insérer dans le monde du travail"
+      ],
+      "example": "Les stages et l'alternance peuvent favoriser l'insertion professionnelle des jeunes.",
+      "useCase": "青年就业、职业培训、教育与劳动市场。"
+    },
+    {
+      "date": "2026-05-20",
+      "batch": "2026-05-20",
+      "theme": "Logement et conditions de vie",
+      "tags": [
+        "logement-abordable",
+        "conditions-de-vie",
+        "precarite"
+      ],
+      "expression": "souffrir d'un manque de logements abordables",
+      "zh": "面临可负担住房不足的问题",
+      "collocations": [
+        "souffrir d'un manque de logements abordables dans les grandes villes",
+        "une ville qui souffre d'un manque de logements abordables",
+        "répondre au manque de logements abordables"
+      ],
+      "example": "Les grandes villes souffrent souvent d'un manque de logements abordables pour les étudiants et les jeunes actifs.",
+      "useCase": "住房危机、城市生活、学生和年轻工作者、生活条件。"
+    },
+    {
+      "date": "2026-05-20",
+      "batch": "2026-05-20",
+      "theme": "Environnement et transition écologique",
+      "tags": [
+        "gestes-ecoresponsables",
+        "consommation-responsable",
+        "environnement"
+      ],
+      "expression": "adopter des gestes écoresponsables",
+      "zh": "采取环保负责任的日常行为",
+      "collocations": [
+        "adopter des gestes écoresponsables au quotidien",
+        "encourager les citoyens à adopter des gestes écoresponsables",
+        "des gestes écoresponsables simples"
+      ],
+      "example": "Chacun peut adopter des gestes écoresponsables, comme réduire sa consommation d'énergie.",
+      "useCase": "日常环保、消费习惯、个人责任、生态转型。"
+    },
+    {
+      "date": "2026-05-20",
+      "batch": "2026-05-20",
+      "theme": "Culture et vie sociale",
+      "tags": [
+        "lien-social",
+        "isolement",
+        "solidarite"
+      ],
+      "expression": "préserver le lien social",
+      "zh": "维护社会联系/人际纽带",
+      "collocations": [
+        "préserver le lien social entre les générations",
+        "préserver le lien social dans les quartiers",
+        "des initiatives qui permettent de préserver le lien social"
+      ],
+      "example": "Les activités collectives permettent de préserver le lien social et de lutter contre l'isolement.",
+      "useCase": "社区生活、老年人、孤独问题、社会团结。"
+    },
+    {
+      "date": "2026-05-20",
+      "batch": "2026-05-20",
+      "theme": "Numérique et société",
+      "tags": [
+        "ecrans",
+        "adolescents",
+        "usage-du-numerique"
+      ],
+      "expression": "encadrer l'usage des écrans chez les adolescents",
+      "zh": "规范青少年的屏幕使用",
+      "collocations": [
+        "encadrer l'usage des écrans chez les adolescents",
+        "mieux encadrer l'usage des écrans à la maison",
+        "sensibiliser les parents à l'usage des écrans"
+      ],
+      "example": "Il est nécessaire d'encadrer l'usage des écrans chez les adolescents sans diaboliser le numérique.",
+      "useCase": "数字生活、青少年教育、家庭规则、心理健康。"
     }
   ]
 }
