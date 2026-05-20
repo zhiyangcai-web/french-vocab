@@ -1,0 +1,58 @@
+{
+  "updatedAt": "2026-05-20",
+  "selectionMode": "TV5MONDE-first + RFI backup",
+  "items": [
+    {
+      "id": "2026-05-20-001",
+      "date": "2026-05-20",
+      "title": "Des Nigerians au secours de la mangrove",
+      "sourceUrl": "https://apprendre.tv5monde.com/fr/exercices/b2-avance/des-nigerians-au-secours-de-la-mangrove",
+      "transcriptUrl": "https://apprendre.tv5monde.com/fr/exercices/b2-avance/des-nigerians-au-secours-de-la-mangrove",
+      "sourceName": "TV5MONDE",
+      "sourceType": "video",
+      "level": "B2",
+      "theme": "Environnement",
+      "status": "new",
+      "comprehension": null,
+      "transcriptSummary": "Page officielle TV5MONDE B2 avec video, sous-titres, exercices et vocabulaire autour de la restauration de la mangrove au Nigeria. Utiliser les sous-titres officiels sur la page, sans copier la transcription complete dans ce depot.",
+      "tasks": [
+        {
+          "step": "Premiere ecoute",
+          "instruction": "Sans texte, identifier le sujet, le lieu, les acteurs principaux et le probleme environnemental."
+        },
+        {
+          "step": "Deuxieme ecoute",
+          "instruction": "Relever 6 mots cles: menace, solution, consequences, acteurs locaux, chiffres ou lieux, resultat attendu."
+        },
+        {
+          "step": "Troisieme ecoute",
+          "instruction": "Avec les sous-titres officiels, travailler 3 a 5 phrases utiles puis reformuler l'enjeu en 60 secondes."
+        }
+      ],
+      "keyExpressions": [
+        "preserver un ecosysteme",
+        "restaurer la mangrove",
+        "convaincre les habitants",
+        "une communaute locale",
+        "faire face aux inondations",
+        "dependre des ressources naturelles"
+      ],
+      "hardSentences": [
+        "Comment restaurer un ecosysteme sans exclure les communautes qui en dependent ?",
+        "La mangrove protege les villages, mais elle reste menacee par le petrole et les inondations.",
+        "Les habitants doivent etre convaincus que la conservation peut aussi proteger leurs moyens de subsistance."
+      ],
+      "difficultyNotes": [
+        "B2 adapte: reportage court, theme DELF frequent, lexique environnemental concret.",
+        "Ecoute intensive possible car la page officielle propose des sous-titres et des exercices.",
+        "Si la vitesse semble trop rapide, limiter la production orale a un resume de 45 secondes."
+      ],
+      "reviewPlan": {
+        "firstReview": "2026-05-21",
+        "secondReview": "2026-05-23",
+        "thirdReview": "2026-05-27",
+        "method": "J+1 reprendre les hardSentences; J+3 refaire sans sous-titres; J+7 produire un avis type DELF B2."
+      }
+    }
+  ]
+}

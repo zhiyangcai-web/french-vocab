@@ -1,0 +1,644 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Cache-Control" content="no-store">
+  <title>DELF B2 Listening Hub</title>
+  <style>
+    :root {
+      --bg: #f6f7f4;
+      --panel: #ffffff;
+      --ink: #18211f;
+      --muted: #66706d;
+      --line: #d8ddd7;
+      --green: #167c63;
+      --green-soft: #e3f3ee;
+      --orange: #a85e12;
+      --orange-soft: #fff1df;
+      --blue: #2368a2;
+      --blue-soft: #e8f1f8;
+      --shadow: 0 12px 34px rgba(31, 45, 42, .11);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: "Aptos", "Segoe UI", "Microsoft YaHei", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+    }
+
+    .app {
+      width: min(980px, 100%);
+      margin: 0 auto;
+      padding: 18px 14px 30px;
+    }
+
+    header {
+      display: grid;
+      gap: 8px;
+      padding: 4px 2px 14px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 25px;
+      line-height: 1.2;
+      letter-spacing: 0;
+    }
+
+    .sub {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .filters {
+      position: sticky;
+      top: 0;
+      z-index: 5;
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 8px;
+      margin: 0 -14px 12px;
+      padding: 10px 14px;
+      background: rgba(246, 247, 244, .96);
+      border-bottom: 1px solid var(--line);
+      backdrop-filter: blur(10px);
+    }
+
+    select,
+    button {
+      min-height: 42px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      color: var(--ink);
+      font: inherit;
+      font-size: 14px;
+      padding: 8px 10px;
+    }
+
+    button {
+      cursor: pointer;
+      font-weight: 700;
+    }
+
+    button.primary {
+      background: var(--green);
+      border-color: var(--green);
+      color: #fff;
+    }
+
+    button.secondary {
+      background: var(--blue-soft);
+      border-color: #c9dae7;
+      color: var(--blue);
+    }
+
+    button:disabled {
+      cursor: not-allowed;
+      opacity: .48;
+    }
+
+    .summary {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin: 10px 0 12px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .recommend {
+      margin: 0 0 12px;
+      padding: 12px;
+      background: var(--orange-soft);
+      border: 1px solid #f0d7b8;
+      border-radius: 8px;
+      color: #4f3218;
+      font-size: 14px;
+      line-height: 1.45;
+    }
+
+    .list {
+      display: grid;
+      gap: 12px;
+    }
+
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      padding: 15px;
+    }
+
+    .card-head {
+      display: grid;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+
+    .title-row {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: 19px;
+      line-height: 1.28;
+      letter-spacing: 0;
+    }
+
+    .status {
+      flex: 0 0 auto;
+      display: inline-flex;
+      align-items: center;
+      min-height: 30px;
+      padding: 5px 9px;
+      border-radius: 999px;
+      background: var(--green-soft);
+      color: var(--green);
+      font-size: 12px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      min-height: 28px;
+      padding: 4px 8px;
+      border-radius: 999px;
+      background: #f1f3ef;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 750;
+    }
+
+    .pill.level { background: var(--blue-soft); color: var(--blue); }
+    .pill.theme { background: var(--orange-soft); color: var(--orange); }
+
+    .actions {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 8px;
+      margin: 12px 0;
+    }
+
+    .action-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 42px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      color: var(--ink);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 800;
+      padding: 8px 10px;
+      text-align: center;
+    }
+
+    .action-link.primary {
+      background: var(--green);
+      border-color: var(--green);
+      color: #fff;
+    }
+
+    .status-control {
+      width: 100%;
+    }
+
+    .section {
+      border-top: 1px solid var(--line);
+      padding-top: 12px;
+      margin-top: 12px;
+    }
+
+    .section h3 {
+      margin: 0 0 8px;
+      font-size: 15px;
+      line-height: 1.3;
+    }
+
+    ol,
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    li {
+      margin: 7px 0;
+      line-height: 1.5;
+    }
+
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+    }
+
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      padding: 6px 9px;
+      border-radius: 999px;
+      background: #eef2ee;
+      color: #2f3b37;
+      font-size: 13px;
+      line-height: 1.25;
+    }
+
+    details {
+      border-top: 1px solid var(--line);
+      margin-top: 12px;
+      padding-top: 12px;
+    }
+
+    summary {
+      cursor: pointer;
+      color: var(--blue);
+      font-weight: 800;
+      min-height: 32px;
+    }
+
+    .notes {
+      display: grid;
+      gap: 12px;
+      margin-top: 8px;
+    }
+
+    .empty {
+      padding: 30px 12px;
+      color: var(--muted);
+      text-align: center;
+      border: 1px dashed var(--line);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, .62);
+    }
+
+    @media (max-width: 720px) {
+      .filters {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .actions {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 460px) {
+      .app { padding: 14px 10px 24px; }
+      h1 { font-size: 22px; }
+      h2 { font-size: 18px; }
+      .filters {
+        margin-left: -10px;
+        margin-right: -10px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      .title-row {
+        display: grid;
+      }
+      .status {
+        width: fit-content;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="app">
+    <header>
+      <h1>DELF B2 Listening Hub</h1>
+      <p id="updated" class="sub">正在载入听力材料...</p>
+    </header>
+
+    <section class="filters" aria-label="Listening filters">
+      <select id="statusFilter" aria-label="按状态筛选">
+        <option value="today">今日</option>
+        <option value="notDone">未完成</option>
+        <option value="extensive">已泛听</option>
+        <option value="intensive">已精听</option>
+        <option value="reviewed">已复听</option>
+        <option value="all">全部</option>
+      </select>
+      <select id="themeFilter" aria-label="按主题筛选"></select>
+      <select id="levelFilter" aria-label="按难度筛选"></select>
+      <select id="sourceFilter" aria-label="按来源筛选"></select>
+    </section>
+
+    <div class="summary">
+      <span id="countText">0 条材料</span>
+      <button id="resetBtn" type="button">清除本机状态</button>
+    </div>
+
+    <section id="recommendation" class="recommend" aria-live="polite"></section>
+    <section id="cards" class="list" aria-live="polite"></section>
+  </main>
+
+  <script>
+    const STATUS_LABELS = {
+      new: "新材料",
+      extensive: "已泛听",
+      intensive: "已精听",
+      reviewed: "已复听"
+    };
+
+    const STATUS_OPTIONS = Object.entries(STATUS_LABELS)
+      .map(([value, label]) => `<option value="${value}">${label}</option>`)
+      .join("");
+
+    const DEFAULT_TASKS = [
+      "第一遍：不看文本，听主旨。",
+      "第二遍：抓关键词和细节。",
+      "第三遍：看 transcript 或 transcriptUrl，精听 3-5 句。"
+    ];
+
+    const storageKey = "delf-b2-listening-status-v1";
+    const state = {
+      items: [],
+      statuses: readStatuses()
+    };
+
+    const els = {
+      updated: document.getElementById("updated"),
+      statusFilter: document.getElementById("statusFilter"),
+      themeFilter: document.getElementById("themeFilter"),
+      levelFilter: document.getElementById("levelFilter"),
+      sourceFilter: document.getElementById("sourceFilter"),
+      countText: document.getElementById("countText"),
+      resetBtn: document.getElementById("resetBtn"),
+      recommendation: document.getElementById("recommendation"),
+      cards: document.getElementById("cards")
+    };
+
+    init();
+
+    async function init() {
+      try {
+        const response = await fetch(`listening.json?v=${Date.now()}`, { cache: "no-store" });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const data = await response.json();
+        state.items = normalizeItems(data);
+        els.updated.textContent = `数据更新：${data.updatedAt || "未标注"} · Source mode: ${data.selectionMode || "TV5MONDE-first + RFI backup"}`;
+        buildFilterOptions();
+        bindEvents();
+        render();
+      } catch (error) {
+        els.updated.textContent = "无法载入 listening.json。";
+        els.cards.innerHTML = `<div class="empty">载入失败：${escapeHtml(error.message)}</div>`;
+        els.recommendation.hidden = true;
+      }
+    }
+
+    function bindEvents() {
+      for (const select of [els.statusFilter, els.themeFilter, els.levelFilter, els.sourceFilter]) {
+        select.addEventListener("change", render);
+      }
+
+      els.resetBtn.addEventListener("click", () => {
+        localStorage.removeItem(storageKey);
+        state.statuses = {};
+        render();
+      });
+    }
+
+    function normalizeItems(data) {
+      const items = Array.isArray(data) ? data : data.items;
+      return (items || []).map((item) => ({
+        ...item,
+        tasks: Array.isArray(item.tasks) && item.tasks.length ? item.tasks : DEFAULT_TASKS,
+        keyExpressions: Array.isArray(item.keyExpressions) ? item.keyExpressions : [],
+        hardSentences: Array.isArray(item.hardSentences) ? item.hardSentences : [],
+        difficultyNotes: Array.isArray(item.difficultyNotes) ? item.difficultyNotes : [],
+        reviewPlan: item.reviewPlan && typeof item.reviewPlan === "object" ? item.reviewPlan : {}
+      }));
+    }
+
+    function buildFilterOptions() {
+      fillSelect(els.themeFilter, "全部主题", uniqueValues("theme"));
+      fillSelect(els.levelFilter, "全部难度", uniqueValues("level"));
+      fillSelect(els.sourceFilter, "全部来源", uniqueValues("sourceName"));
+    }
+
+    function uniqueValues(field) {
+      return [...new Set(state.items.map((item) => item[field]).filter(Boolean))].sort((a, b) => a.localeCompare(b));
+    }
+
+    function fillSelect(select, label, values) {
+      select.innerHTML = `<option value="all">${label}</option>` + values
+        .map((value) => `<option value="${escapeAttr(value)}">${escapeHtml(value)}</option>`)
+        .join("");
+    }
+
+    function render() {
+      const filtered = state.items.filter(matchesFilters);
+      els.countText.textContent = `${filtered.length} / ${state.items.length} 条材料`;
+      renderRecommendation();
+      els.cards.innerHTML = filtered.length
+        ? filtered.map(renderCard).join("")
+        : `<div class="empty">当前筛选下没有材料。</div>`;
+
+      els.cards.querySelectorAll("[data-status-select]").forEach((select) => {
+        select.addEventListener("change", (event) => {
+          const id = event.currentTarget.dataset.statusSelect;
+          state.statuses[id] = event.currentTarget.value;
+          writeStatuses(state.statuses);
+          render();
+        });
+      });
+    }
+
+    function matchesFilters(item) {
+      const status = getStatus(item);
+      const today = localDate();
+      const statusFilter = els.statusFilter.value;
+      const statusMatch =
+        statusFilter === "all" ||
+        (statusFilter === "today" && item.date === today) ||
+        (statusFilter === "notDone" && status !== "reviewed") ||
+        statusFilter === status;
+
+      return statusMatch &&
+        optionMatches(els.themeFilter.value, item.theme) &&
+        optionMatches(els.levelFilter.value, item.level) &&
+        optionMatches(els.sourceFilter.value, item.sourceName);
+    }
+
+    function optionMatches(filterValue, itemValue) {
+      return filterValue === "all" || filterValue === itemValue;
+    }
+
+    function renderRecommendation() {
+      const suggestion = nextReviewItem();
+      if (!suggestion) {
+        els.recommendation.hidden = false;
+        els.recommendation.textContent = "下一条建议复听材料：暂无。";
+        return;
+      }
+
+      const due = nextDueDate(suggestion);
+      els.recommendation.hidden = false;
+      els.recommendation.innerHTML = `下一条建议复听材料：<strong>${escapeHtml(suggestion.title)}</strong>${due ? ` · 建议日期 ${escapeHtml(due)}` : ""}`;
+    }
+
+    function nextReviewItem() {
+      const candidates = state.items
+        .filter((item) => getStatus(item) !== "reviewed")
+        .map((item) => ({ item, due: nextDueDate(item) || "9999-12-31" }))
+        .sort((a, b) => a.due.localeCompare(b.due) || a.item.date.localeCompare(b.item.date));
+
+      const today = localDate();
+      return (candidates.find((entry) => entry.due <= today) || candidates[0] || {}).item || null;
+    }
+
+    function nextDueDate(item) {
+      const status = getStatus(item);
+      const plan = item.reviewPlan || {};
+      if (status === "new") return plan.firstReview || item.date;
+      if (status === "extensive") return plan.secondReview || plan.firstReview || item.date;
+      if (status === "intensive") return plan.thirdReview || plan.secondReview || item.date;
+      return null;
+    }
+
+    function renderCard(item) {
+      const status = getStatus(item);
+      const comprehension = item.comprehension == null ? "待记录" : `${item.comprehension}%`;
+      const transcriptUrl = item.transcriptUrl || "";
+
+      return `
+        <article class="card">
+          <div class="card-head">
+            <div class="title-row">
+              <h2>${escapeHtml(item.title)}</h2>
+              <span class="status">${escapeHtml(STATUS_LABELS[status] || status)}</span>
+            </div>
+            <div class="meta">
+              <span class="pill">${escapeHtml(item.sourceName || "Unknown")}</span>
+              <span class="pill">${escapeHtml(item.sourceType || "source")}</span>
+              <span class="pill">${escapeHtml(item.date || "")}</span>
+              <span class="pill theme">${escapeHtml(item.theme || "")}</span>
+              <span class="pill level">${escapeHtml(item.level || "")}</span>
+              <span class="pill">听懂率 ${escapeHtml(comprehension)}</span>
+            </div>
+          </div>
+
+          <div class="actions">
+            <a class="action-link primary" href="${escapeAttr(item.sourceUrl)}" target="_blank" rel="noopener">打开 source</a>
+            <a class="action-link secondary" href="${escapeAttr(transcriptUrl || item.sourceUrl)}" target="_blank" rel="noopener">打开 transcript</a>
+            <select class="status-control" data-status-select="${escapeAttr(item.id)}" aria-label="标记状态">
+              ${STATUS_OPTIONS}
+            </select>
+          </div>
+
+          <div class="section">
+            <h3>三步训练任务</h3>
+            <ol>${item.tasks.map(renderTask).join("")}</ol>
+          </div>
+
+          <div class="section">
+            <h3>微听写 hard sentences</h3>
+            ${renderList(item.hardSentences)}
+          </div>
+
+          <div class="section">
+            <h3>可进入词汇卡片的表达</h3>
+            ${renderChips(item.keyExpressions)}
+          </div>
+
+          <details>
+            <summary>Transcript / notes</summary>
+            <div class="notes">
+              ${item.transcriptSummary ? `<div>${escapeHtml(item.transcriptSummary)}</div>` : ""}
+              ${item.difficultyNotes.length ? `<div><strong>难度备注</strong>${renderList(item.difficultyNotes)}</div>` : ""}
+              ${renderReviewPlan(item.reviewPlan)}
+            </div>
+          </details>
+        </article>
+      `.replace(`value="${status}"`, `value="${status}" selected`);
+    }
+
+    function renderTask(task) {
+      if (typeof task === "string") return `<li>${escapeHtml(task)}</li>`;
+      return `<li><strong>${escapeHtml(task.step || "Task")}：</strong>${escapeHtml(task.instruction || "")}</li>`;
+    }
+
+    function renderList(values) {
+      if (!values.length) return `<div class="sub">暂无。</div>`;
+      return `<ul>${values.map((value) => `<li>${escapeHtml(value)}</li>`).join("")}</ul>`;
+    }
+
+    function renderChips(values) {
+      if (!values.length) return `<div class="sub">暂无。</div>`;
+      return `<div class="chips">${values.map((value) => `<span class="chip">${escapeHtml(value)}</span>`).join("")}</div>`;
+    }
+
+    function renderReviewPlan(plan) {
+      const entries = Object.entries(plan || {}).filter(([, value]) => value);
+      if (!entries.length) return "";
+      const labels = {
+        firstReview: "J+1",
+        secondReview: "J+3",
+        thirdReview: "J+7",
+        method: "方法"
+      };
+      return `<div><strong>复听计划</strong><ul>${entries
+        .map(([key, value]) => `<li>${escapeHtml(labels[key] || key)}：${escapeHtml(value)}</li>`)
+        .join("")}</ul></div>`;
+    }
+
+    function getStatus(item) {
+      return state.statuses[item.id] || item.status || "new";
+    }
+
+    function readStatuses() {
+      try {
+        return JSON.parse(localStorage.getItem(storageKey) || "{}");
+      } catch {
+        return {};
+      }
+    }
+
+    function writeStatuses(statuses) {
+      localStorage.setItem(storageKey, JSON.stringify(statuses));
+    }
+
+    function localDate() {
+      const now = new Date();
+      const local = new Date(now.getTime() - now.getTimezoneOffset() * 60000);
+      return local.toISOString().slice(0, 10);
+    }
+
+    function escapeHtml(value) {
+      return String(value ?? "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;");
+    }
+
+    function escapeAttr(value) {
+      return escapeHtml(value);
+    }
+  </script>
+</body>
+</html>

@@ -8,10 +8,19 @@ Study export links:
 
 https://zhiyangcai-web.github.io/french-vocab/exports.html
 
+Listening hub:
+
+https://zhiyangcai-web.github.io/french-vocab/listening.html
+
 ## Files
 
 - `index.html`: mobile flashcard app.
+- `listening.html`: mobile DELF B2 listening practice hub.
 - `vocab.json`: source data used by the web app. Each card has its own `date`, `batch`, `theme`, and `tags`.
+- `listening.json`: source data for listening materials. The app stores only source links and short study notes, not hosted audio.
+- `LISTENING_SOURCE_GUIDE.md`: source selection rules for TV5MONDE-first + RFI backup.
+- `LISTENING_UPDATE_INSTRUCTION.md`: update workflow for future listening links and transcripts.
+- `listening_log.md`: listening-material update log.
 - `daily_active_vocabulary_log.md`: daily learning log.
 - `active_vocabulary_cards.md`: card-style study source.
 - `active_vocabulary_table.md`: compact table source.

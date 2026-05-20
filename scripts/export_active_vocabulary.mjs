@@ -4,6 +4,7 @@ import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const vocabPath = path.join(root, "vocab.json");
+const listeningPath = path.join(root, "listening.json");
 const mojibakeTokens = [
   "\u920d", "\u00e2\u20ac", "\u00ef\u00bf\u00bd", "\ufffd",
   "\u00c3\u00a9", "\u00c3\u00a8", "\u00c3\u00aa", "\u00c3\u0020", "\u00c3\u00a7",
@@ -16,6 +17,15 @@ function readJson(filePath) {
 
 function writeUtf8(fileName, content) {
   fs.writeFileSync(path.join(root, fileName), content.replace(/\r?\n/g, "\n"), "utf8");
+}
+
+function isUrl(value) {
+  try {
+    new URL(value);
+    return true;
+  } catch {
+    return false;
+  }
 }
 
 function escapeCell(value) {
@@ -136,7 +146,12 @@ function exportMarkdown() {
 function validate() {
   const required = [
     "index.html",
+    "listening.html",
     "vocab.json",
+    "listening.json",
+    "LISTENING_UPDATE_INSTRUCTION.md",
+    "LISTENING_SOURCE_GUIDE.md",
+    "listening_log.md",
     "daily_active_vocabulary_log.md",
     "active_vocabulary_cards.md",
     "active_vocabulary_table.md",
@@ -161,6 +176,10 @@ function validate() {
     if (!Array.isArray(card.collocations)) throw new Error(`Card ${index + 1} collocations must be an array.`);
   }
 
+  const listeningData = readJson(listeningPath);
+  if (!Array.isArray(listeningData.items)) throw new Error("listening.json must contain items[].");
+  validateListeningItems(listeningData.items);
+
   for (const fileName of required) {
     const filePath = path.join(root, fileName);
     if (!fs.existsSync(filePath)) throw new Error(`${fileName} is missing.`);
@@ -179,7 +198,59 @@ function validate() {
     if (!header.startsWith("%PDF-")) throw new Error(`${fileName} is not a recognizable PDF.`);
   }
 
-  console.log(`Validated ${data.cards.length} cards and ${required.length} files.`);
+  console.log(`Validated ${data.cards.length} cards, ${listeningData.items.length} listening items, and ${required.length} files.`);
+}
+
+function validateListeningItems(items) {
+  const levels = new Set(["B1+", "B2", "B2+", "C1-"]);
+  const statuses = new Set(["new", "extensive", "intensive", "reviewed"]);
+  const requiredFields = [
+    "id",
+    "date",
+    "title",
+    "sourceUrl",
+    "transcriptUrl",
+    "sourceName",
+    "sourceType",
+    "level",
+    "theme",
+    "status",
+    "comprehension",
+    "tasks",
+    "keyExpressions",
+    "hardSentences",
+    "difficultyNotes",
+    "reviewPlan"
+  ];
+
+  const ids = new Set();
+  for (const [index, item] of items.entries()) {
+    const label = `Listening item ${index + 1}`;
+    for (const field of requiredFields) {
+      if (!(field in item)) throw new Error(`${label} is missing ${field}.`);
+    }
+    if (ids.has(item.id)) throw new Error(`${label} has duplicate id ${item.id}.`);
+    ids.add(item.id);
+    if (!/^\d{4}-\d{2}-\d{2}-\d{3}$/.test(item.id)) throw new Error(`${label} id must look like YYYY-MM-DD-001.`);
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(item.date)) throw new Error(`${label} date must look like YYYY-MM-DD.`);
+    for (const field of ["title", "sourceName", "sourceType", "theme"]) {
+      if (typeof item[field] !== "string" || !item[field].trim()) throw new Error(`${label} ${field} must be a non-empty string.`);
+    }
+    if (!isUrl(item.sourceUrl)) throw new Error(`${label} sourceUrl must be a valid URL.`);
+    if (item.transcriptUrl && !isUrl(item.transcriptUrl)) throw new Error(`${label} transcriptUrl must be empty or a valid URL.`);
+    if (!levels.has(item.level)) throw new Error(`${label} level must be one of ${[...levels].join(", ")}.`);
+    if (!statuses.has(item.status)) throw new Error(`${label} status must be one of ${[...statuses].join(", ")}.`);
+    if (item.comprehension !== null && (!Number.isInteger(item.comprehension) || item.comprehension < 0 || item.comprehension > 100)) {
+      throw new Error(`${label} comprehension must be null or an integer from 0 to 100.`);
+    }
+    for (const field of ["tasks", "keyExpressions", "hardSentences", "difficultyNotes"]) {
+      if (!Array.isArray(item[field])) throw new Error(`${label} ${field} must be an array.`);
+    }
+    if (item.tasks.length === 0) throw new Error(`${label} tasks must not be empty.`);
+    if (typeof item.reviewPlan !== "object" || item.reviewPlan === null || Array.isArray(item.reviewPlan)) {
+      throw new Error(`${label} reviewPlan must be an object.`);
+    }
+  }
 }
 
 const command = process.argv[2] ?? "validate";
