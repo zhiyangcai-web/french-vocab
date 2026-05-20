@@ -11,7 +11,7 @@ https://zhiyangcai-web.github.io/french-vocab/exports.html
 ## Files
 
 - `index.html`: mobile flashcard app.
-- `vocab.json`: source data used by the web app.
+- `vocab.json`: source data used by the web app. Each card has its own `date`, `batch`, `theme`, and `tags`.
 - `daily_active_vocabulary_log.md`: daily learning log.
 - `active_vocabulary_cards.md`: card-style study source.
 - `active_vocabulary_table.md`: compact table source.
@@ -33,10 +33,13 @@ npm run validate
 ## Update Workflow
 
 1. Add new DELF B2 active expressions to `vocab.json`.
-2. Run `npm run export`.
-3. Update Word/PDF exports when the study source changes.
-4. Run `npm run validate`.
-5. Commit and push to `main`.
-6. Verify the GitHub Pages link.
+2. Classify every new card individually. Reuse an existing DELF B2 theme when it fits, and add specific semantic `tags`.
+3. Run `npm run export`.
+4. Update Word/PDF exports when the study source changes.
+5. Run `npm run validate`.
+6. Commit and push to `main`.
+7. Verify the GitHub Pages link.
 
 Keep existing `date`, `theme`, and `expression` values stable for old cards because the mobile app uses them to preserve local review status.
+
+Do not use a generic `Mixte` theme unless the user explicitly asks for it. If a daily batch contains mixed vocabulary, classify each card with its own theme and tags.

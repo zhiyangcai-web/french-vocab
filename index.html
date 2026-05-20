@@ -136,6 +136,11 @@
       background: #e7f7ef;
       color: #16714a;
     }
+    .meta {
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.45;
+    }
     .expr {
       font-size: 28px;
       line-height: 1.25;
@@ -220,7 +225,9 @@
     </header>
 
     <div class="toolbar">
+      <select id="dateSelect" aria-label="Date filter"></select>
       <select id="themeSelect" aria-label="Theme filter"></select>
+      <select id="tagSelect" aria-label="Tag filter"></select>
       <select id="statusSelect" aria-label="Review status filter">
         <option value="review">待复习</option>
         <option value="known">已熟悉</option>
@@ -242,6 +249,7 @@
       <article id="card" class="card">
         <div class="face front">
           <div id="frontTag" class="tag"></div>
+          <div id="frontMeta" class="meta"></div>
           <div id="frontExpr" class="expr"></div>
           <div id="frontZh" class="zh"></div>
           <div>
@@ -252,6 +260,7 @@
         </div>
         <div class="face back">
           <div id="backTag" class="tag"></div>
+          <div id="backMeta" class="meta"></div>
           <div id="backExpr" class="expr"></div>
           <div>
             <div class="section-title">Collocations</div>
@@ -285,13 +294,17 @@
     let known = new Set(JSON.parse(localStorage.getItem("active_vocab_known") || "[]"));
 
     const els = {
+      dateSelect: document.getElementById("dateSelect"),
       themeSelect: document.getElementById("themeSelect"),
+      tagSelect: document.getElementById("tagSelect"),
       statusSelect: document.getElementById("statusSelect"),
       card: document.getElementById("card"),
       frontTag: document.getElementById("frontTag"),
+      frontMeta: document.getElementById("frontMeta"),
       frontExpr: document.getElementById("frontExpr"),
       frontZh: document.getElementById("frontZh"),
       backTag: document.getElementById("backTag"),
+      backMeta: document.getElementById("backMeta"),
       backExpr: document.getElementById("backExpr"),
       collocations: document.getElementById("collocations"),
       example: document.getElementById("example"),
@@ -322,31 +335,56 @@
       cards = data.cards || [];
       filtered = cards.slice();
       els.updated.textContent = `Updated: ${data.updated || "unknown"} · ${cards.length} cards`;
-      setupThemes();
+      setupFilters();
       applyFilter();
     }
 
-    function themes() {
-      return ["All themes", ...Array.from(new Set(cards.map(c => c.theme)))];
+    function sortedUnique(values) {
+      return Array.from(new Set(values.filter(Boolean))).sort((a, b) => String(a).localeCompare(String(b), "fr"));
     }
 
-    function setupThemes() {
-      els.themeSelect.innerHTML = "";
-      for (const theme of themes()) {
+    function fillSelect(select, values, savedValue) {
+      select.innerHTML = "";
+      for (const item of values) {
         const option = document.createElement("option");
-        option.value = theme;
-        option.textContent = theme;
-        els.themeSelect.appendChild(option);
+        option.value = item.value;
+        option.textContent = item.label;
+        select.appendChild(option);
+      }
+      if (savedValue && Array.from(select.options).some(option => option.value === savedValue)) {
+        select.value = savedValue;
       }
     }
 
+    function setupFilters() {
+      fillSelect(
+        els.dateSelect,
+        [{ value: "all", label: "全部日期" }, ...sortedUnique(cards.map(c => c.date)).map(date => ({ value: date, label: date }))],
+        localStorage.getItem("active_vocab_date_filter")
+      );
+      fillSelect(
+        els.themeSelect,
+        [{ value: "all", label: "全部主题" }, ...sortedUnique(cards.map(c => c.theme)).map(theme => ({ value: theme, label: theme }))],
+        localStorage.getItem("active_vocab_theme_filter")
+      );
+      fillSelect(
+        els.tagSelect,
+        [{ value: "all", label: "全部标签" }, ...sortedUnique(cards.flatMap(c => Array.isArray(c.tags) ? c.tags : [])).map(tag => ({ value: tag, label: tag }))],
+        localStorage.getItem("active_vocab_tag_filter")
+      );
+    }
+
     function applyFilter() {
+      const date = els.dateSelect.value;
       const theme = els.themeSelect.value;
+      const tag = els.tagSelect.value;
       const status = els.statusSelect.value;
       filtered = cards.filter(c => {
-        const themeOk = theme === "All themes" || c.theme === theme;
+        const dateOk = date === "all" || c.date === date;
+        const themeOk = theme === "all" || c.theme === theme;
+        const tagOk = tag === "all" || (Array.isArray(c.tags) && c.tags.includes(tag));
         const knownOk = status === "all" || (status === "known" ? isKnown(c) : !isKnown(c));
-        return themeOk && knownOk;
+        return dateOk && themeOk && tagOk && knownOk;
       });
       index = 0;
       flipped = false;
@@ -357,9 +395,11 @@
       if (!filtered.length) {
         els.progress.textContent = "0 / 0";
         els.frontTag.textContent = "No cards";
+        els.frontMeta.textContent = "";
         els.frontExpr.textContent = "没有符合筛选条件的卡片";
         els.frontZh.textContent = "换一个筛选，或把已熟悉词移回复习。";
         els.backTag.textContent = "No cards";
+        els.backMeta.textContent = "";
         els.backExpr.textContent = "";
         els.collocations.innerHTML = "";
         els.example.textContent = "";
@@ -372,11 +412,14 @@
       if (index >= filtered.length) index = 0;
       const c = filtered[index];
       const knownNow = isKnown(c);
+      const tagText = Array.isArray(c.tags) && c.tags.length ? c.tags.join(" · ") : "no tags";
       els.card.classList.toggle("flipped", flipped);
       els.frontTag.textContent = `${c.date} · ${c.theme}`;
+      els.frontMeta.textContent = `Batch ${c.batch || c.date} · ${tagText}`;
       els.frontExpr.textContent = c.expression;
       els.frontZh.textContent = c.zh;
       els.backTag.textContent = c.zh;
+      els.backMeta.textContent = `${c.theme} · ${tagText}`;
       els.backExpr.textContent = c.expression;
       els.collocations.innerHTML = "";
       c.collocations.forEach(item => {
@@ -440,7 +483,18 @@
     document.getElementById("shuffleBtn").addEventListener("click", shuffle);
     document.getElementById("knownBtn").addEventListener("click", toggleKnown);
     els.card.addEventListener("click", flip);
-    els.themeSelect.addEventListener("change", applyFilter);
+    els.dateSelect.addEventListener("change", () => {
+      localStorage.setItem("active_vocab_date_filter", els.dateSelect.value);
+      applyFilter();
+    });
+    els.themeSelect.addEventListener("change", () => {
+      localStorage.setItem("active_vocab_theme_filter", els.themeSelect.value);
+      applyFilter();
+    });
+    els.tagSelect.addEventListener("change", () => {
+      localStorage.setItem("active_vocab_tag_filter", els.tagSelect.value);
+      applyFilter();
+    });
     els.statusSelect.value = localStorage.getItem("active_vocab_status_filter") || "review";
     els.statusSelect.addEventListener("change", () => {
       localStorage.setItem("active_vocab_status_filter", els.statusSelect.value);

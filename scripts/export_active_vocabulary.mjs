@@ -29,6 +29,10 @@ function firstCollocation(card) {
   return Array.isArray(card.collocations) ? card.collocations.join(" / ") : "";
 }
 
+function tagsText(card) {
+  return Array.isArray(card.tags) ? card.tags.join(", ") : "";
+}
+
 function groupCards(cards) {
   const groups = new Map();
   for (const card of cards) {
@@ -51,6 +55,8 @@ function buildCardsMarkdown(data) {
     lines.push(`## ${group}`, "");
     cards.forEach((card, index) => {
       lines.push(`### ${index + 1}. ${card.expression}`, "");
+      lines.push(`批次：${card.batch ?? card.date}`, "");
+      lines.push(`标签：${tagsText(card)}`, "");
       lines.push(`中文：${card.zh ?? ""}`, "");
       lines.push("常见搭配：", "");
       for (const item of card.collocations ?? []) lines.push(`- ${item}`);
@@ -68,14 +74,16 @@ function buildTableMarkdown(data) {
     "",
     "这是每日主动词汇的动态表。只记录需要进入写作/口语主动使用的表达。",
     "",
-    "| Date | Theme | Expression | 中文 | Collocation | Example | Status |",
-    "|---|---|---|---|---|---|---|"
+    "| Date | Batch | Theme | Tags | Expression | 中文 | Collocation | Example | Status |",
+    "|---|---|---|---|---|---|---|---|---|"
   ];
 
   for (const card of data.cards) {
     lines.push([
       card.date,
+      card.batch,
       card.theme,
+      tagsText(card),
       card.expression,
       card.zh,
       firstCollocation(card),
@@ -100,6 +108,8 @@ function buildDailyLogMarkdown(data) {
     lines.push(`## ${group}`, "", "### Active Expressions", "");
     cards.forEach((card, index) => {
       lines.push(`${index + 1}. \`${card.expression}\``);
+      lines.push(`   - 批次：${card.batch ?? card.date}`);
+      lines.push(`   - 标签：${tagsText(card)}`);
       lines.push(`   - 中文：${card.zh ?? ""}`);
       lines.push(`   - 搭配：\`${(card.collocations ?? [])[0] ?? ""}\``);
       lines.push(`   - 例句：\`${card.example ?? ""}\``, "");
@@ -111,9 +121,15 @@ function buildDailyLogMarkdown(data) {
 
 function exportMarkdown() {
   const data = readJson(vocabPath);
-  writeUtf8("active_vocabulary_cards.md", buildCardsMarkdown(data));
-  writeUtf8("active_vocabulary_table.md", buildTableMarkdown(data));
-  writeUtf8("daily_active_vocabulary_log.md", buildDailyLogMarkdown(data));
+  const cardsMarkdown = buildCardsMarkdown(data);
+  const tableMarkdown = buildTableMarkdown(data);
+  const dailyLogMarkdown = buildDailyLogMarkdown(data);
+  writeUtf8("active_vocabulary_cards.md", cardsMarkdown);
+  writeUtf8("active_vocabulary_table.md", tableMarkdown);
+  writeUtf8("daily_active_vocabulary_log.md", dailyLogMarkdown);
+  writeUtf8("cards.md", cardsMarkdown);
+  writeUtf8("table.md", tableMarkdown);
+  writeUtf8("log.md", dailyLogMarkdown);
   console.log(`Exported markdown for ${data.cards.length} cards.`);
 }
 
@@ -134,8 +150,13 @@ function validate() {
   if (!Array.isArray(data.cards)) throw new Error("vocab.json must contain cards[].");
 
   for (const [index, card] of data.cards.entries()) {
-    for (const field of ["date", "theme", "expression", "zh", "collocations", "example", "useCase"]) {
+    for (const field of ["date", "batch", "theme", "tags", "expression", "zh", "collocations", "example", "useCase"]) {
       if (!(field in card)) throw new Error(`Card ${index + 1} is missing ${field}.`);
+    }
+    if (typeof card.batch !== "string" || !card.batch.trim()) throw new Error(`Card ${index + 1} batch must be a string.`);
+    if (!Array.isArray(card.tags) || card.tags.length === 0) throw new Error(`Card ${index + 1} tags must be a non-empty array.`);
+    for (const tag of card.tags) {
+      if (typeof tag !== "string" || !tag.trim()) throw new Error(`Card ${index + 1} has an invalid tag.`);
     }
     if (!Array.isArray(card.collocations)) throw new Error(`Card ${index + 1} collocations must be an array.`);
   }

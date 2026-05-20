@@ -17,7 +17,9 @@ Every new vocabulary item must be turned into a DELF B2 active-expression card, 
 Each card in `vocab.json` must contain:
 
 - `date`
+- `batch`
 - `theme`
+- `tags`
 - `expression`
 - `zh`
 - `collocations`
@@ -25,6 +27,30 @@ Each card in `vocab.json` must contain:
 - `useCase`
 
 The card should be useful for DELF B2 writing, speaking, reading, or listening comprehension. Prefer expressions that can be reused directly in an argument, a personal example, a summary, or an opinion.
+
+## Classification Rules
+
+Classification is per card, not per daily batch. The user may send mixed vocabulary in one message.
+
+- `batch` records the update batch. If no separate batch name is needed, use the card date.
+- `theme` is the main DELF B2 topic for that specific card.
+- `tags` are finer semantic labels. A card may have several tags.
+- Prefer an existing theme when it fits the new expression.
+- Create a new theme only when no existing theme is appropriate.
+- Do not create a `Mixte` theme unless the user explicitly asks for it.
+
+Recommended DELF B2 theme names include:
+
+- Services publics et démarches administratives
+- Travail et organisation professionnelle
+- Éducation et inégalités
+- Santé et accès aux soins
+- Environnement et transition écologique
+- Numérique et société
+- Logement et conditions de vie
+- Consommation et pouvoir d'achat
+- Médias et information
+- Culture et vie sociale
 
 ## Stable IDs
 
@@ -44,16 +70,17 @@ When the user sends new vocabulary, Codex must do all of the following by defaul
 2. Read `VOCAB_UPDATE_INSTRUCTION.md`.
 3. Read `vocab.json` and inspect existing themes and card style.
 4. Convert the user's input into one or more DELF B2 active-expression cards.
-5. Add the new cards to `vocab.json`.
-6. Update the top-level `updated` date in `vocab.json` to the current date.
-7. Run:
+5. Classify every card individually with `batch`, `theme`, and `tags`.
+6. Add the new cards to `vocab.json`.
+7. Update the top-level `updated` date in `vocab.json` to the current date.
+8. Run:
 
 ```bash
 npm run export
 npm run validate
 ```
 
-8. Confirm generated study files are updated:
+9. Confirm generated study files are updated:
 
 - `daily_active_vocabulary_log.md`
 - `active_vocabulary_cards.md`
@@ -64,10 +91,10 @@ npm run validate
 - `active_vocabulary_table.pdf`
 - public export aliases such as `cards.md`, `cards.docx`, `cards.pdf`, `table.md`, `table.docx`, `table.pdf`, and `log.md` if the export script manages them.
 
-9. Check for common encoding or mojibake risks with `npm run validate`.
-10. Commit all changed source and generated files.
-11. Push to `main`.
-12. Verify GitHub Pages or raw GitHub after push.
+10. Check for common encoding or mojibake risks with `npm run validate`.
+11. Commit all changed source and generated files.
+12. Push to `main`.
+13. Verify GitHub Pages or raw GitHub after push.
 
 ## Commit And Push
 

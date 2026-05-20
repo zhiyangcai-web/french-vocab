@@ -1,367 +1,547 @@
 {
-    "updated":  "2026-05-19",
-    "cards":  [
-                  {
-                      "date":  "2026-04-27",
-                      "theme":  "Services publics et dématérialisation",
-                      "expression":  "faire des démarches administratives",
-                      "zh":  "办理行政手续",
-                      "collocations":  [
-                                           "faire ses démarches administratives en ligne",
-                                           "aider quelqu\u0027un à faire ses démarches administratives"
-                                       ],
-                      "example":  "J\u0027en ai assez de faire des démarches administratives en ligne.",
-                      "useCase":  "公共服务、行政、数字化、移民手续。"
-                  },
-                  {
-                      "date":  "2026-04-27",
-                      "theme":  "Services publics et dématérialisation",
-                      "expression":  "la prise de rendez-vous en ligne",
-                      "zh":  "线上预约",
-                      "collocations":  [
-                                           "la prise de rendez-vous en ligne est difficile",
-                                           "la prise de rendez-vous en ligne est impossible"
-                                       ],
-                      "example":  "La prise de rendez-vous en ligne est devenue un véritable casse-tête.",
-                      "useCase":  "医疗、行政窗口、学校/政府服务预约。"
-                  },
-                  {
-                      "date":  "2026-04-27",
-                      "theme":  "Services publics et dématérialisation",
-                      "expression":  "une plateforme constamment saturée",
-                      "zh":  "总是爆满/无法正常使用的平台",
-                      "collocations":  [
-                                           "dénoncer une plateforme constamment saturée",
-                                           "une plateforme constamment saturée empêche les usagers de..."
-                                       ],
-                      "example":  "L\u0027ANEF est une plateforme constamment saturée.",
-                      "useCase":  "数字平台、行政系统、在线服务失败。"
-                  },
-                  {
-                      "date":  "2026-04-27",
-                      "theme":  "Services publics et dématérialisation",
-                      "expression":  "un véritable casse-tête",
-                      "zh":  "非常头疼的问题",
-                      "collocations":  [
-                                           "devenir un véritable casse-tête",
-                                           "représenter un véritable casse-tête pour quelqu\u0027un"
-                                       ],
-                      "example":  "Pour certains usagers, les démarches en ligne deviennent un véritable casse-tête.",
-                      "useCase":  "表达某件事很麻烦、很难处理。"
-                  },
-                  {
-                      "date":  "2026-04-27",
-                      "theme":  "Services publics et dématérialisation",
-                      "expression":  "une rupture de soins",
-                      "zh":  "医疗/治疗中断",
-                      "collocations":  [
-                                           "provoquer une rupture de soins",
-                                           "entraîner une rupture de soins",
-                                           "éviter une rupture de soins"
-                                       ],
-                      "example":  "Une rupture de soins peut avoir des conséquences graves.",
-                      "useCase":  "医疗系统、预约困难、弱势人群。"
-                  },
-                  {
-                      "date":  "2026-04-27",
-                      "theme":  "Services publics et dématérialisation",
-                      "expression":  "être placé malgré soi en situation irrégulière",
-                      "zh":  "非自愿地陷入无合法身份状态",
-                      "collocations":  [
-                                           "être placé malgré soi en situation irrégulière à cause de...",
-                                           "des personnes placées malgré elles en situation irrégulière"
-                                       ],
-                      "example":  "Des personnes sont placées malgré elles en situation irrégulière à cause des blocages administratifs.",
-                      "useCase":  "居留证、行政延误、移民手续。"
-                  },
-                  {
-                      "date":  "2026-04-27",
-                      "theme":  "Services publics et dématérialisation",
-                      "expression":  "se retrouver malgré soi en situation irrégulière",
-                      "zh":  "非自愿地变成身份不规则/无合法身份",
-                      "collocations":  [
-                                           "je me retrouve malgré moi en situation irrégulière",
-                                           "se retrouver en difficulté à cause d\u0027une procédure bloquée"
-                                       ],
-                      "example":  "Je me retrouve malgré moi en situation irrégulière, alors que j\u0027attends une prolongation de mon titre de séjour.",
-                      "useCase":  "第一人称表达时更自然。"
-                  },
-                  {
-                      "date":  "2026-04-27",
-                      "theme":  "Services publics et dématérialisation",
-                      "expression":  "renouveler un titre de séjour",
-                      "zh":  "更新/续办居留证",
-                      "collocations":  [
-                                           "renouveler son titre de séjour",
-                                           "avoir du mal à renouveler son titre de séjour"
-                                       ],
-                      "example":  "Il est parfois difficile de renouveler son titre de séjour sur une plateforme saturée.",
-                      "useCase":  "移民行政手续。"
-                  },
-                  {
-                      "date":  "2026-04-27",
-                      "theme":  "Services publics et dématérialisation",
-                      "expression":  "être à l\u0027aise avec le numérique",
-                      "zh":  "熟悉/擅长使用数字工具",
-                      "collocations":  [
-                                           "ne pas être à l\u0027aise avec le numérique",
-                                           "être peu à l\u0027aise avec les outils numériques"
-                                       ],
-                      "example":  "Les personnes âgées ne sont pas toujours à l\u0027aise avec le numérique.",
-                      "useCase":  "数字鸿沟、老年人、弱势群体。"
-                  },
-                  {
-                      "date":  "2026-04-27",
-                      "theme":  "Services publics et dématérialisation",
-                      "expression":  "être exclu des services publics",
-                      "zh":  "被公共服务排除在外",
-                      "collocations":  [
-                                           "risquer d\u0027être exclu des services publics",
-                                           "exclure certains usagers des services publics"
-                                       ],
-                      "example":  "Certaines personnes risquent d\u0027être exclues des services publics.",
-                      "useCase":  "公共服务、社会不平等、数字化批评。"
-                  },
-                  {
-                      "collocations":  [
-                                           "suivre une partie de ses cours en ligne",
-                                           "suivre un cours à distance"
-                                       ],
-                      "example":  "De plus en plus d\u0027étudiants suivent une partie de leurs cours en ligne.",
-                      "expression":  "suivre un cours en ligne",
-                      "date":  "2026-05-19",
-                      "useCase":  "教育、大学、数字化学习。",
-                      "zh":  "上网课",
-                      "theme":  "Éducation et apprentissage numérique"
-                  },
-                  {
-                      "collocations":  [
-                                           "acquérir des compétences utiles",
-                                           "acquérir des compétences professionnelles",
-                                           "acquérir des compétences numériques"
-                                       ],
-                      "example":  "Les cours en ligne permettent d\u0027acquérir de nouvelles compétences à son rythme.",
-                      "expression":  "acquérir de nouvelles compétences",
-                      "date":  "2026-05-19",
-                      "useCase":  "学习、就业、职业发展。",
-                      "zh":  "获得新技能",
-                      "theme":  "Éducation et apprentissage numérique"
-                  },
-                  {
-                      "collocations":  [
-                                           "favoriser l\u0027autonomie des étudiants",
-                                           "favoriser l\u0027autonomie des apprenants"
-                                       ],
-                      "example":  "L\u0027apprentissage en ligne peut favoriser l\u0027autonomie des étudiants.",
-                      "expression":  "favoriser l\u0027autonomie des étudiants",
-                      "date":  "2026-05-19",
-                      "useCase":  "线上教育的优点。",
-                      "zh":  "促进学生自主性",
-                      "theme":  "Éducation et apprentissage numérique"
-                  },
-                  {
-                      "collocations":  [
-                                           "risquer de creuser les inégalités scolaires",
-                                           "éviter de creuser les inégalités scolaires"
-                                       ],
-                      "example":  "Le numérique risque de creuser les inégalités scolaires si tous les élèves n\u0027ont pas accès aux mêmes outils.",
-                      "expression":  "creuser les inégalités scolaires",
-                      "date":  "2026-05-19",
-                      "useCase":  "数字鸿沟、教育公平。",
-                      "zh":  "加深教育不平等",
-                      "theme":  "Éducation et apprentissage numérique"
-                  },
-                  {
-                      "collocations":  [
-                                           "certains étudiants manquent d\u0027encadrement",
-                                           "manquer d\u0027encadrement à distance"
-                                       ],
-                      "example":  "Certains étudiants manquent d\u0027encadrement lorsqu\u0027ils suivent des cours à distance.",
-                      "expression":  "manquer d\u0027encadrement",
-                      "date":  "2026-05-19",
-                      "useCase":  "线上学习的风险。",
-                      "zh":  "缺乏指导/监督",
-                      "theme":  "Éducation et apprentissage numérique"
-                  },
-                  {
-                      "collocations":  [
-                                           "avoir du mal à rester motivé sur le long terme",
-                                           "aider les étudiants à rester motivés"
-                                       ],
-                      "example":  "Il peut être difficile de rester motivé sur le long terme sans contact direct avec les enseignants.",
-                      "expression":  "rester motivé sur le long terme",
-                      "date":  "2026-05-19",
-                      "useCase":  "学习动力、远程教育。",
-                      "zh":  "长期保持动力",
-                      "theme":  "Éducation et apprentissage numérique"
-                  },
-                  {
-                      "collocations":  [
-                                           "avoir accès à des ressources pédagogiques de qualité",
-                                           "faciliter l\u0027accès aux ressources pédagogiques"
-                                       ],
-                      "example":  "Internet permet d\u0027avoir accès à des ressources pédagogiques très variées.",
-                      "expression":  "avoir accès à des ressources pédagogiques",
-                      "date":  "2026-05-19",
-                      "useCase":  "线上学习的优点。",
-                      "zh":  "能够获得教学资源",
-                      "theme":  "Éducation et apprentissage numérique"
-                  },
-                  {
-                      "collocations":  [
-                                           "adapter son rythme d\u0027apprentissage à ses besoins",
-                                           "apprendre à son propre rythme"
-                                       ],
-                      "example":  "Les plateformes en ligne permettent parfois d\u0027adapter son rythme d\u0027apprentissage à ses besoins.",
-                      "expression":  "adapter son rythme d\u0027apprentissage à ses besoins",
-                      "date":  "2026-05-19",
-                      "useCase":  "个性化学习。",
-                      "zh":  "根据自己的需要调整学习节奏",
-                      "theme":  "Éducation et apprentissage numérique"
-                  },
-                  {
-                      "collocations":  [
-                                           "mettre en place un accompagnement personnalisé pour les étudiants",
-                                           "bénéficier d\u0027un accompagnement personnalisé"
-                                       ],
-                      "example":  "Les universités devraient mettre en place un accompagnement personnalisé pour éviter le décrochage.",
-                      "expression":  "mettre en place un accompagnement personnalisé",
-                      "date":  "2026-05-19",
-                      "useCase":  "教育政策、解决方案。",
-                      "zh":  "建立个性化辅导/支持",
-                      "theme":  "Éducation et apprentissage numérique"
-                  },
-                  {
-                      "collocations":  [
-                                           "évaluer régulièrement les progrès des apprenants",
-                                           "mesurer les progrès des étudiants"
-                                       ],
-                      "example":  "Il est important d\u0027évaluer régulièrement les progrès des apprenants.",
-                      "expression":  "évaluer les progrès des apprenants",
-                      "date":  "2026-05-19",
-                      "useCase":  "教学质量、学习效果。",
-                      "zh":  "评估学习者的进步",
-                      "theme":  "Éducation et apprentissage numérique"
-                  },
-                  {
-                      "collocations":  [
-                                           "concilier vie professionnelle et vie personnelle",
-                                           "avoir du mal à concilier travail et vie privée"
-                                       ],
-                      "example":  "Le télétravail peut aider certains salariés à concilier vie professionnelle et vie personnelle.",
-                      "expression":  "concilier vie professionnelle et vie personnelle",
-                      "date":  "2026-05-19",
-                      "useCase":  "远程办公、工作生活平衡。",
-                      "zh":  "平衡工作与个人生活",
-                      "theme":  "Travail et organisation professionnelle"
-                  },
-                  {
-                      "collocations":  [
-                                           "améliorer les conditions de travail des salariés",
-                                           "contribuer à améliorer les conditions de travail"
-                                       ],
-                      "example":  "Les entreprises devraient améliorer les conditions de travail des salariés.",
-                      "expression":  "améliorer les conditions de travail",
-                      "date":  "2026-05-19",
-                      "useCase":  "企业管理、员工福利。",
-                      "zh":  "改善工作条件",
-                      "theme":  "Travail et organisation professionnelle"
-                  },
-                  {
-                      "collocations":  [
-                                           "être confronté à une forte pression au travail",
-                                           "être confronté à des exigences élevées"
-                                       ],
-                      "example":  "De nombreux employés sont confrontés à une forte pression au travail.",
-                      "expression":  "être confronté à une forte pression",
-                      "date":  "2026-05-19",
-                      "useCase":  "职业压力、心理健康。",
-                      "zh":  "面临很大压力",
-                      "theme":  "Travail et organisation professionnelle"
-                  },
-                  {
-                      "collocations":  [
-                                           "prévenir l\u0027épuisement professionnel des salariés",
-                                           "lutter contre l\u0027épuisement professionnel"
-                                       ],
-                      "example":  "Il est nécessaire de prévenir l\u0027épuisement professionnel.",
-                      "expression":  "prévenir l\u0027épuisement professionnel",
-                      "date":  "2026-05-19",
-                      "useCase":  "健康、工作节奏、管理。",
-                      "zh":  "预防职业倦怠",
-                      "theme":  "Travail et organisation professionnelle"
-                  },
-                  {
-                      "collocations":  [
-                                           "renforcer la cohésion d\u0027équipe",
-                                           "nuire à la cohésion d\u0027équipe"
-                                       ],
-                      "example":  "Les réunions en présentiel peuvent renforcer la cohésion d\u0027équipe.",
-                      "expression":  "renforcer la cohésion d\u0027équipe",
-                      "date":  "2026-05-19",
-                      "useCase":  "远程办公的限制、团队管理。",
-                      "zh":  "加强团队凝聚力",
-                      "theme":  "Travail et organisation professionnelle"
-                  },
-                  {
-                      "collocations":  [
-                                           "gagner en efficacité grâce à une meilleure organisation",
-                                           "permettre de gagner en efficacité"
-                                       ],
-                      "example":  "Une organisation plus claire permet de gagner en efficacité.",
-                      "expression":  "gagner en efficacité",
-                      "date":  "2026-05-19",
-                      "useCase":  "生产力、工作组织。",
-                      "zh":  "提高效率",
-                      "theme":  "Travail et organisation professionnelle"
-                  },
-                  {
-                      "collocations":  [
-                                           "bénéficier d\u0027horaires flexibles",
-                                           "proposer des horaires flexibles aux salariés"
-                                       ],
-                      "example":  "Les salariés souhaitent souvent bénéficier d\u0027horaires flexibles.",
-                      "expression":  "bénéficier d\u0027horaires flexibles",
-                      "date":  "2026-05-19",
-                      "useCase":  "远程办公、员工自主性。",
-                      "zh":  "享有灵活工作时间",
-                      "theme":  "Travail et organisation professionnelle"
-                  },
-                  {
-                      "collocations":  [
-                                           "remettre en question l\u0027organisation du travail",
-                                           "remettre en question les méthodes traditionnelles"
-                                       ],
-                      "example":  "La semaine de quatre jours remet en question l\u0027organisation du travail.",
-                      "expression":  "remettre en question l\u0027organisation du travail",
-                      "date":  "2026-05-19",
-                      "useCase":  "四天工作制、改革、社会变化。",
-                      "zh":  "重新审视工作组织方式",
-                      "theme":  "Travail et organisation professionnelle"
-                  },
-                  {
-                      "collocations":  [
-                                           "réduire le temps de trajet quotidien",
-                                           "réduire les déplacements inutiles"
-                                       ],
-                      "example":  "Le télétravail permet de réduire le temps de trajet quotidien.",
-                      "expression":  "réduire le temps de trajet",
-                      "date":  "2026-05-19",
-                      "useCase":  "远程办公、城市交通、生活质量。",
-                      "zh":  "减少通勤时间",
-                      "theme":  "Travail et organisation professionnelle"
-                  },
-                  {
-                      "collocations":  [
-                                           "mettre en place le droit à la déconnexion",
-                                           "respecter le droit à la déconnexion"
-                                       ],
-                      "example":  "Il faudrait mettre en place le droit à la déconnexion pour protéger les salariés.",
-                      "expression":  "mettre en place le droit à la déconnexion",
-                      "date":  "2026-05-19",
-                      "useCase":  "数字化办公、职业压力、劳动权益。",
-                      "zh":  "建立离线权/下班不被打扰权",
-                      "theme":  "Travail et organisation professionnelle"
-                  }
-              ]
+  "updated": "2026-05-19",
+  "cards": [
+    {
+      "date": "2026-04-27",
+      "batch": "2026-04-27",
+      "theme": "Services publics et dématérialisation",
+      "tags": [
+        "administration",
+        "services-publics",
+        "demarches"
+      ],
+      "expression": "faire des démarches administratives",
+      "zh": "办理行政手续",
+      "collocations": [
+        "faire ses démarches administratives en ligne",
+        "aider quelqu'un à faire ses démarches administratives"
+      ],
+      "example": "J'en ai assez de faire des démarches administratives en ligne.",
+      "useCase": "公共服务、行政、数字化、移民手续。"
+    },
+    {
+      "date": "2026-04-27",
+      "batch": "2026-04-27",
+      "theme": "Services publics et dématérialisation",
+      "tags": [
+        "rendez-vous",
+        "services-publics",
+        "demarches-en-ligne"
+      ],
+      "expression": "la prise de rendez-vous en ligne",
+      "zh": "线上预约",
+      "collocations": [
+        "la prise de rendez-vous en ligne est difficile",
+        "la prise de rendez-vous en ligne est impossible"
+      ],
+      "example": "La prise de rendez-vous en ligne est devenue un véritable casse-tête.",
+      "useCase": "医疗、行政窗口、学校/政府服务预约。"
+    },
+    {
+      "date": "2026-04-27",
+      "batch": "2026-04-27",
+      "theme": "Services publics et dématérialisation",
+      "tags": [
+        "plateforme-numerique",
+        "services-publics",
+        "dysfonctionnement"
+      ],
+      "expression": "une plateforme constamment saturée",
+      "zh": "总是爆满/无法正常使用的平台",
+      "collocations": [
+        "dénoncer une plateforme constamment saturée",
+        "une plateforme constamment saturée empêche les usagers de..."
+      ],
+      "example": "L'ANEF est une plateforme constamment saturée.",
+      "useCase": "数字平台、行政系统、在线服务失败。"
+    },
+    {
+      "date": "2026-04-27",
+      "batch": "2026-04-27",
+      "theme": "Services publics et dématérialisation",
+      "tags": [
+        "difficulte",
+        "probleme-pratique",
+        "argumentation"
+      ],
+      "expression": "un véritable casse-tête",
+      "zh": "非常头疼的问题",
+      "collocations": [
+        "devenir un véritable casse-tête",
+        "représenter un véritable casse-tête pour quelqu'un"
+      ],
+      "example": "Pour certains usagers, les démarches en ligne deviennent un véritable casse-tête.",
+      "useCase": "表达某件事很麻烦、很难处理。"
+    },
+    {
+      "date": "2026-04-27",
+      "batch": "2026-04-27",
+      "theme": "Services publics et dématérialisation",
+      "tags": [
+        "sante",
+        "acces-aux-soins",
+        "vulnerabilite"
+      ],
+      "expression": "une rupture de soins",
+      "zh": "医疗/治疗中断",
+      "collocations": [
+        "provoquer une rupture de soins",
+        "entraîner une rupture de soins",
+        "éviter une rupture de soins"
+      ],
+      "example": "Une rupture de soins peut avoir des conséquences graves.",
+      "useCase": "医疗系统、预约困难、弱势人群。"
+    },
+    {
+      "date": "2026-04-27",
+      "batch": "2026-04-27",
+      "theme": "Services publics et dématérialisation",
+      "tags": [
+        "statut-administratif",
+        "titre-de-sejour",
+        "inegalites"
+      ],
+      "expression": "être placé malgré soi en situation irrégulière",
+      "zh": "非自愿地陷入无合法身份状态",
+      "collocations": [
+        "être placé malgré soi en situation irrégulière à cause de...",
+        "des personnes placées malgré elles en situation irrégulière"
+      ],
+      "example": "Des personnes sont placées malgré elles en situation irrégulière à cause des blocages administratifs.",
+      "useCase": "居留证、行政延误、移民手续。"
+    },
+    {
+      "date": "2026-04-27",
+      "batch": "2026-04-27",
+      "theme": "Services publics et dématérialisation",
+      "tags": [
+        "statut-administratif",
+        "titre-de-sejour",
+        "temoignage"
+      ],
+      "expression": "se retrouver malgré soi en situation irrégulière",
+      "zh": "非自愿地变成身份不规则/无合法身份",
+      "collocations": [
+        "je me retrouve malgré moi en situation irrégulière",
+        "se retrouver en difficulté à cause d'une procédure bloquée"
+      ],
+      "example": "Je me retrouve malgré moi en situation irrégulière, alors que j'attends une prolongation de mon titre de séjour.",
+      "useCase": "第一人称表达时更自然。"
+    },
+    {
+      "date": "2026-04-27",
+      "batch": "2026-04-27",
+      "theme": "Services publics et dématérialisation",
+      "tags": [
+        "titre-de-sejour",
+        "administration",
+        "demarches"
+      ],
+      "expression": "renouveler un titre de séjour",
+      "zh": "更新/续办居留证",
+      "collocations": [
+        "renouveler son titre de séjour",
+        "avoir du mal à renouveler son titre de séjour"
+      ],
+      "example": "Il est parfois difficile de renouveler son titre de séjour sur une plateforme saturée.",
+      "useCase": "移民行政手续。"
+    },
+    {
+      "date": "2026-04-27",
+      "batch": "2026-04-27",
+      "theme": "Services publics et dématérialisation",
+      "tags": [
+        "numerique",
+        "inclusion-numerique",
+        "competences"
+      ],
+      "expression": "être à l'aise avec le numérique",
+      "zh": "熟悉/擅长使用数字工具",
+      "collocations": [
+        "ne pas être à l'aise avec le numérique",
+        "être peu à l'aise avec les outils numériques"
+      ],
+      "example": "Les personnes âgées ne sont pas toujours à l'aise avec le numérique.",
+      "useCase": "数字鸿沟、老年人、弱势群体。"
+    },
+    {
+      "date": "2026-04-27",
+      "batch": "2026-04-27",
+      "theme": "Services publics et dématérialisation",
+      "tags": [
+        "services-publics",
+        "exclusion",
+        "inegalites"
+      ],
+      "expression": "être exclu des services publics",
+      "zh": "被公共服务排除在外",
+      "collocations": [
+        "risquer d'être exclu des services publics",
+        "exclure certains usagers des services publics"
+      ],
+      "example": "Certaines personnes risquent d'être exclues des services publics.",
+      "useCase": "公共服务、社会不平等、数字化批评。"
+    },
+    {
+      "date": "2026-05-19",
+      "batch": "2026-05-19",
+      "theme": "Éducation et apprentissage numérique",
+      "tags": [
+        "education",
+        "apprentissage-en-ligne",
+        "numerique"
+      ],
+      "expression": "suivre un cours en ligne",
+      "zh": "上网课",
+      "collocations": [
+        "suivre une partie de ses cours en ligne",
+        "suivre un cours à distance"
+      ],
+      "example": "De plus en plus d'étudiants suivent une partie de leurs cours en ligne.",
+      "useCase": "教育、大学、数字化学习。"
+    },
+    {
+      "date": "2026-05-19",
+      "batch": "2026-05-19",
+      "theme": "Éducation et apprentissage numérique",
+      "tags": [
+        "competences",
+        "formation",
+        "developpement-personnel"
+      ],
+      "expression": "acquérir de nouvelles compétences",
+      "zh": "获得新技能",
+      "collocations": [
+        "acquérir des compétences utiles",
+        "acquérir des compétences professionnelles",
+        "acquérir des compétences numériques"
+      ],
+      "example": "Les cours en ligne permettent d'acquérir de nouvelles compétences à son rythme.",
+      "useCase": "学习、就业、职业发展。"
+    },
+    {
+      "date": "2026-05-19",
+      "batch": "2026-05-19",
+      "theme": "Éducation et apprentissage numérique",
+      "tags": [
+        "autonomie",
+        "education",
+        "apprentissage"
+      ],
+      "expression": "favoriser l'autonomie des étudiants",
+      "zh": "促进学生自主性",
+      "collocations": [
+        "favoriser l'autonomie des étudiants",
+        "favoriser l'autonomie des apprenants"
+      ],
+      "example": "L'apprentissage en ligne peut favoriser l'autonomie des étudiants.",
+      "useCase": "线上教育的优点。"
+    },
+    {
+      "date": "2026-05-19",
+      "batch": "2026-05-19",
+      "theme": "Éducation et apprentissage numérique",
+      "tags": [
+        "inegalites-scolaires",
+        "education",
+        "fracture-numerique"
+      ],
+      "expression": "creuser les inégalités scolaires",
+      "zh": "加深教育不平等",
+      "collocations": [
+        "risquer de creuser les inégalités scolaires",
+        "éviter de creuser les inégalités scolaires"
+      ],
+      "example": "Le numérique risque de creuser les inégalités scolaires si tous les élèves n'ont pas accès aux mêmes outils.",
+      "useCase": "数字鸿沟、教育公平。"
+    },
+    {
+      "date": "2026-05-19",
+      "batch": "2026-05-19",
+      "theme": "Éducation et apprentissage numérique",
+      "tags": [
+        "encadrement",
+        "education",
+        "apprentissage-a-distance"
+      ],
+      "expression": "manquer d'encadrement",
+      "zh": "缺乏指导/监督",
+      "collocations": [
+        "certains étudiants manquent d'encadrement",
+        "manquer d'encadrement à distance"
+      ],
+      "example": "Certains étudiants manquent d'encadrement lorsqu'ils suivent des cours à distance.",
+      "useCase": "线上学习的风险。"
+    },
+    {
+      "date": "2026-05-19",
+      "batch": "2026-05-19",
+      "theme": "Éducation et apprentissage numérique",
+      "tags": [
+        "motivation",
+        "education",
+        "apprentissage"
+      ],
+      "expression": "rester motivé sur le long terme",
+      "zh": "长期保持动力",
+      "collocations": [
+        "avoir du mal à rester motivé sur le long terme",
+        "aider les étudiants à rester motivés"
+      ],
+      "example": "Il peut être difficile de rester motivé sur le long terme sans contact direct avec les enseignants.",
+      "useCase": "学习动力、远程教育。"
+    },
+    {
+      "date": "2026-05-19",
+      "batch": "2026-05-19",
+      "theme": "Éducation et apprentissage numérique",
+      "tags": [
+        "ressources-pedagogiques",
+        "education",
+        "acces"
+      ],
+      "expression": "avoir accès à des ressources pédagogiques",
+      "zh": "能够获得教学资源",
+      "collocations": [
+        "avoir accès à des ressources pédagogiques de qualité",
+        "faciliter l'accès aux ressources pédagogiques"
+      ],
+      "example": "Internet permet d'avoir accès à des ressources pédagogiques très variées.",
+      "useCase": "线上学习的优点。"
+    },
+    {
+      "date": "2026-05-19",
+      "batch": "2026-05-19",
+      "theme": "Éducation et apprentissage numérique",
+      "tags": [
+        "rythme-apprentissage",
+        "education",
+        "individualisation"
+      ],
+      "expression": "adapter son rythme d'apprentissage à ses besoins",
+      "zh": "根据自己的需要调整学习节奏",
+      "collocations": [
+        "adapter son rythme d'apprentissage à ses besoins",
+        "apprendre à son propre rythme"
+      ],
+      "example": "Les plateformes en ligne permettent parfois d'adapter son rythme d'apprentissage à ses besoins.",
+      "useCase": "个性化学习。"
+    },
+    {
+      "date": "2026-05-19",
+      "batch": "2026-05-19",
+      "theme": "Éducation et apprentissage numérique",
+      "tags": [
+        "accompagnement-personnalise",
+        "education",
+        "prevention-du-decrochage"
+      ],
+      "expression": "mettre en place un accompagnement personnalisé",
+      "zh": "建立个性化辅导/支持",
+      "collocations": [
+        "mettre en place un accompagnement personnalisé pour les étudiants",
+        "bénéficier d'un accompagnement personnalisé"
+      ],
+      "example": "Les universités devraient mettre en place un accompagnement personnalisé pour éviter le décrochage.",
+      "useCase": "教育政策、解决方案。"
+    },
+    {
+      "date": "2026-05-19",
+      "batch": "2026-05-19",
+      "theme": "Éducation et apprentissage numérique",
+      "tags": [
+        "evaluation",
+        "education",
+        "progres"
+      ],
+      "expression": "évaluer les progrès des apprenants",
+      "zh": "评估学习者的进步",
+      "collocations": [
+        "évaluer régulièrement les progrès des apprenants",
+        "mesurer les progrès des étudiants"
+      ],
+      "example": "Il est important d'évaluer régulièrement les progrès des apprenants.",
+      "useCase": "教学质量、学习效果。"
+    },
+    {
+      "date": "2026-05-19",
+      "batch": "2026-05-19",
+      "theme": "Travail et organisation professionnelle",
+      "tags": [
+        "equilibre-vie-privee",
+        "travail",
+        "teletravail"
+      ],
+      "expression": "concilier vie professionnelle et vie personnelle",
+      "zh": "平衡工作与个人生活",
+      "collocations": [
+        "concilier vie professionnelle et vie personnelle",
+        "avoir du mal à concilier travail et vie privée"
+      ],
+      "example": "Le télétravail peut aider certains salariés à concilier vie professionnelle et vie personnelle.",
+      "useCase": "远程办公、工作生活平衡。"
+    },
+    {
+      "date": "2026-05-19",
+      "batch": "2026-05-19",
+      "theme": "Travail et organisation professionnelle",
+      "tags": [
+        "conditions-de-travail",
+        "travail",
+        "bien-etre"
+      ],
+      "expression": "améliorer les conditions de travail",
+      "zh": "改善工作条件",
+      "collocations": [
+        "améliorer les conditions de travail des salariés",
+        "contribuer à améliorer les conditions de travail"
+      ],
+      "example": "Les entreprises devraient améliorer les conditions de travail des salariés.",
+      "useCase": "企业管理、员工福利。"
+    },
+    {
+      "date": "2026-05-19",
+      "batch": "2026-05-19",
+      "theme": "Travail et organisation professionnelle",
+      "tags": [
+        "pression-professionnelle",
+        "travail",
+        "sante-mentale"
+      ],
+      "expression": "être confronté à une forte pression",
+      "zh": "面临很大压力",
+      "collocations": [
+        "être confronté à une forte pression au travail",
+        "être confronté à des exigences élevées"
+      ],
+      "example": "De nombreux employés sont confrontés à une forte pression au travail.",
+      "useCase": "职业压力、心理健康。"
+    },
+    {
+      "date": "2026-05-19",
+      "batch": "2026-05-19",
+      "theme": "Travail et organisation professionnelle",
+      "tags": [
+        "sante-au-travail",
+        "epuisement-professionnel",
+        "prevention"
+      ],
+      "expression": "prévenir l'épuisement professionnel",
+      "zh": "预防职业倦怠",
+      "collocations": [
+        "prévenir l'épuisement professionnel des salariés",
+        "lutter contre l'épuisement professionnel"
+      ],
+      "example": "Il est nécessaire de prévenir l'épuisement professionnel.",
+      "useCase": "健康、工作节奏、管理。"
+    },
+    {
+      "date": "2026-05-19",
+      "batch": "2026-05-19",
+      "theme": "Travail et organisation professionnelle",
+      "tags": [
+        "cohesion-equipe",
+        "travail",
+        "management"
+      ],
+      "expression": "renforcer la cohésion d'équipe",
+      "zh": "加强团队凝聚力",
+      "collocations": [
+        "renforcer la cohésion d'équipe",
+        "nuire à la cohésion d'équipe"
+      ],
+      "example": "Les réunions en présentiel peuvent renforcer la cohésion d'équipe.",
+      "useCase": "远程办公的限制、团队管理。"
+    },
+    {
+      "date": "2026-05-19",
+      "batch": "2026-05-19",
+      "theme": "Travail et organisation professionnelle",
+      "tags": [
+        "efficacite",
+        "organisation",
+        "travail"
+      ],
+      "expression": "gagner en efficacité",
+      "zh": "提高效率",
+      "collocations": [
+        "gagner en efficacité grâce à une meilleure organisation",
+        "permettre de gagner en efficacité"
+      ],
+      "example": "Une organisation plus claire permet de gagner en efficacité.",
+      "useCase": "生产力、工作组织。"
+    },
+    {
+      "date": "2026-05-19",
+      "batch": "2026-05-19",
+      "theme": "Travail et organisation professionnelle",
+      "tags": [
+        "horaires-flexibles",
+        "travail",
+        "autonomie"
+      ],
+      "expression": "bénéficier d'horaires flexibles",
+      "zh": "享有灵活工作时间",
+      "collocations": [
+        "bénéficier d'horaires flexibles",
+        "proposer des horaires flexibles aux salariés"
+      ],
+      "example": "Les salariés souhaitent souvent bénéficier d'horaires flexibles.",
+      "useCase": "远程办公、员工自主性。"
+    },
+    {
+      "date": "2026-05-19",
+      "batch": "2026-05-19",
+      "theme": "Travail et organisation professionnelle",
+      "tags": [
+        "organisation-du-travail",
+        "reforme",
+        "travail"
+      ],
+      "expression": "remettre en question l'organisation du travail",
+      "zh": "重新审视工作组织方式",
+      "collocations": [
+        "remettre en question l'organisation du travail",
+        "remettre en question les méthodes traditionnelles"
+      ],
+      "example": "La semaine de quatre jours remet en question l'organisation du travail.",
+      "useCase": "四天工作制、改革、社会变化。"
+    },
+    {
+      "date": "2026-05-19",
+      "batch": "2026-05-19",
+      "theme": "Travail et organisation professionnelle",
+      "tags": [
+        "temps-de-trajet",
+        "teletravail",
+        "qualite-de-vie"
+      ],
+      "expression": "réduire le temps de trajet",
+      "zh": "减少通勤时间",
+      "collocations": [
+        "réduire le temps de trajet quotidien",
+        "réduire les déplacements inutiles"
+      ],
+      "example": "Le télétravail permet de réduire le temps de trajet quotidien.",
+      "useCase": "远程办公、城市交通、生活质量。"
+    },
+    {
+      "date": "2026-05-19",
+      "batch": "2026-05-19",
+      "theme": "Travail et organisation professionnelle",
+      "tags": [
+        "droit-a-la-deconnexion",
+        "droits-des-salaries",
+        "numerique"
+      ],
+      "expression": "mettre en place le droit à la déconnexion",
+      "zh": "建立离线权/下班不被打扰权",
+      "collocations": [
+        "mettre en place le droit à la déconnexion",
+        "respecter le droit à la déconnexion"
+      ],
+      "example": "Il faudrait mettre en place le droit à la déconnexion pour protéger les salariés.",
+      "useCase": "数字化办公、职业压力、劳动权益。"
+    }
+  ]
 }
