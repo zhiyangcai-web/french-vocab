@@ -251,17 +251,17 @@
           <div id="frontTag" class="tag"></div>
           <div id="frontMeta" class="meta"></div>
           <div id="frontExpr" class="expr"></div>
-          <div id="frontZh" class="zh"></div>
           <div>
             <div class="section-title">Try Before Flipping</div>
-            <div class="content">先口头造一句，再翻面看搭配和例句。</div>
+            <div class="content">Say one sentence aloud before checking the answer.</div>
           </div>
-          <div class="hint">点卡片或“翻面”查看答案。</div>
+          <div class="hint">Click the card or Flip to reveal the answer.</div>
         </div>
         <div class="face back">
           <div id="backTag" class="tag"></div>
           <div id="backMeta" class="meta"></div>
           <div id="backExpr" class="expr"></div>
+          <div id="backZh" class="zh"></div>
           <div>
             <div class="section-title">Collocations</div>
             <ul id="collocations" class="content"></ul>
@@ -302,10 +302,10 @@
       frontTag: document.getElementById("frontTag"),
       frontMeta: document.getElementById("frontMeta"),
       frontExpr: document.getElementById("frontExpr"),
-      frontZh: document.getElementById("frontZh"),
       backTag: document.getElementById("backTag"),
       backMeta: document.getElementById("backMeta"),
       backExpr: document.getElementById("backExpr"),
+      backZh: document.getElementById("backZh"),
       collocations: document.getElementById("collocations"),
       example: document.getElementById("example"),
       useCase: document.getElementById("useCase"),
@@ -396,11 +396,11 @@
         els.progress.textContent = "0 / 0";
         els.frontTag.textContent = "No cards";
         els.frontMeta.textContent = "";
-        els.frontExpr.textContent = "没有符合筛选条件的卡片";
-        els.frontZh.textContent = "换一个筛选，或把已熟悉词移回复习。";
+        els.frontExpr.textContent = "No cards match the current filters.";
         els.backTag.textContent = "No cards";
         els.backMeta.textContent = "";
         els.backExpr.textContent = "";
+        els.backZh.textContent = "";
         els.collocations.innerHTML = "";
         els.example.textContent = "";
         els.useCase.textContent = "";
@@ -417,10 +417,10 @@
       els.frontTag.textContent = `${c.date} · ${c.theme}`;
       els.frontMeta.textContent = `Batch ${c.batch || c.date} · ${tagText}`;
       els.frontExpr.textContent = c.expression;
-      els.frontZh.textContent = c.zh;
-      els.backTag.textContent = c.zh;
+      els.backTag.textContent = `${c.date} · ${c.theme}`;
       els.backMeta.textContent = `${c.theme} · ${tagText}`;
       els.backExpr.textContent = c.expression;
+      els.backZh.textContent = c.zh;
       els.collocations.innerHTML = "";
       c.collocations.forEach(item => {
         const li = document.createElement("li");
