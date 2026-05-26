@@ -248,14 +248,6 @@
     <section class="card-wrap" aria-live="polite">
       <article id="card" class="card">
         <div class="face front">
-          <div id="frontTag" class="tag"></div>
-          <div id="frontMeta" class="meta"></div>
-          <div id="frontExpr" class="expr"></div>
-          <div>
-            <div class="section-title">Try Before Flipping</div>
-            <div class="content">Say one sentence aloud before checking the answer.</div>
-          </div>
-          <div class="hint">Click the card or Flip to reveal the answer.</div>
         </div>
         <div class="face back">
           <div id="backTag" class="tag"></div>
@@ -299,9 +291,6 @@
       tagSelect: document.getElementById("tagSelect"),
       statusSelect: document.getElementById("statusSelect"),
       card: document.getElementById("card"),
-      frontTag: document.getElementById("frontTag"),
-      frontMeta: document.getElementById("frontMeta"),
-      frontExpr: document.getElementById("frontExpr"),
       backTag: document.getElementById("backTag"),
       backMeta: document.getElementById("backMeta"),
       backExpr: document.getElementById("backExpr"),
@@ -394,9 +383,6 @@
     function render() {
       if (!filtered.length) {
         els.progress.textContent = "0 / 0";
-        els.frontTag.textContent = "No cards";
-        els.frontMeta.textContent = "";
-        els.frontExpr.textContent = "No cards match the current filters.";
         els.backTag.textContent = "No cards";
         els.backMeta.textContent = "";
         els.backExpr.textContent = "";
@@ -414,9 +400,6 @@
       const knownNow = isKnown(c);
       const tagText = Array.isArray(c.tags) && c.tags.length ? c.tags.join(" · ") : "no tags";
       els.card.classList.toggle("flipped", flipped);
-      els.frontTag.textContent = `${c.date} · ${c.theme}`;
-      els.frontMeta.textContent = `Batch ${c.batch || c.date} · ${tagText}`;
-      els.frontExpr.textContent = c.expression;
       els.backTag.textContent = `${c.date} · ${c.theme}`;
       els.backMeta.textContent = `${c.theme} · ${tagText}`;
       els.backExpr.textContent = c.expression;
@@ -432,7 +415,6 @@
       els.progress.textContent = `${index + 1} / ${filtered.length}`;
       els.knownBtn.disabled = false;
       els.knownBtn.textContent = knownNow ? "移回复习" : "标记为已熟悉";
-      els.frontTag.classList.toggle("known", knownNow);
       els.backTag.classList.toggle("known", knownNow);
       localStorage.setItem("active_vocab_index", String(index));
       updateSummary();
