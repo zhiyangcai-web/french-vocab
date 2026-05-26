@@ -248,6 +248,7 @@
     <section class="card-wrap" aria-live="polite">
       <article id="card" class="card">
         <div class="face front">
+          <div id="frontExpr" class="expr"></div>
         </div>
         <div class="face back">
           <div id="backTag" class="tag"></div>
@@ -291,6 +292,7 @@
       tagSelect: document.getElementById("tagSelect"),
       statusSelect: document.getElementById("statusSelect"),
       card: document.getElementById("card"),
+      frontExpr: document.getElementById("frontExpr"),
       backTag: document.getElementById("backTag"),
       backMeta: document.getElementById("backMeta"),
       backExpr: document.getElementById("backExpr"),
@@ -383,6 +385,7 @@
     function render() {
       if (!filtered.length) {
         els.progress.textContent = "0 / 0";
+        els.frontExpr.textContent = "";
         els.backTag.textContent = "No cards";
         els.backMeta.textContent = "";
         els.backExpr.textContent = "";
@@ -400,6 +403,7 @@
       const knownNow = isKnown(c);
       const tagText = Array.isArray(c.tags) && c.tags.length ? c.tags.join(" · ") : "no tags";
       els.card.classList.toggle("flipped", flipped);
+      els.frontExpr.textContent = c.expression;
       els.backTag.textContent = `${c.date} · ${c.theme}`;
       els.backMeta.textContent = `${c.theme} · ${tagText}`;
       els.backExpr.textContent = c.expression;
