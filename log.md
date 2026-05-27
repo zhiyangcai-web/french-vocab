@@ -436,3 +436,112 @@
    - 搭配：`remettre l'installation en service après contrôle`
    - 例句：`Après les essais, l'équipe peut remettre l'installation en service si tous les paramètres sont conformes.`
 
+## 2026-05-27 - Budget et contrôle de gestion industriel
+
+### Active Expressions
+
+1. `élaborer un budget prévisionnel`
+   - 批次：Stage CGN - budget énergie
+   - 标签：budget, prevision, controle-de-gestion
+   - 中文：编制预算预测/预算草案
+   - 搭配：`élaborer un budget prévisionnel pour l'année prochaine`
+   - 例句：`Le service budget doit élaborer un budget prévisionnel en tenant compte des besoins de maintenance.`
+
+2. `suivre l'exécution budgétaire`
+   - 批次：Stage CGN - budget énergie
+   - 标签：budget, execution, suivi
+   - 中文：跟踪预算执行情况
+   - 搭配：`suivre l'exécution budgétaire chaque mois`
+   - 例句：`Chaque mois, nous suivons l'exécution budgétaire des projets de maintenance.`
+
+3. `analyser les écarts entre le budget et le réalisé`
+   - 批次：Stage CGN - budget énergie
+   - 标签：ecarts, analyse, reporting
+   - 中文：分析预算与实际之间的差异
+   - 搭配：`analyser les écarts entre le budget et le réalisé`
+   - 例句：`Il faut analyser les écarts entre le budget et le réalisé avant la réunion mensuelle.`
+
+4. `distinguer les dépenses d'exploitation et les dépenses d'investissement`
+   - 批次：Stage CGN - budget énergie
+   - 标签：opex, capex, classification
+   - 中文：区分运营支出和投资支出
+   - 搭配：`distinguer les dépenses d'exploitation et les dépenses d'investissement`
+   - 例句：`Avant de valider la demande, il faut distinguer les dépenses d'exploitation et les dépenses d'investissement.`
+
+5. `imputer une dépense à un centre de coût`
+   - 批次：Stage CGN - budget énergie
+   - 标签：centre-de-cout, imputation, couts
+   - 中文：把费用归集到成本中心
+   - 搭配：`imputer une dépense à un centre de coût`
+   - 例句：`Cette facture doit être imputée au centre de coût de la maintenance éolienne.`
+
+6. `préparer un reporting budgétaire mensuel`
+   - 批次：Stage CGN - budget énergie
+   - 标签：reporting, mensuel, pilotage
+   - 中文：准备月度预算报告
+   - 搭配：`préparer un reporting budgétaire mensuel`
+   - 例句：`Je prépare un reporting budgétaire mensuel pour suivre les dépenses par projet.`
+
+7. `maîtriser les coûts de maintenance`
+   - 批次：Stage CGN - budget énergie
+   - 标签：couts, maintenance, optimisation
+   - 中文：控制维护成本
+   - 搭配：`maîtriser les coûts de maintenance`
+   - 例句：`L'objectif est de maîtriser les coûts de maintenance sans compromettre la sécurité des installations.`
+
+8. `valider une demande d'achat`
+   - 批次：Stage CGN - budget énergie
+   - 标签：achats, validation, procedure
+   - 中文：审批采购申请
+   - 搭配：`valider une demande d'achat dans le système`
+   - 例句：`Avant de valider une demande d'achat, le service budget vérifie que les crédits sont disponibles.`
+
+9. `suivre les dépenses liées aux pièces de rechange`
+   - 批次：Stage CGN - budget énergie
+   - 标签：pieces-de-rechange, stocks, maintenance
+   - 中文：跟踪备件相关支出
+   - 搭配：`suivre les dépenses liées aux pièces de rechange`
+   - 例句：`Nous devons suivre les dépenses liées aux pièces de rechange, car elles pèsent sur le budget de maintenance.`
+
+10. `justifier un dépassement budgétaire`
+   - 批次：Stage CGN - budget énergie
+   - 标签：depassement, justification, budget
+   - 中文：解释/证明预算超支原因
+   - 搭配：`justifier un dépassement budgétaire`
+   - 例句：`Le responsable doit justifier le dépassement budgétaire lié à une réparation urgente.`
+
+11. `respecter l'enveloppe budgétaire`
+   - 批次：Stage CGN - budget énergie
+   - 标签：enveloppe, arbitrage, priorite
+   - 中文：遵守预算额度
+   - 搭配：`respecter l'enveloppe budgétaire allouée`
+   - 例句：`Pour ce projet, il faut respecter l'enveloppe budgétaire allouée par la direction.`
+
+12. `réviser les prévisions budgétaires`
+   - 批次：Stage CGN - budget énergie
+   - 标签：forecast, prevision, ajustement
+   - 中文：修订预算预测
+   - 搭配：`réviser les prévisions budgétaires en cours d'année`
+   - 例句：`Après la hausse du coût des pièces, nous devons réviser les prévisions budgétaires.`
+
+13. `consolider les données financières`
+   - 批次：Stage CGN - budget énergie
+   - 标签：donnees, consolidation, excel
+   - 中文：汇总/合并财务数据
+   - 搭配：`consolider les données financières de plusieurs sites`
+   - 例句：`Avant le reporting, il faut consolider les données financières transmises par les sites.`
+
+14. `évaluer le coût d'un arrêt de production`
+   - 批次：Stage CGN - budget énergie
+   - 标签：arret-production, cout, analyse
+   - 中文：评估停机/停产成本
+   - 搭配：`évaluer le coût d'un arrêt de production`
+   - 例句：`Pour décider du calendrier de maintenance, il faut évaluer le coût d'un arrêt de production.`
+
+15. `engager une dépense`
+   - 批次：Stage CGN - budget énergie
+   - 标签：engagement, depense, procedure
+   - 中文：发生/承诺一笔支出
+   - 搭配：`engager une dépense dans la limite du budget`
+   - 例句：`Une dépense ne peut être engagée que si elle respecte la procédure et l'enveloppe disponible.`
+

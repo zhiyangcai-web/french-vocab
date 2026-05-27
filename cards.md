@@ -1208,3 +1208,335 @@ Après les essais, l'équipe peut remettre l'installation en service si tous les
 
 使用场景：检修结束、试验合格、恢复运行、送电前确认。
 
+## 2026-05-27 - Budget et contrôle de gestion industriel
+
+### 1. élaborer un budget prévisionnel
+
+批次：Stage CGN - budget énergie
+
+标签：budget, prevision, controle-de-gestion
+
+中文：编制预算预测/预算草案
+
+常见搭配：
+
+- élaborer un budget prévisionnel pour l'année prochaine
+- préparer les hypothèses du budget prévisionnel
+- mettre à jour le budget prévisionnel
+
+例句：
+
+```text
+Le service budget doit élaborer un budget prévisionnel en tenant compte des besoins de maintenance.
+```
+
+使用场景：预算编制、年度预算、和业务部门确认预算假设。
+
+### 2. suivre l'exécution budgétaire
+
+批次：Stage CGN - budget énergie
+
+标签：budget, execution, suivi
+
+中文：跟踪预算执行情况
+
+常见搭配：
+
+- suivre l'exécution budgétaire chaque mois
+- comparer l'exécution budgétaire aux prévisions
+- présenter l'état d'exécution du budget
+
+例句：
+
+```text
+Chaque mois, nous suivons l'exécution budgétaire des projets de maintenance.
+```
+
+使用场景：月度预算跟踪、实际支出和预算对比、预算执行汇报。
+
+### 3. analyser les écarts entre le budget et le réalisé
+
+批次：Stage CGN - budget énergie
+
+标签：ecarts, analyse, reporting
+
+中文：分析预算与实际之间的差异
+
+常见搭配：
+
+- analyser les écarts entre le budget et le réalisé
+- expliquer un écart défavorable
+- identifier les causes d'un écart budgétaire
+
+例句：
+
+```text
+Il faut analyser les écarts entre le budget et le réalisé avant la réunion mensuelle.
+```
+
+使用场景：预算偏差分析、说明超支/节约原因、月度经营分析。
+
+### 4. distinguer les dépenses d'exploitation et les dépenses d'investissement
+
+批次：Stage CGN - budget énergie
+
+标签：opex, capex, classification
+
+中文：区分运营支出和投资支出
+
+常见搭配：
+
+- distinguer les dépenses d'exploitation et les dépenses d'investissement
+- classer une dépense en OPEX ou en CAPEX
+- vérifier l'imputation comptable d'une dépense
+
+例句：
+
+```text
+Avant de valider la demande, il faut distinguer les dépenses d'exploitation et les dépenses d'investissement.
+```
+
+使用场景：CAPEX/OPEX 分类、费用归口、预算科目判断。
+
+### 5. imputer une dépense à un centre de coût
+
+批次：Stage CGN - budget énergie
+
+标签：centre-de-cout, imputation, couts
+
+中文：把费用归集到成本中心
+
+常见搭配：
+
+- imputer une dépense à un centre de coût
+- corriger une erreur d'imputation
+- ventiler les coûts par centre de coût
+
+例句：
+
+```text
+Cette facture doit être imputée au centre de coût de la maintenance éolienne.
+```
+
+使用场景：成本中心、费用归集、发票/采购单归口。
+
+### 6. préparer un reporting budgétaire mensuel
+
+批次：Stage CGN - budget énergie
+
+标签：reporting, mensuel, pilotage
+
+中文：准备月度预算报告
+
+常见搭配：
+
+- préparer un reporting budgétaire mensuel
+- mettre en forme les données pour le reporting
+- présenter le reporting à la direction
+
+例句：
+
+```text
+Je prépare un reporting budgétaire mensuel pour suivre les dépenses par projet.
+```
+
+使用场景：月报、预算汇报、给经理/总部展示数据。
+
+### 7. maîtriser les coûts de maintenance
+
+批次：Stage CGN - budget énergie
+
+标签：couts, maintenance, optimisation
+
+中文：控制维护成本
+
+常见搭配：
+
+- maîtriser les coûts de maintenance
+- réduire les coûts sans dégrader la sécurité
+- optimiser les dépenses de maintenance
+
+例句：
+
+```text
+L'objectif est de maîtriser les coûts de maintenance sans compromettre la sécurité des installations.
+```
+
+使用场景：维护预算、降本增效、安全和成本平衡。
+
+### 8. valider une demande d'achat
+
+批次：Stage CGN - budget énergie
+
+标签：achats, validation, procedure
+
+中文：审批采购申请
+
+常见搭配：
+
+- valider une demande d'achat dans le système
+- vérifier le budget avant validation
+- bloquer une demande d'achat faute de budget
+
+例句：
+
+```text
+Avant de valider une demande d'achat, le service budget vérifie que les crédits sont disponibles.
+```
+
+使用场景：采购申请、预算审批、系统流程、预算可用性。
+
+### 9. suivre les dépenses liées aux pièces de rechange
+
+批次：Stage CGN - budget énergie
+
+标签：pieces-de-rechange, stocks, maintenance
+
+中文：跟踪备件相关支出
+
+常见搭配：
+
+- suivre les dépenses liées aux pièces de rechange
+- anticiper les besoins en pièces de rechange
+- comparer le coût des pièces de rechange au budget
+
+例句：
+
+```text
+Nous devons suivre les dépenses liées aux pièces de rechange, car elles pèsent sur le budget de maintenance.
+```
+
+使用场景：备件采购、库存、维护费用、预算消耗。
+
+### 10. justifier un dépassement budgétaire
+
+批次：Stage CGN - budget énergie
+
+标签：depassement, justification, budget
+
+中文：解释/证明预算超支原因
+
+常见搭配：
+
+- justifier un dépassement budgétaire
+- documenter les raisons du dépassement
+- demander une enveloppe complémentaire
+
+例句：
+
+```text
+Le responsable doit justifier le dépassement budgétaire lié à une réparation urgente.
+```
+
+使用场景：超预算说明、紧急维修、追加预算申请。
+
+### 11. respecter l'enveloppe budgétaire
+
+批次：Stage CGN - budget énergie
+
+标签：enveloppe, arbitrage, priorite
+
+中文：遵守预算额度
+
+常见搭配：
+
+- respecter l'enveloppe budgétaire allouée
+- rester dans l'enveloppe prévue
+- arbitrer les priorités en fonction de l'enveloppe
+
+例句：
+
+```text
+Pour ce projet, il faut respecter l'enveloppe budgétaire allouée par la direction.
+```
+
+使用场景：预算额度、优先级取舍、部门预算沟通。
+
+### 12. réviser les prévisions budgétaires
+
+批次：Stage CGN - budget énergie
+
+标签：forecast, prevision, ajustement
+
+中文：修订预算预测
+
+常见搭配：
+
+- réviser les prévisions budgétaires en cours d'année
+- ajuster les prévisions selon l'avancement du projet
+- mettre à jour le forecast
+
+例句：
+
+```text
+Après la hausse du coût des pièces, nous devons réviser les prévisions budgétaires.
+```
+
+使用场景：滚动预测、forecast、预算调整、成本上涨。
+
+### 13. consolider les données financières
+
+批次：Stage CGN - budget énergie
+
+标签：donnees, consolidation, excel
+
+中文：汇总/合并财务数据
+
+常见搭配：
+
+- consolider les données financières de plusieurs sites
+- fiabiliser les données avant consolidation
+- consolider les coûts par activité
+
+例句：
+
+```text
+Avant le reporting, il faut consolider les données financières transmises par les sites.
+```
+
+使用场景：Excel/系统数据、多个电厂/风场、汇总成本和预算。
+
+### 14. évaluer le coût d'un arrêt de production
+
+批次：Stage CGN - budget énergie
+
+标签：arret-production, cout, analyse
+
+中文：评估停机/停产成本
+
+常见搭配：
+
+- évaluer le coût d'un arrêt de production
+- prendre en compte la perte de production
+- comparer le coût de l'arrêt au risque de panne
+
+例句：
+
+```text
+Pour décider du calendrier de maintenance, il faut évaluer le coût d'un arrêt de production.
+```
+
+使用场景：维护窗口、停机损失、发电量损失、预算测算。
+
+### 15. engager une dépense
+
+批次：Stage CGN - budget énergie
+
+标签：engagement, depense, procedure
+
+中文：发生/承诺一笔支出
+
+常见搭配：
+
+- engager une dépense dans la limite du budget
+- contrôler les dépenses engagées
+- suivre les engagements non encore facturés
+
+例句：
+
+```text
+Une dépense ne peut être engagée que si elle respecte la procédure et l'enveloppe disponible.
+```
+
+使用场景：采购承诺、已承诺未开票、预算占用、流程合规。
+
