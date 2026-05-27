@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-20",
+  "updated": "2026-05-27",
   "cards": [
     {
       "date": "2026-04-27",
@@ -732,6 +732,291 @@
       ],
       "example": "Il est nécessaire d'encadrer l'usage des écrans chez les adolescents sans diaboliser le numérique.",
       "useCase": "数字生活、青少年教育、家庭规则、心理健康。"
+    },
+    {
+      "date": "2026-05-27",
+      "batch": "Stage CGN - maintenance énergie",
+      "theme": "Énergie et maintenance industrielle",
+      "tags": [
+        "eolien",
+        "maintenance",
+        "prevention"
+      ],
+      "expression": "assurer la maintenance préventive d'une éolienne",
+      "zh": "对风机进行预防性维护",
+      "collocations": [
+        "assurer la maintenance préventive d'une éolienne",
+        "planifier une opération de maintenance préventive",
+        "réduire les pannes grâce à la maintenance préventive"
+      ],
+      "example": "L'équipe assure la maintenance préventive des éoliennes afin d'éviter les arrêts imprévus.",
+      "useCase": "和风机维护团队沟通检修计划、预防性维护、减少故障。"
+    },
+    {
+      "date": "2026-05-27",
+      "batch": "Stage CGN - maintenance énergie",
+      "theme": "Énergie et maintenance industrielle",
+      "tags": [
+        "depannage",
+        "panne",
+        "maintenance"
+      ],
+      "expression": "effectuer une maintenance corrective après une panne",
+      "zh": "故障后进行纠正性维护/维修",
+      "collocations": [
+        "effectuer une maintenance corrective après une panne",
+        "déclencher une intervention corrective",
+        "réparer l'équipement lors d'une maintenance corrective"
+      ],
+      "example": "Après l'alarme, les techniciens ont effectué une maintenance corrective sur le système de contrôle.",
+      "useCase": "描述设备出故障后的维修、抢修、纠正措施。"
+    },
+    {
+      "date": "2026-05-27",
+      "batch": "Stage CGN - maintenance énergie",
+      "theme": "Énergie et maintenance industrielle",
+      "tags": [
+        "diagnostic",
+        "defaut",
+        "terrain"
+      ],
+      "expression": "diagnostiquer l'origine d'un défaut",
+      "zh": "诊断故障/缺陷的原因",
+      "collocations": [
+        "diagnostiquer l'origine d'un défaut",
+        "identifier l'origine du défaut",
+        "faire un diagnostic sur site"
+      ],
+      "example": "Avant de remplacer la pièce, il faut diagnostiquer l'origine du défaut avec les données disponibles.",
+      "useCase": "和师傅讨论报警、缺陷、异常参数的原因排查。"
+    },
+    {
+      "date": "2026-05-27",
+      "batch": "Stage CGN - maintenance énergie",
+      "theme": "Énergie et maintenance industrielle",
+      "tags": [
+        "securite",
+        "electricite",
+        "intervention"
+      ],
+      "expression": "mettre une installation hors tension",
+      "zh": "让设备/装置断电",
+      "collocations": [
+        "mettre une installation hors tension avant intervention",
+        "travailler hors tension",
+        "confirmer que l'installation est hors tension"
+      ],
+      "example": "Avant toute intervention électrique, l'installation doit être mise hors tension.",
+      "useCase": "现场安全沟通、检修前断电、确认设备状态。"
+    },
+    {
+      "date": "2026-05-27",
+      "batch": "Stage CGN - maintenance énergie",
+      "theme": "Énergie et maintenance industrielle",
+      "tags": [
+        "consignation",
+        "securite",
+        "electricite"
+      ],
+      "expression": "consigner un équipement avant intervention",
+      "zh": "检修前对设备进行挂牌上锁/能量隔离",
+      "collocations": [
+        "consigner un équipement avant intervention",
+        "respecter la procédure de consignation",
+        "lever la consignation après les contrôles"
+      ],
+      "example": "Le technicien doit consigner l'équipement avant intervention pour éviter toute remise sous tension.",
+      "useCase": "讲锁定挂牌、能量隔离、检修许可、安全流程。"
+    },
+    {
+      "date": "2026-05-27",
+      "batch": "Stage CGN - maintenance énergie",
+      "theme": "Énergie et maintenance industrielle",
+      "tags": [
+        "vat",
+        "securite",
+        "electricite"
+      ],
+      "expression": "vérifier l'absence de tension",
+      "zh": "验电/确认无电压",
+      "collocations": [
+        "vérifier l'absence de tension avec un appareil adapté",
+        "procéder à la vérification d'absence de tension",
+        "ne pas intervenir sans vérifier l'absence de tension"
+      ],
+      "example": "Même après la coupure, il faut vérifier l'absence de tension avant de toucher l'équipement.",
+      "useCase": "电气安全、VAT、检修前确认无电压。"
+    },
+    {
+      "date": "2026-05-27",
+      "batch": "Stage CGN - maintenance énergie",
+      "theme": "Énergie et maintenance industrielle",
+      "tags": [
+        "epi",
+        "securite",
+        "terrain"
+      ],
+      "expression": "porter les équipements de protection individuelle",
+      "zh": "佩戴个人防护装备",
+      "collocations": [
+        "porter les équipements de protection individuelle",
+        "vérifier les EPI avant de monter sur site",
+        "respecter le port obligatoire des EPI"
+      ],
+      "example": "Sur le site, le port des équipements de protection individuelle est obligatoire.",
+      "useCase": "安全帽、安全鞋、手套、护目镜、安全带等现场安全沟通。"
+    },
+    {
+      "date": "2026-05-27",
+      "batch": "Stage CGN - maintenance énergie",
+      "theme": "Énergie et maintenance industrielle",
+      "tags": [
+        "eolien",
+        "inspection",
+        "composants"
+      ],
+      "expression": "contrôler l'état des pales et de la nacelle",
+      "zh": "检查叶片和机舱状态",
+      "collocations": [
+        "contrôler l'état des pales",
+        "inspecter la nacelle d'une éolienne",
+        "signaler une fissure sur une pale"
+      ],
+      "example": "Pendant l'inspection, l'équipe contrôle l'état des pales et de la nacelle.",
+      "useCase": "风机部件、叶片、机舱、现场巡检。"
+    },
+    {
+      "date": "2026-05-27",
+      "batch": "Stage CGN - maintenance énergie",
+      "theme": "Énergie et maintenance industrielle",
+      "tags": [
+        "parametres",
+        "supervision",
+        "exploitation"
+      ],
+      "expression": "surveiller les paramètres de fonctionnement",
+      "zh": "监测运行参数",
+      "collocations": [
+        "surveiller les paramètres de fonctionnement en temps réel",
+        "analyser les paramètres de fonctionnement",
+        "repérer une dérive dans les paramètres"
+      ],
+      "example": "La salle de contrôle surveille les paramètres de fonctionnement pour détecter les anomalies.",
+      "useCase": "中控、SCADA、运行数据、温度、振动、功率等参数。"
+    },
+    {
+      "date": "2026-05-27",
+      "batch": "Stage CGN - maintenance énergie",
+      "theme": "Énergie et maintenance industrielle",
+      "tags": [
+        "alarme",
+        "exploitation",
+        "reaction"
+      ],
+      "expression": "réagir à une alarme de défaut",
+      "zh": "响应故障报警",
+      "collocations": [
+        "réagir rapidement à une alarme de défaut",
+        "acquitter une alarme après vérification",
+        "transmettre l'alarme au service maintenance"
+      ],
+      "example": "Lorsqu'une alarme de défaut apparaît, il faut vérifier les données avant d'envoyer une équipe sur site.",
+      "useCase": "报警处理、中控和维护团队之间的信息传递。"
+    },
+    {
+      "date": "2026-05-27",
+      "batch": "Stage CGN - maintenance énergie",
+      "theme": "Énergie et maintenance industrielle",
+      "tags": [
+        "piece",
+        "reparation",
+        "logistique"
+      ],
+      "expression": "remplacer une pièce défectueuse",
+      "zh": "更换有故障的零件",
+      "collocations": [
+        "remplacer une pièce défectueuse",
+        "commander la pièce de rechange",
+        "vérifier la référence de la pièce"
+      ],
+      "example": "Si le capteur est confirmé défaillant, il faudra remplacer la pièce défectueuse.",
+      "useCase": "备件、传感器、轴承、模块、维修工单沟通。"
+    },
+    {
+      "date": "2026-05-27",
+      "batch": "Stage CGN - maintenance énergie",
+      "theme": "Énergie et maintenance industrielle",
+      "tags": [
+        "production",
+        "arret",
+        "coordination"
+      ],
+      "expression": "planifier un arrêt de production",
+      "zh": "安排停产/停机检修",
+      "collocations": [
+        "planifier un arrêt de production",
+        "profiter d'un arrêt programmé pour intervenir",
+        "limiter la durée d'arrêt de l'installation"
+      ],
+      "example": "Nous devons planifier un arrêt de production pour réaliser l'intervention en sécurité.",
+      "useCase": "协调停机、检修窗口、减少发电损失。"
+    },
+    {
+      "date": "2026-05-27",
+      "batch": "Stage CGN - maintenance énergie",
+      "theme": "Énergie et maintenance industrielle",
+      "tags": [
+        "reseau",
+        "eolien",
+        "electricite"
+      ],
+      "expression": "raccorder un parc éolien au réseau électrique",
+      "zh": "将风电场接入电网",
+      "collocations": [
+        "raccorder un parc éolien au réseau électrique",
+        "passer par un poste de transformation",
+        "respecter les contraintes de raccordement"
+      ],
+      "example": "L'électricité produite par le parc éolien est raccordée au réseau électrique via un transformateur.",
+      "useCase": "风电场、电网、变压器、并网、输配电沟通。"
+    },
+    {
+      "date": "2026-05-27",
+      "batch": "Stage CGN - maintenance énergie",
+      "theme": "Énergie et maintenance industrielle",
+      "tags": [
+        "rapport",
+        "communication",
+        "terrain"
+      ],
+      "expression": "faire un retour d'intervention",
+      "zh": "做检修/现场作业反馈",
+      "collocations": [
+        "faire un retour d'intervention à l'équipe",
+        "rédiger un compte rendu d'intervention",
+        "remonter les difficultés rencontrées sur site"
+      ],
+      "example": "Après la visite, le technicien fait un retour d'intervention au responsable de maintenance.",
+      "useCase": "和维护人员开会、汇报现场情况、写工单/报告。"
+    },
+    {
+      "date": "2026-05-27",
+      "batch": "Stage CGN - maintenance énergie",
+      "theme": "Énergie et maintenance industrielle",
+      "tags": [
+        "centrale",
+        "exploitation",
+        "securite"
+      ],
+      "expression": "remettre l'installation en service",
+      "zh": "恢复设备/装置运行",
+      "collocations": [
+        "remettre l'installation en service après contrôle",
+        "autoriser la remise en service",
+        "vérifier les paramètres avant la remise en service"
+      ],
+      "example": "Après les essais, l'équipe peut remettre l'installation en service si tous les paramètres sont conformes.",
+      "useCase": "检修结束、试验合格、恢复运行、送电前确认。"
     }
   ]
 }

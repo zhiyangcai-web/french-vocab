@@ -876,3 +876,335 @@ Il est nécessaire d'encadrer l'usage des écrans chez les adolescents sans diab
 
 使用场景：数字生活、青少年教育、家庭规则、心理健康。
 
+## 2026-05-27 - Énergie et maintenance industrielle
+
+### 1. assurer la maintenance préventive d'une éolienne
+
+批次：Stage CGN - maintenance énergie
+
+标签：eolien, maintenance, prevention
+
+中文：对风机进行预防性维护
+
+常见搭配：
+
+- assurer la maintenance préventive d'une éolienne
+- planifier une opération de maintenance préventive
+- réduire les pannes grâce à la maintenance préventive
+
+例句：
+
+```text
+L'équipe assure la maintenance préventive des éoliennes afin d'éviter les arrêts imprévus.
+```
+
+使用场景：和风机维护团队沟通检修计划、预防性维护、减少故障。
+
+### 2. effectuer une maintenance corrective après une panne
+
+批次：Stage CGN - maintenance énergie
+
+标签：depannage, panne, maintenance
+
+中文：故障后进行纠正性维护/维修
+
+常见搭配：
+
+- effectuer une maintenance corrective après une panne
+- déclencher une intervention corrective
+- réparer l'équipement lors d'une maintenance corrective
+
+例句：
+
+```text
+Après l'alarme, les techniciens ont effectué une maintenance corrective sur le système de contrôle.
+```
+
+使用场景：描述设备出故障后的维修、抢修、纠正措施。
+
+### 3. diagnostiquer l'origine d'un défaut
+
+批次：Stage CGN - maintenance énergie
+
+标签：diagnostic, defaut, terrain
+
+中文：诊断故障/缺陷的原因
+
+常见搭配：
+
+- diagnostiquer l'origine d'un défaut
+- identifier l'origine du défaut
+- faire un diagnostic sur site
+
+例句：
+
+```text
+Avant de remplacer la pièce, il faut diagnostiquer l'origine du défaut avec les données disponibles.
+```
+
+使用场景：和师傅讨论报警、缺陷、异常参数的原因排查。
+
+### 4. mettre une installation hors tension
+
+批次：Stage CGN - maintenance énergie
+
+标签：securite, electricite, intervention
+
+中文：让设备/装置断电
+
+常见搭配：
+
+- mettre une installation hors tension avant intervention
+- travailler hors tension
+- confirmer que l'installation est hors tension
+
+例句：
+
+```text
+Avant toute intervention électrique, l'installation doit être mise hors tension.
+```
+
+使用场景：现场安全沟通、检修前断电、确认设备状态。
+
+### 5. consigner un équipement avant intervention
+
+批次：Stage CGN - maintenance énergie
+
+标签：consignation, securite, electricite
+
+中文：检修前对设备进行挂牌上锁/能量隔离
+
+常见搭配：
+
+- consigner un équipement avant intervention
+- respecter la procédure de consignation
+- lever la consignation après les contrôles
+
+例句：
+
+```text
+Le technicien doit consigner l'équipement avant intervention pour éviter toute remise sous tension.
+```
+
+使用场景：讲锁定挂牌、能量隔离、检修许可、安全流程。
+
+### 6. vérifier l'absence de tension
+
+批次：Stage CGN - maintenance énergie
+
+标签：vat, securite, electricite
+
+中文：验电/确认无电压
+
+常见搭配：
+
+- vérifier l'absence de tension avec un appareil adapté
+- procéder à la vérification d'absence de tension
+- ne pas intervenir sans vérifier l'absence de tension
+
+例句：
+
+```text
+Même après la coupure, il faut vérifier l'absence de tension avant de toucher l'équipement.
+```
+
+使用场景：电气安全、VAT、检修前确认无电压。
+
+### 7. porter les équipements de protection individuelle
+
+批次：Stage CGN - maintenance énergie
+
+标签：epi, securite, terrain
+
+中文：佩戴个人防护装备
+
+常见搭配：
+
+- porter les équipements de protection individuelle
+- vérifier les EPI avant de monter sur site
+- respecter le port obligatoire des EPI
+
+例句：
+
+```text
+Sur le site, le port des équipements de protection individuelle est obligatoire.
+```
+
+使用场景：安全帽、安全鞋、手套、护目镜、安全带等现场安全沟通。
+
+### 8. contrôler l'état des pales et de la nacelle
+
+批次：Stage CGN - maintenance énergie
+
+标签：eolien, inspection, composants
+
+中文：检查叶片和机舱状态
+
+常见搭配：
+
+- contrôler l'état des pales
+- inspecter la nacelle d'une éolienne
+- signaler une fissure sur une pale
+
+例句：
+
+```text
+Pendant l'inspection, l'équipe contrôle l'état des pales et de la nacelle.
+```
+
+使用场景：风机部件、叶片、机舱、现场巡检。
+
+### 9. surveiller les paramètres de fonctionnement
+
+批次：Stage CGN - maintenance énergie
+
+标签：parametres, supervision, exploitation
+
+中文：监测运行参数
+
+常见搭配：
+
+- surveiller les paramètres de fonctionnement en temps réel
+- analyser les paramètres de fonctionnement
+- repérer une dérive dans les paramètres
+
+例句：
+
+```text
+La salle de contrôle surveille les paramètres de fonctionnement pour détecter les anomalies.
+```
+
+使用场景：中控、SCADA、运行数据、温度、振动、功率等参数。
+
+### 10. réagir à une alarme de défaut
+
+批次：Stage CGN - maintenance énergie
+
+标签：alarme, exploitation, reaction
+
+中文：响应故障报警
+
+常见搭配：
+
+- réagir rapidement à une alarme de défaut
+- acquitter une alarme après vérification
+- transmettre l'alarme au service maintenance
+
+例句：
+
+```text
+Lorsqu'une alarme de défaut apparaît, il faut vérifier les données avant d'envoyer une équipe sur site.
+```
+
+使用场景：报警处理、中控和维护团队之间的信息传递。
+
+### 11. remplacer une pièce défectueuse
+
+批次：Stage CGN - maintenance énergie
+
+标签：piece, reparation, logistique
+
+中文：更换有故障的零件
+
+常见搭配：
+
+- remplacer une pièce défectueuse
+- commander la pièce de rechange
+- vérifier la référence de la pièce
+
+例句：
+
+```text
+Si le capteur est confirmé défaillant, il faudra remplacer la pièce défectueuse.
+```
+
+使用场景：备件、传感器、轴承、模块、维修工单沟通。
+
+### 12. planifier un arrêt de production
+
+批次：Stage CGN - maintenance énergie
+
+标签：production, arret, coordination
+
+中文：安排停产/停机检修
+
+常见搭配：
+
+- planifier un arrêt de production
+- profiter d'un arrêt programmé pour intervenir
+- limiter la durée d'arrêt de l'installation
+
+例句：
+
+```text
+Nous devons planifier un arrêt de production pour réaliser l'intervention en sécurité.
+```
+
+使用场景：协调停机、检修窗口、减少发电损失。
+
+### 13. raccorder un parc éolien au réseau électrique
+
+批次：Stage CGN - maintenance énergie
+
+标签：reseau, eolien, electricite
+
+中文：将风电场接入电网
+
+常见搭配：
+
+- raccorder un parc éolien au réseau électrique
+- passer par un poste de transformation
+- respecter les contraintes de raccordement
+
+例句：
+
+```text
+L'électricité produite par le parc éolien est raccordée au réseau électrique via un transformateur.
+```
+
+使用场景：风电场、电网、变压器、并网、输配电沟通。
+
+### 14. faire un retour d'intervention
+
+批次：Stage CGN - maintenance énergie
+
+标签：rapport, communication, terrain
+
+中文：做检修/现场作业反馈
+
+常见搭配：
+
+- faire un retour d'intervention à l'équipe
+- rédiger un compte rendu d'intervention
+- remonter les difficultés rencontrées sur site
+
+例句：
+
+```text
+Après la visite, le technicien fait un retour d'intervention au responsable de maintenance.
+```
+
+使用场景：和维护人员开会、汇报现场情况、写工单/报告。
+
+### 15. remettre l'installation en service
+
+批次：Stage CGN - maintenance énergie
+
+标签：centrale, exploitation, securite
+
+中文：恢复设备/装置运行
+
+常见搭配：
+
+- remettre l'installation en service après contrôle
+- autoriser la remise en service
+- vérifier les paramètres avant la remise en service
+
+例句：
+
+```text
+Après les essais, l'équipe peut remettre l'installation en service si tous les paramètres sont conformes.
+```
+
+使用场景：检修结束、试验合格、恢复运行、送电前确认。
+
