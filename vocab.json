@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-27",
+  "updated": "2026-05-28",
   "cards": [
     {
       "date": "2026-04-27",
@@ -1302,6 +1302,253 @@
       ],
       "example": "Une dépense ne peut être engagée que si elle respecte la procédure et l'enveloppe disponible.",
       "useCase": "采购承诺、已承诺未开票、预算占用、流程合规。"
+    },
+    {
+      "date": "2026-05-28",
+      "batch": "2026-05-28",
+      "theme": "Culture et vie sociale",
+      "tags": [
+        "choix",
+        "sentiments",
+        "hesitation"
+      ],
+      "expression": "être déchiré entre deux choix",
+      "zh": "在两个选择之间很纠结/左右为难",
+      "collocations": [
+        "être déchiré entre deux choix",
+        "être déchiré entre sa famille et son travail",
+        "se sentir déchiré face à une décision"
+      ],
+      "example": "Elle est déchirée entre l'envie de partir à l'étranger et le besoin de rester près de sa famille.",
+      "useCase": "表达内心矛盾、选择困难、家庭和职业冲突。"
+    },
+    {
+      "date": "2026-05-28",
+      "batch": "2026-05-28",
+      "theme": "Énergie et maintenance industrielle",
+      "tags": [
+        "piece",
+        "raccordement",
+        "maintenance"
+      ],
+      "expression": "un manchon de raccordement",
+      "zh": "连接套筒/接头套管",
+      "collocations": [
+        "installer un manchon de raccordement",
+        "remplacer un manchon usé",
+        "vérifier l'étanchéité du manchon"
+      ],
+      "example": "Le technicien a remplacé le manchon de raccordement parce qu'il présentait une fuite.",
+      "useCase": "工业维护、管道/电缆连接、备件名称、现场沟通。"
+    },
+    {
+      "date": "2026-05-28",
+      "batch": "2026-05-28",
+      "theme": "Culture et vie sociale",
+      "tags": [
+        "affection",
+        "famille",
+        "relations"
+      ],
+      "expression": "faire un câlin à quelqu'un",
+      "zh": "拥抱某人/给某人一个抱抱",
+      "collocations": [
+        "faire un câlin à un enfant",
+        "avoir besoin d'un câlin",
+        "un geste câlin et rassurant"
+      ],
+      "example": "Après une journée difficile, un simple câlin peut réconforter quelqu'un.",
+      "useCase": "亲情、安慰、日常关系、表达温柔。"
+    },
+    {
+      "date": "2026-05-28",
+      "batch": "2026-05-28",
+      "theme": "Santé et accès aux soins",
+      "tags": [
+        "dentaire",
+        "soins",
+        "sante"
+      ],
+      "expression": "poser une couronne dentaire",
+      "zh": "安装牙冠",
+      "collocations": [
+        "poser une couronne dentaire",
+        "remplacer une couronne abîmée",
+        "prendre rendez-vous chez le dentiste"
+      ],
+      "example": "Le dentiste m'a expliqué qu'il fallait poser une couronne dentaire pour protéger la dent.",
+      "useCase": "看牙、医疗预约、牙科治疗费用。"
+    },
+    {
+      "date": "2026-05-28",
+      "batch": "2026-05-28",
+      "theme": "Travail et organisation professionnelle",
+      "tags": [
+        "information",
+        "surcharge",
+        "organisation"
+      ],
+      "expression": "être noyé sous les informations",
+      "zh": "被大量信息淹没",
+      "collocations": [
+        "être noyé sous les informations",
+        "noyer quelqu'un sous les détails",
+        "avoir du mal à distinguer l'essentiel"
+      ],
+      "example": "Dans certains tableaux de suivi, on peut vite être noyé sous les informations.",
+      "useCase": "工作汇报、数据太多、信息筛选、会议沟通。"
+    },
+    {
+      "date": "2026-05-28",
+      "batch": "2026-05-28",
+      "theme": "Travail et organisation professionnelle",
+      "tags": [
+        "harcelement",
+        "travail",
+        "protection"
+      ],
+      "expression": "être harcelé au travail",
+      "zh": "在工作中受到骚扰/霸凌",
+      "collocations": [
+        "être harcelé au travail",
+        "dénoncer une situation de harcèlement",
+        "protéger les salariés contre le harcèlement"
+      ],
+      "example": "Une entreprise doit réagir rapidement lorsqu'un salarié déclare être harcelé au travail.",
+      "useCase": "职场关系、劳动权益、心理健康、企业责任。"
+    },
+    {
+      "date": "2026-05-28",
+      "batch": "2026-05-28",
+      "theme": "Travail et organisation professionnelle",
+      "tags": [
+        "temps",
+        "equilibre",
+        "organisation"
+      ],
+      "expression": "empiéter sur le temps personnel",
+      "zh": "占用个人时间",
+      "collocations": [
+        "empiéter sur le temps personnel",
+        "empiéter sur la vie privée",
+        "éviter que le travail empiète sur la vie personnelle"
+      ],
+      "example": "Les réunions tardives finissent par empiéter sur le temps personnel des salariés.",
+      "useCase": "工作生活平衡、加班、远程办公、会议安排。"
+    },
+    {
+      "date": "2026-05-28",
+      "batch": "2026-05-28",
+      "theme": "Culture et vie sociale",
+      "tags": [
+        "fatigue",
+        "registre-familier",
+        "quotidien"
+      ],
+      "expression": "crever de fatigue",
+      "zh": "累死了/累坏了（口语）",
+      "collocations": [
+        "crever de fatigue après une longue journée",
+        "être crevé après le travail",
+        "rentrer chez soi complètement crevé"
+      ],
+      "example": "Après dix heures de travail, je crevais de fatigue et je voulais juste rentrer.",
+      "useCase": "口语表达疲惫；注意比 être fatigué 更随意。"
+    },
+    {
+      "date": "2026-05-28",
+      "batch": "2026-05-28",
+      "theme": "Culture et vie sociale",
+      "tags": [
+        "culpabilite",
+        "sentiments",
+        "stress"
+      ],
+      "expression": "être rongé par la culpabilité",
+      "zh": "被内疚感折磨",
+      "collocations": [
+        "être rongé par la culpabilité",
+        "se sentir coupable de quelque chose",
+        "vivre avec un sentiment de culpabilité"
+      ],
+      "example": "Il était rongé par la culpabilité après avoir menti à ses collègues.",
+      "useCase": "心理状态、道歉、关系冲突、叙事写作。"
+    },
+    {
+      "date": "2026-05-28",
+      "batch": "2026-05-28",
+      "theme": "Culture et vie sociale",
+      "tags": [
+        "culpabilite",
+        "responsabilite",
+        "sentiments"
+      ],
+      "expression": "éprouver un sentiment de culpabilité",
+      "zh": "感到内疚/有负罪感",
+      "collocations": [
+        "éprouver un sentiment de culpabilité",
+        "faire naître un sentiment de culpabilité",
+        "se libérer de la culpabilité"
+      ],
+      "example": "Beaucoup de parents éprouvent un sentiment de culpabilité lorsqu'ils manquent de temps pour leurs enfants.",
+      "useCase": "家庭、工作压力、心理状态、责任感。"
+    },
+    {
+      "date": "2026-05-28",
+      "batch": "2026-05-28",
+      "theme": "Logement et conditions de vie",
+      "tags": [
+        "fuite",
+        "logement",
+        "incident"
+      ],
+      "expression": "se mettre à couler",
+      "zh": "开始漏水/开始流出来",
+      "collocations": [
+        "le robinet se met à couler",
+        "l'eau se met à couler sous la porte",
+        "un tuyau qui se met à couler"
+      ],
+      "example": "Quand le tuyau s'est mis à couler, nous avons dû couper l'eau immédiatement.",
+      "useCase": "住房维修、漏水事故、设备异常、现场描述。"
+    },
+    {
+      "date": "2026-05-28",
+      "batch": "2026-05-28",
+      "theme": "Environnement et transition écologique",
+      "tags": [
+        "reparation",
+        "consommation-responsable",
+        "objet"
+      ],
+      "expression": "réparer au lieu de jeter",
+      "zh": "修理而不是扔掉",
+      "collocations": [
+        "réparer au lieu de jeter",
+        "faire réparer un appareil",
+        "prolonger la durée de vie d'un objet"
+      ],
+      "example": "Réparer au lieu de jeter permet de réduire les déchets et de faire des économies.",
+      "useCase": "环保、消费习惯、维修、循环经济。"
+    },
+    {
+      "date": "2026-05-28",
+      "batch": "2026-05-28",
+      "theme": "Travail et organisation professionnelle",
+      "tags": [
+        "licenciement",
+        "registre-familier",
+        "emploi"
+      ],
+      "expression": "virer quelqu'un",
+      "zh": "解雇某人（口语）",
+      "collocations": [
+        "se faire virer de son travail",
+        "virer quelqu'un sans explication",
+        "préférer dire licencier dans un contexte formel"
+      ],
+      "example": "Dans un contexte professionnel formel, il vaut mieux dire licencier quelqu'un plutôt que virer quelqu'un.",
+      "useCase": "口语谈工作、失业、劳动关系；正式场合用 licencier。"
     }
   ]
 }

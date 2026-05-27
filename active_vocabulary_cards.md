@@ -1540,3 +1540,301 @@ Une dépense ne peut être engagée que si elle respecte la procédure et l'enve
 
 使用场景：采购承诺、已承诺未开票、预算占用、流程合规。
 
+## 2026-05-28 - Culture et vie sociale
+
+### 1. être déchiré entre deux choix
+
+批次：2026-05-28
+
+标签：choix, sentiments, hesitation
+
+中文：在两个选择之间很纠结/左右为难
+
+常见搭配：
+
+- être déchiré entre deux choix
+- être déchiré entre sa famille et son travail
+- se sentir déchiré face à une décision
+
+例句：
+
+```text
+Elle est déchirée entre l'envie de partir à l'étranger et le besoin de rester près de sa famille.
+```
+
+使用场景：表达内心矛盾、选择困难、家庭和职业冲突。
+
+### 2. faire un câlin à quelqu'un
+
+批次：2026-05-28
+
+标签：affection, famille, relations
+
+中文：拥抱某人/给某人一个抱抱
+
+常见搭配：
+
+- faire un câlin à un enfant
+- avoir besoin d'un câlin
+- un geste câlin et rassurant
+
+例句：
+
+```text
+Après une journée difficile, un simple câlin peut réconforter quelqu'un.
+```
+
+使用场景：亲情、安慰、日常关系、表达温柔。
+
+### 3. crever de fatigue
+
+批次：2026-05-28
+
+标签：fatigue, registre-familier, quotidien
+
+中文：累死了/累坏了（口语）
+
+常见搭配：
+
+- crever de fatigue après une longue journée
+- être crevé après le travail
+- rentrer chez soi complètement crevé
+
+例句：
+
+```text
+Après dix heures de travail, je crevais de fatigue et je voulais juste rentrer.
+```
+
+使用场景：口语表达疲惫；注意比 être fatigué 更随意。
+
+### 4. être rongé par la culpabilité
+
+批次：2026-05-28
+
+标签：culpabilite, sentiments, stress
+
+中文：被内疚感折磨
+
+常见搭配：
+
+- être rongé par la culpabilité
+- se sentir coupable de quelque chose
+- vivre avec un sentiment de culpabilité
+
+例句：
+
+```text
+Il était rongé par la culpabilité après avoir menti à ses collègues.
+```
+
+使用场景：心理状态、道歉、关系冲突、叙事写作。
+
+### 5. éprouver un sentiment de culpabilité
+
+批次：2026-05-28
+
+标签：culpabilite, responsabilite, sentiments
+
+中文：感到内疚/有负罪感
+
+常见搭配：
+
+- éprouver un sentiment de culpabilité
+- faire naître un sentiment de culpabilité
+- se libérer de la culpabilité
+
+例句：
+
+```text
+Beaucoup de parents éprouvent un sentiment de culpabilité lorsqu'ils manquent de temps pour leurs enfants.
+```
+
+使用场景：家庭、工作压力、心理状态、责任感。
+
+## 2026-05-28 - Énergie et maintenance industrielle
+
+### 1. un manchon de raccordement
+
+批次：2026-05-28
+
+标签：piece, raccordement, maintenance
+
+中文：连接套筒/接头套管
+
+常见搭配：
+
+- installer un manchon de raccordement
+- remplacer un manchon usé
+- vérifier l'étanchéité du manchon
+
+例句：
+
+```text
+Le technicien a remplacé le manchon de raccordement parce qu'il présentait une fuite.
+```
+
+使用场景：工业维护、管道/电缆连接、备件名称、现场沟通。
+
+## 2026-05-28 - Santé et accès aux soins
+
+### 1. poser une couronne dentaire
+
+批次：2026-05-28
+
+标签：dentaire, soins, sante
+
+中文：安装牙冠
+
+常见搭配：
+
+- poser une couronne dentaire
+- remplacer une couronne abîmée
+- prendre rendez-vous chez le dentiste
+
+例句：
+
+```text
+Le dentiste m'a expliqué qu'il fallait poser une couronne dentaire pour protéger la dent.
+```
+
+使用场景：看牙、医疗预约、牙科治疗费用。
+
+## 2026-05-28 - Travail et organisation professionnelle
+
+### 1. être noyé sous les informations
+
+批次：2026-05-28
+
+标签：information, surcharge, organisation
+
+中文：被大量信息淹没
+
+常见搭配：
+
+- être noyé sous les informations
+- noyer quelqu'un sous les détails
+- avoir du mal à distinguer l'essentiel
+
+例句：
+
+```text
+Dans certains tableaux de suivi, on peut vite être noyé sous les informations.
+```
+
+使用场景：工作汇报、数据太多、信息筛选、会议沟通。
+
+### 2. être harcelé au travail
+
+批次：2026-05-28
+
+标签：harcelement, travail, protection
+
+中文：在工作中受到骚扰/霸凌
+
+常见搭配：
+
+- être harcelé au travail
+- dénoncer une situation de harcèlement
+- protéger les salariés contre le harcèlement
+
+例句：
+
+```text
+Une entreprise doit réagir rapidement lorsqu'un salarié déclare être harcelé au travail.
+```
+
+使用场景：职场关系、劳动权益、心理健康、企业责任。
+
+### 3. empiéter sur le temps personnel
+
+批次：2026-05-28
+
+标签：temps, equilibre, organisation
+
+中文：占用个人时间
+
+常见搭配：
+
+- empiéter sur le temps personnel
+- empiéter sur la vie privée
+- éviter que le travail empiète sur la vie personnelle
+
+例句：
+
+```text
+Les réunions tardives finissent par empiéter sur le temps personnel des salariés.
+```
+
+使用场景：工作生活平衡、加班、远程办公、会议安排。
+
+### 4. virer quelqu'un
+
+批次：2026-05-28
+
+标签：licenciement, registre-familier, emploi
+
+中文：解雇某人（口语）
+
+常见搭配：
+
+- se faire virer de son travail
+- virer quelqu'un sans explication
+- préférer dire licencier dans un contexte formel
+
+例句：
+
+```text
+Dans un contexte professionnel formel, il vaut mieux dire licencier quelqu'un plutôt que virer quelqu'un.
+```
+
+使用场景：口语谈工作、失业、劳动关系；正式场合用 licencier。
+
+## 2026-05-28 - Logement et conditions de vie
+
+### 1. se mettre à couler
+
+批次：2026-05-28
+
+标签：fuite, logement, incident
+
+中文：开始漏水/开始流出来
+
+常见搭配：
+
+- le robinet se met à couler
+- l'eau se met à couler sous la porte
+- un tuyau qui se met à couler
+
+例句：
+
+```text
+Quand le tuyau s'est mis à couler, nous avons dû couper l'eau immédiatement.
+```
+
+使用场景：住房维修、漏水事故、设备异常、现场描述。
+
+## 2026-05-28 - Environnement et transition écologique
+
+### 1. réparer au lieu de jeter
+
+批次：2026-05-28
+
+标签：reparation, consommation-responsable, objet
+
+中文：修理而不是扔掉
+
+常见搭配：
+
+- réparer au lieu de jeter
+- faire réparer un appareil
+- prolonger la durée de vie d'un objet
+
+例句：
+
+```text
+Réparer au lieu de jeter permet de réduire les déchets et de faire des économies.
+```
+
+使用场景：环保、消费习惯、维修、循环经济。
+

@@ -545,3 +545,118 @@
    - 搭配：`engager une dépense dans la limite du budget`
    - 例句：`Une dépense ne peut être engagée que si elle respecte la procédure et l'enveloppe disponible.`
 
+## 2026-05-28 - Culture et vie sociale
+
+### Active Expressions
+
+1. `être déchiré entre deux choix`
+   - 批次：2026-05-28
+   - 标签：choix, sentiments, hesitation
+   - 中文：在两个选择之间很纠结/左右为难
+   - 搭配：`être déchiré entre deux choix`
+   - 例句：`Elle est déchirée entre l'envie de partir à l'étranger et le besoin de rester près de sa famille.`
+
+2. `faire un câlin à quelqu'un`
+   - 批次：2026-05-28
+   - 标签：affection, famille, relations
+   - 中文：拥抱某人/给某人一个抱抱
+   - 搭配：`faire un câlin à un enfant`
+   - 例句：`Après une journée difficile, un simple câlin peut réconforter quelqu'un.`
+
+3. `crever de fatigue`
+   - 批次：2026-05-28
+   - 标签：fatigue, registre-familier, quotidien
+   - 中文：累死了/累坏了（口语）
+   - 搭配：`crever de fatigue après une longue journée`
+   - 例句：`Après dix heures de travail, je crevais de fatigue et je voulais juste rentrer.`
+
+4. `être rongé par la culpabilité`
+   - 批次：2026-05-28
+   - 标签：culpabilite, sentiments, stress
+   - 中文：被内疚感折磨
+   - 搭配：`être rongé par la culpabilité`
+   - 例句：`Il était rongé par la culpabilité après avoir menti à ses collègues.`
+
+5. `éprouver un sentiment de culpabilité`
+   - 批次：2026-05-28
+   - 标签：culpabilite, responsabilite, sentiments
+   - 中文：感到内疚/有负罪感
+   - 搭配：`éprouver un sentiment de culpabilité`
+   - 例句：`Beaucoup de parents éprouvent un sentiment de culpabilité lorsqu'ils manquent de temps pour leurs enfants.`
+
+## 2026-05-28 - Énergie et maintenance industrielle
+
+### Active Expressions
+
+1. `un manchon de raccordement`
+   - 批次：2026-05-28
+   - 标签：piece, raccordement, maintenance
+   - 中文：连接套筒/接头套管
+   - 搭配：`installer un manchon de raccordement`
+   - 例句：`Le technicien a remplacé le manchon de raccordement parce qu'il présentait une fuite.`
+
+## 2026-05-28 - Santé et accès aux soins
+
+### Active Expressions
+
+1. `poser une couronne dentaire`
+   - 批次：2026-05-28
+   - 标签：dentaire, soins, sante
+   - 中文：安装牙冠
+   - 搭配：`poser une couronne dentaire`
+   - 例句：`Le dentiste m'a expliqué qu'il fallait poser une couronne dentaire pour protéger la dent.`
+
+## 2026-05-28 - Travail et organisation professionnelle
+
+### Active Expressions
+
+1. `être noyé sous les informations`
+   - 批次：2026-05-28
+   - 标签：information, surcharge, organisation
+   - 中文：被大量信息淹没
+   - 搭配：`être noyé sous les informations`
+   - 例句：`Dans certains tableaux de suivi, on peut vite être noyé sous les informations.`
+
+2. `être harcelé au travail`
+   - 批次：2026-05-28
+   - 标签：harcelement, travail, protection
+   - 中文：在工作中受到骚扰/霸凌
+   - 搭配：`être harcelé au travail`
+   - 例句：`Une entreprise doit réagir rapidement lorsqu'un salarié déclare être harcelé au travail.`
+
+3. `empiéter sur le temps personnel`
+   - 批次：2026-05-28
+   - 标签：temps, equilibre, organisation
+   - 中文：占用个人时间
+   - 搭配：`empiéter sur le temps personnel`
+   - 例句：`Les réunions tardives finissent par empiéter sur le temps personnel des salariés.`
+
+4. `virer quelqu'un`
+   - 批次：2026-05-28
+   - 标签：licenciement, registre-familier, emploi
+   - 中文：解雇某人（口语）
+   - 搭配：`se faire virer de son travail`
+   - 例句：`Dans un contexte professionnel formel, il vaut mieux dire licencier quelqu'un plutôt que virer quelqu'un.`
+
+## 2026-05-28 - Logement et conditions de vie
+
+### Active Expressions
+
+1. `se mettre à couler`
+   - 批次：2026-05-28
+   - 标签：fuite, logement, incident
+   - 中文：开始漏水/开始流出来
+   - 搭配：`le robinet se met à couler`
+   - 例句：`Quand le tuyau s'est mis à couler, nous avons dû couper l'eau immédiatement.`
+
+## 2026-05-28 - Environnement et transition écologique
+
+### Active Expressions
+
+1. `réparer au lieu de jeter`
+   - 批次：2026-05-28
+   - 标签：reparation, consommation-responsable, objet
+   - 中文：修理而不是扔掉
+   - 搭配：`réparer au lieu de jeter`
+   - 例句：`Réparer au lieu de jeter permet de réduire les déchets et de faire des économies.`
+
