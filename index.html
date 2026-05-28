@@ -97,6 +97,17 @@
       background: #e7f7ef;
       color: #16714a;
     }
+    .status-actions {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+    button.starred {
+      background: #fff7d6;
+      border-color: #e5bd34;
+      color: #6f5200;
+    }
     .card-wrap {
       perspective: 1200px;
       margin: 12px 0;
@@ -209,6 +220,9 @@
       .toolbar { gap: 7px; }
       button, select { flex: 1 1 auto; font-size: 14px; }
       .progress { flex-basis: 100%; text-align: left; margin-left: 0; }
+      .status-row { align-items: flex-start; flex-direction: column; }
+      .status-actions { width: 100%; }
+      .status-actions button { flex: 1 1 150px; }
       .card { min-height: 540px; }
       .face { padding: 18px; }
       .expr { font-size: 24px; }
@@ -231,6 +245,7 @@
       <select id="statusSelect" aria-label="Review status filter">
         <option value="review">待复习</option>
         <option value="known">已熟悉</option>
+        <option value="starred">星标</option>
         <option value="all">全部</option>
       </select>
       <button id="prevBtn" type="button">上一张</button>
@@ -242,7 +257,10 @@
 
     <div class="status-row">
       <span id="statusSummary">Loading...</span>
-      <button id="knownBtn" type="button">标记为已熟悉</button>
+      <div class="status-actions">
+        <button id="starBtn" type="button">☆ 星标</button>
+        <button id="knownBtn" type="button">标记为已熟悉</button>
+      </div>
     </div>
 
     <section class="card-wrap" aria-live="polite">
@@ -285,6 +303,7 @@
     let index = Number(localStorage.getItem("active_vocab_index") || 0);
     let flipped = false;
     let known = new Set(JSON.parse(localStorage.getItem("active_vocab_known") || "[]"));
+    let starred = new Set(JSON.parse(localStorage.getItem("active_vocab_starred") || "[]"));
 
     const els = {
       dateSelect: document.getElementById("dateSelect"),
@@ -303,6 +322,7 @@
       progress: document.getElementById("progress"),
       notes: document.getElementById("notes"),
       updated: document.getElementById("updated"),
+      starBtn: document.getElementById("starBtn"),
       knownBtn: document.getElementById("knownBtn"),
       statusSummary: document.getElementById("statusSummary")
     };
@@ -315,8 +335,23 @@
       return known.has(cardId(card));
     }
 
+    function isStarred(card) {
+      return starred.has(cardId(card));
+    }
+
     function saveKnown() {
       localStorage.setItem("active_vocab_known", JSON.stringify(Array.from(known)));
+    }
+
+    function saveStarred() {
+      localStorage.setItem("active_vocab_starred", JSON.stringify(Array.from(starred)));
+    }
+
+    function matchesStatus(card, status) {
+      if (status === "all") return true;
+      if (status === "known") return isKnown(card);
+      if (status === "starred") return isStarred(card);
+      return !isKnown(card);
     }
 
     async function loadCards() {
@@ -374,8 +409,7 @@
         const dateOk = date === "all" || c.date === date;
         const themeOk = theme === "all" || c.theme === theme;
         const tagOk = tag === "all" || (Array.isArray(c.tags) && c.tags.includes(tag));
-        const knownOk = status === "all" || (status === "known" ? isKnown(c) : !isKnown(c));
-        return dateOk && themeOk && tagOk && knownOk;
+        return dateOk && themeOk && tagOk && matchesStatus(c, status);
       });
       index = 0;
       flipped = false;
@@ -394,6 +428,9 @@
         els.example.textContent = "";
         els.useCase.textContent = "";
         els.knownBtn.disabled = true;
+        els.starBtn.disabled = true;
+        els.starBtn.textContent = "☆ 星标";
+        els.starBtn.classList.remove("starred");
         updateSummary();
         return;
       }
@@ -401,6 +438,7 @@
       if (index >= filtered.length) index = 0;
       const c = filtered[index];
       const knownNow = isKnown(c);
+      const starredNow = isStarred(c);
       const tagText = Array.isArray(c.tags) && c.tags.length ? c.tags.join(" · ") : "no tags";
       els.card.classList.toggle("flipped", flipped);
       els.frontExpr.textContent = c.expression;
@@ -418,7 +456,10 @@
       els.useCase.textContent = c.useCase;
       els.progress.textContent = `${index + 1} / ${filtered.length}`;
       els.knownBtn.disabled = false;
+      els.starBtn.disabled = false;
       els.knownBtn.textContent = knownNow ? "移回复习" : "标记为已熟悉";
+      els.starBtn.textContent = starredNow ? "★ 已星标" : "☆ 星标";
+      els.starBtn.classList.toggle("starred", starredNow);
       els.backTag.classList.toggle("known", knownNow);
       localStorage.setItem("active_vocab_index", String(index));
       updateSummary();
@@ -426,8 +467,9 @@
 
     function updateSummary() {
       const knownCount = cards.filter(c => isKnown(c)).length;
+      const starredCount = cards.filter(c => isStarred(c)).length;
       const reviewCount = cards.length - knownCount;
-      els.statusSummary.textContent = `待复习 ${reviewCount} · 已熟悉 ${knownCount} · 总计 ${cards.length}`;
+      els.statusSummary.textContent = `待复习 ${reviewCount} · 已熟悉 ${knownCount} · 星标 ${starredCount} · 总计 ${cards.length}`;
     }
 
     function next(delta) {
@@ -456,10 +498,25 @@
       saveKnown();
       const currentStatus = els.statusSelect.value;
       if (currentStatus !== "all") {
-        filtered = filtered.filter(card => currentStatus === "known" ? isKnown(card) : !isKnown(card));
+        filtered = filtered.filter(card => matchesStatus(card, currentStatus));
         if (index >= filtered.length) index = Math.max(0, filtered.length - 1);
       }
       flipped = false;
+      render();
+    }
+
+    function toggleStarred() {
+      if (!filtered.length) return;
+      const c = filtered[index];
+      const id = cardId(c);
+      if (starred.has(id)) starred.delete(id);
+      else starred.add(id);
+      saveStarred();
+      const currentStatus = els.statusSelect.value;
+      if (currentStatus !== "all") {
+        filtered = filtered.filter(card => matchesStatus(card, currentStatus));
+        if (index >= filtered.length) index = Math.max(0, filtered.length - 1);
+      }
       render();
     }
 
@@ -467,6 +524,7 @@
     document.getElementById("nextBtn").addEventListener("click", () => next(1));
     document.getElementById("flipBtn").addEventListener("click", flip);
     document.getElementById("shuffleBtn").addEventListener("click", shuffle);
+    document.getElementById("starBtn").addEventListener("click", toggleStarred);
     document.getElementById("knownBtn").addEventListener("click", toggleKnown);
     els.card.addEventListener("click", flip);
     els.dateSelect.addEventListener("change", () => {
